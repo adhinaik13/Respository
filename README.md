@@ -26,12 +26,12 @@
     </td>
     <td align="center" width="96">
       <a href="https://github.com/adhinaik13" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="55" height="55" alt="GitHub"/>
+        <img src="https://cdn.simpleicons.org/github/ffffff" width="55" height="55" alt="GitHub"/>
       </a>
     </td>
     <td align="center" width="96">
       <a href="mailto:22je1052@iitism.ac.in" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="55" height="55" alt="Email"/>
+        <img src="https://cdn.simpleicons.org/gmail/EA4335" width="55" height="55" alt="Email"/>
       </a>
     </td>
   </tr>
@@ -65,7 +65,7 @@
   <tr>
     <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="55" height="55" alt="React"/></td>
     <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="55" height="55" alt="Node.js"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="55" height="55" alt="Express"/></td>
+    <td align="center" width="96"><img src="https://cdn.simpleicons.org/express/ffffff" width="55" height="55" alt="Express"/></td>
     <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="55" height="55" alt="HTML5"/></td>
     <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="55" height="55" alt="CSS3"/></td>
   </tr>
@@ -91,7 +91,7 @@
 <table>
   <tr>
     <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="55" height="55" alt="Git"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="55" height="55" alt="GitHub"/></td>
+    <td align="center" width="96"><img src="https://cdn.simpleicons.org/github/ffffff" width="55" height="55" alt="GitHub"/></td>
     <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="55" height="55" alt="VS Code"/></td>
   </tr>
 </table>
@@ -102,8 +102,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=adhinaik13&show_icons=true&theme=tokyonight&hide_border=true&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9&bg_color=0,0" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adhinaik13&layout=compact&theme=tokyonight&hide_border=true&title_color=A78BFA&text_color=c9d1d9&bg_color=0,0" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=adhinaik13&show_icons=true&theme=tokyonight&hide_border=true&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adhinaik13&layout=compact&theme=tokyonight&hide_border=true&title_color=A78BFA&text_color=c9d1d9" width="49%"/>
 
 <br/>
 
