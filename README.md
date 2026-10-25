@@ -35,6 +35,8 @@ I build projects that emphasize clear architecture, testable behavior, and hones
 [![TodoList](https://github.com/adhinaik13/TodoList-Management-Application/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/TodoList-Management-Application/actions/workflows/ci.yml)
 [![AQI Forecasting](https://github.com/adhinaik13/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions/workflows/validate-artifacts.yml/badge.svg)](https://github.com/adhinaik13/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions/workflows/validate-artifacts.yml)
 [![DataPulse Analytics](https://github.com/adhinaik13/DataPulse-Analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/DataPulse-Analytics/actions/workflows/ci.yml)
+[![Matching Engine](https://github.com/adhinaik13/low-latency-matching-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/low-latency-matching-engine/actions/workflows/ci.yml)
+[![Food Delivery App](https://github.com/adhinaik13/Food-Delivery-App/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/Food-Delivery-App/actions/workflows/ci.yml)
 
 ---
 
