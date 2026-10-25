@@ -39,6 +39,24 @@
 
 ---
 
+## Featured Engineering Projects
+
+| Project | What it demonstrates |
+|---|---|
+| [UPI Offline Mesh](https://github.com/adhinaik13/UPI_Without_Internet) | Java 17 and Spring Boot settlement gateway, encrypted QR payment simulation, idempotent processing, and security-focused tests. Native Bluetooth/Wi-Fi transport remains future work. |
+| [Low-Latency Matching Engine](https://github.com/adhinaik13/low-latency-matching-engine) | C++20 order-book/matching-engine project with an event pipeline, concurrency components, benchmark tooling, and a GitHub Actions build/test workflow. |
+| [DataPulse Analytics](https://github.com/adhinaik13/DataPulse-Analytics) | FastAPI, SQLAlchemy, PostgreSQL, and React/TypeScript analytics demo with a documented API and CI workflow. |
+
+These are project demos, not claims of production deployment or measured production performance. See each repository for implementation details, current limitations, and test status.
+
+## Current Focus
+
+- Backend engineering, data structures and algorithms, and systems programming
+- Secure API design, testing, and CI automation
+- Building projects with clear implementation evidence and honest documentation
+
+---
+
 ## Tech Stack
 
 ### Languages
