@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" role="img" aria-labelledby="title desc">
+  <title id="title">Limit-order book matching flow</title>
+  <desc id="desc">Bid and ask queues feed a price-time matching core, which emits fills or keeps resting orders.</desc>
+  <rect width="1000" height="170" rx="14" fill="#5A3E2B"/>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#F6F3EC">
+    <text x="42" y="42" font-size="16" fill="#D5851F">ORDER BOOK FLOW</text>
+    <text x="70" y="95" font-size="20">BID QUEUE</text><text x="70" y="123" font-size="14" fill="#d8cbb9">price / time</text>
+    <text x="424" y="95" font-size="20">MATCHING CORE</text><text x="456" y="123" font-size="14" fill="#d8cbb9">priority rules</text>
+    <text x="785" y="95" font-size="20">FILLS / REST</text><text x="815" y="123" font-size="14" fill="#d8cbb9">events</text>
+  </g>
+  <path d="M245 100H390M650 100H755" stroke="#87A96B" stroke-width="4" fill="none"/>
+  <path d="m378 88 18 12-18 12M743 88l18 12-18 12" stroke="#87A96B" stroke-width="4" fill="none"/>
+  <path d="M360 62H245M755 62H650" stroke="#D5851F" stroke-width="2" fill="none" stroke-dasharray="6 7"/>
+</svg>

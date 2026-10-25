@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 190" role="img" aria-labelledby="title desc">
+  <title id="title">Building reliable software systems</title>
+  <desc id="desc">A compact walnut and sage banner for a software engineering portfolio.</desc>
+  <rect width="1400" height="190" rx="18" fill="#5A3E2B"/>
+  <rect x="48" y="42" width="7" height="106" rx="3" fill="#87A96B"/>
+  <text x="88" y="86" fill="#F6F3EC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">Building reliable software systems</text>
+  <text x="90" y="124" fill="#F6F3EC" font-family="Segoe UI, Arial, sans-serif" font-size="21">Backend systems · C++ data structures · practical data workflows</text>
+  <rect x="90" y="146" width="92" height="4" rx="2" fill="#D5851F"/>
+</svg>

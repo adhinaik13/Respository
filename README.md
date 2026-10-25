@@ -1,63 +1,66 @@
-<div align="center">
-
 # Vankudothu Adhi Naik
 
-**Software Engineering · Backend Systems · Applied Machine Learning**
+![Building reliable software systems](./assets/profile-hero-v4.svg)
 
-Integrated M.Tech in Mathematics & Computing @ IIT (ISM) Dhanbad
+Backend systems, C++ data structures, and practical data workflows.
 
-[GitHub](https://github.com/vankudothuadhinaik) · [Email](mailto:22je1052@iitism.ac.in)
+Integrated M.Tech student in Mathematics and Computing at IIT (ISM) Dhanbad.
 
-</div>
+[GitHub](https://github.com/vankudothuadhinaik) / [Email](mailto:22je1052@iitism.ac.in)
 
----
+## Engineering focus
 
-## About
+I build small, testable systems with explicit state, clear interfaces, and reproducible evaluation. My current work sits at the intersection of systems programming, backend engineering, data processing, and applied machine learning.
 
-I am an engineering student focused on building reliable software through clear architecture, strong fundamentals, and measurable testing. My interests span backend development, systems programming, data engineering, applied machine learning, and secure API design.
+- Systems programming: C++20, order books, price-time priority, bounded queues.
+- Backend engineering: Java, Spring Boot, Python, FastAPI, REST APIs, SQLAlchemy.
+- Data workflows: validation, normalization, deduplication, and deterministic aggregation.
+- Quality: unit tests, frontend tests, Maven, CMake, and GitHub Actions.
 
-I enjoy taking projects from a problem statement to a documented, testable implementation—and being explicit about what is implemented, what is measured, and what remains future work.
+## Selected work
 
-- **Currently focused on:** data structures and algorithms, backend engineering, systems design fundamentals, and software quality.
-- **Languages:** C++, Java, Python, JavaScript, SQL
-- **Frameworks & tools:** Spring Boot, Node.js/Express, React, FastAPI, Git, Docker, GitHub Actions
-- **Data & storage:** PostgreSQL, MongoDB, SQLAlchemy
-- **Engineering practices:** automated tests, CI, environment-based configuration, API documentation, and reproducible builds
+### Low-Latency Matching Engine
 
-## Selected projects
+![A limit-order book matching flow: bid and ask queues meet at a price-time matching core](./assets/matching-engine-v4.svg)
 
-### Systems & backend engineering
+[Repository](https://github.com/vankudothuadhinaik/low-latency-matching-engine)
 
-| Project | What it demonstrates |
-|---|---|
-| [Low-Latency Matching Engine](https://github.com/vankudothuadhinaik/low-latency-matching-engine) | C++20 limit-order matching, price-time priority, partial fills, order cancellation, fixed-point prices, and a bounded SPSC event queue. Includes tests and reproducible benchmark instructions. |
-| [UPI Offline Mesh](https://github.com/vankudothuadhinaik/UPI_Without_Internet) | Spring Boot payment-settlement demo with encrypted QR payloads, idempotent processing, transaction-ledger concepts, API documentation, and automated checks. Native device-to-device Bluetooth/Wi-Fi transport remains future work. |
-| [DataPulse Analytics](https://github.com/vankudothuadhinaik/DataPulse-Analytics) | FastAPI, SQLAlchemy, PostgreSQL, and a React/TypeScript dashboard for event ingestion and basic analytics. |
+An educational C++20 limit-order book with price-time priority, full and partial fills, cancellation, fixed-point prices, order lookup, and a bounded SPSC event path.
 
-### Data & applications
+`C++20` `CMake` `order book` `unit tests`
 
-| Project | What it demonstrates |
-|---|---|
-| [HealthStream ETL](https://github.com/vankudothuadhinaik/HealthStream-ETL) | Python ETL workflow using synthetic records, validation, deduplication, deterministic aggregation, data-quality reporting, and tests. |
-| [AQI Forecasting for Indian Cities](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) | Machine-learning experiments for air-quality prediction. See the repository for dataset details, evaluation methodology, and metric context. |
-| [Todo List Management Application](https://github.com/vankudothuadhinaik/TodoList-Management-Application) | Responsive React task manager with filtering, task-state updates, accessible interactions, tests, and CI. |
+Educational implementation; benchmark results are environment-dependent.
 
-## Engineering approach
+### UPI Offline Mesh
 
-- Prefer readable, maintainable code over unnecessary complexity.
-- Add automated tests and CI checks where they provide meaningful coverage.
-- Keep credentials out of source code and use environment-based configuration.
-- Document setup, limitations, and how to reproduce results.
-- Treat benchmark numbers and model metrics as experiment-specific, not universal guarantees.
+[Repository](https://github.com/vankudothuadhinaik/UPI_Without_Internet)
 
-## Build checks
+A Spring Boot settlement prototype covering encrypted QR payloads, RSA-PSS signatures, replay and idempotency defenses, simulated store-and-forward delivery, and atomic settlement.
 
-[![Matching Engine CI](https://github.com/vankudothuadhinaik/low-latency-matching-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/vankudothuadhinaik/low-latency-matching-engine/actions/workflows/ci.yml)
-[![UPI Offline Mesh CI](https://github.com/vankudothuadhinaik/UPI_Without_Internet/actions/workflows/ci.yml/badge.svg)](https://github.com/vankudothuadhinaik/UPI_Without_Internet/actions/workflows/ci.yml)
-[![DataPulse CI](https://github.com/vankudothuadhinaik/DataPulse-Analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/vankudothuadhinaik/DataPulse-Analytics/actions/workflows/ci.yml)
-[![HealthStream CI](https://github.com/vankudothuadhinaik/HealthStream-ETL/actions/workflows/ci.yml/badge.svg)](https://github.com/vankudothuadhinaik/HealthStream-ETL/actions/workflows/ci.yml)
-[![Todo List CI](https://github.com/vankudothuadhinaik/TodoList-Management-Application/actions/workflows/ci.yml/badge.svg)](https://github.com/vankudothuadhinaik/TodoList-Management-Application/actions/workflows/ci.yml)
+`Java 17` `Spring Boot` `AES-GCM` `RSA-PSS`
 
----
+Native device networking and bank or NPCI settlement rails are outside the current implementation.
 
-*These repositories are portfolio and learning projects. Their READMEs describe the current implementation scope and known limitations; a passing CI workflow does not by itself imply production readiness.*
+### DataPulse Analytics
+
+[Repository](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
+
+A full-stack event analytics prototype with FastAPI ingestion and aggregation, SQLAlchemy models, a React and TypeScript dashboard, backend tests, and a configured Vite production build.
+
+`FastAPI` `SQLAlchemy` `React` `TypeScript`
+
+Prototype scope excludes authentication and deployment integration.
+
+## Additional projects
+
+- [HealthStream ETL](https://github.com/vankudothuadhinaik/HealthStream-ETL) — Standard-library Python ETL for synthetic healthcare encounter events, with validation, normalization, deduplication, deterministic summaries, and quality reporting.
+- [AQI Prediction](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) — Time-series experiments with a dependency-free chronological persistence baseline evaluated independently per station series.
+- [TodoList Management Application](https://github.com/vankudothuadhinaik/TodoList-Management-Application) — Browser-only React task workflow with accessible add, complete, and delete actions plus localStorage persistence.
+
+## Working principles
+
+Prefer understandable systems over impressive claims; test important boundaries and document how results were produced.
+
+## Contact
+
+[GitHub](https://github.com/vankudothuadhinaik) / [22je1052@iitism.ac.in](mailto:22je1052@iitism.ac.in)
