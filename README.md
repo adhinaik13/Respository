@@ -8,18 +8,18 @@ I build projects that emphasize clear architecture, testable behavior, and hones
 - **Primary interests:** Backend engineering · Systems programming · API security · Testing and CI
 - **Languages:** Java, C++, Python, JavaScript
 - **Tools & technologies:** Spring Boot, React, Node.js/Express, SQL, MongoDB, Docker, GitHub Actions
-- **Contact:** [Email](mailto:22je1052@iitism.ac.in) · [GitHub](https://github.com/adhinaik13)
+- **Contact:** [Email](mailto:22je1052@iitism.ac.in) · [GitHub](https://github.com/vankudothuadhinaik)
 
 ## Selected projects
 
 | Project | Engineering focus |
 |---|---|
-| [UPI Offline Mesh](https://github.com/adhinaik13/UPI_Without_Internet) | Spring Boot settlement gateway, encrypted QR payment simulation, idempotency, and security tests. Native Bluetooth/Wi-Fi transport is planned work. |
-| [Low-Latency Matching Engine](https://github.com/adhinaik13/low-latency-matching-engine) | C++20 matching-engine project, order processing, and automated build/test workflow. |
-| [HealthStream ETL](https://github.com/adhinaik13/HealthStream-ETL) | Python ETL for synthetic records, validation, deduplication, deterministic aggregation, quality reporting, and unit tests. |
-| [DataPulse Analytics](https://github.com/adhinaik13/DataPulse-Analytics) | Analytics application and API project with documented setup and CI checks. |
-| [AQI Forecasting](https://github.com/adhinaik13/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) | Time-series forecasting experiments for Indian city air-quality data; reported metrics should be interpreted alongside each experiment's evaluation setup. |
-| [TodoList Management](https://github.com/adhinaik13/TodoList-Management-Application) | Responsive React task manager with filtering, completion states, tests, and production-build CI. |
+| [UPI Offline Mesh](https://github.com/vankudothuadhinaik/UPI_Without_Internet) | Spring Boot settlement gateway, encrypted QR payment simulation, idempotency, and security tests. Native Bluetooth/Wi-Fi transport is planned work. |
+| [Low-Latency Matching Engine](https://github.com/vankudothuadhinaik/low-latency-matching-engine) | C++20 matching-engine project, order processing, and automated build/test workflow. |
+| [HealthStream ETL](https://github.com/vankudothuadhinaik/HealthStream-ETL) | Python ETL for synthetic records, validation, deduplication, deterministic aggregation, quality reporting, and unit tests. |
+| [DataPulse Analytics](https://github.com/vankudothuadhinaik/DataPulse-Analytics) | Analytics application and API project with documented setup and CI checks. |
+| [AQI Forecasting](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) | Time-series forecasting experiments for Indian city air-quality data; reported metrics should be interpreted alongside each experiment's evaluation setup. |
+| [TodoList Management](https://github.com/vankudothuadhinaik/TodoList-Management-Application) | Responsive React task manager with filtering, completion states, tests, and production-build CI. |
 
 ## Engineering practices
 
@@ -30,13 +30,13 @@ I build projects that emphasize clear architecture, testable behavior, and hones
 
 ## Build status
 
-[![HealthStream ETL](https://github.com/adhinaik13/HealthStream-ETL/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/HealthStream-ETL/actions/workflows/ci.yml)
-[![UPI Offline Mesh](https://github.com/adhinaik13/UPI_Without_Internet/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/UPI_Without_Internet/actions/workflows/ci.yml)
-[![TodoList](https://github.com/adhinaik13/TodoList-Management-Application/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/TodoList-Management-Application/actions/workflows/ci.yml)
-[![AQI Forecasting](https://github.com/adhinaik13/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions/workflows/validate-artifacts.yml/badge.svg)](https://github.com/adhinaik13/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions/workflows/validate-artifacts.yml)
-[![DataPulse Analytics](https://github.com/adhinaik13/DataPulse-Analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/DataPulse-Analytics/actions/workflows/ci.yml)
-[![Matching Engine](https://github.com/adhinaik13/low-latency-matching-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/low-latency-matching-engine/actions/workflows/ci.yml)
-[![Food Delivery App](https://github.com/adhinaik13/Food-Delivery-App/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/Food-Delivery-App/actions/workflows/ci.yml)
+[![HealthStream ETL](https://github.com/vankudothuadhinaik/HealthStream-ETL/actions/workflows/ci.yml/badge.svg)](https://github.com/vankudothuadhinaik/HealthStream-ETL/actions/workflows/ci.yml)
+[![UPI Offline Mesh](https://github.com/vankudothuadhinaik/UPI_Without_Internet/actions/workflows/ci.yml/badge.svg)](https://github.com/vankudothuadhinaik/UPI_Without_Internet/actions/workflows/ci.yml)
+[![TodoList](https://github.com/vankudothuadhinaik/TodoList-Management-Application/actions/workflows/ci.yml/badge.svg)](https://github.com/vankudothuadhinaik/TodoList-Management-Application/actions/workflows/ci.yml)
+[![AQI Forecasting](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions/workflows/validate-artifacts.yml/badge.svg)](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions/workflows/validate-artifacts.yml)
+[![DataPulse Analytics](https://github.com/vankudothuadhinaik/DataPulse-Analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/vankudothuadhinaik/DataPulse-Analytics/actions/workflows/ci.yml)
+[![Matching Engine](https://github.com/vankudothuadhinaik/low-latency-matching-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/vankudothuadhinaik/low-latency-matching-engine/actions/workflows/ci.yml)
+[![Food Delivery App](https://github.com/vankudothuadhinaik/Food-Delivery-App/actions/workflows/ci.yml/badge.svg)](https://github.com/vankudothuadhinaik/Food-Delivery-App/actions/workflows/ci.yml)
 
 ---
 
