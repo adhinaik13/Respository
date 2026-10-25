@@ -1,164 +1,41 @@
-<div align="center">
+# Vankudothu Adhi Naik
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:A78BFA&height=200&section=header&text=Vankudothu%20Adhi%20Naik&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Integrated%20M.Tech%20Student%20%7C%20Aspiring%20SDE&descAlignY=55&descAlign=50" width="100%"/>
+**Integrated M.Tech, Mathematics & Computing · IIT (ISM) Dhanbad**  
+Interested in backend engineering, systems programming, secure APIs, and practical software reliability.
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+scalable+distributed+systems...;Turning+DSA+fundamentals+into+real+products" alt="Typing SVG" />
-</a>
+I build projects that emphasize clear architecture, testable behavior, and honest documentation. My current focus is strengthening fundamentals in data structures and algorithms while building with Java, C++, Python, and web technologies.
 
-<br/>
+- **Primary interests:** Backend engineering · Systems programming · API security · Testing and CI
+- **Languages:** Java, C++, Python, JavaScript
+- **Tools & technologies:** Spring Boot, React, Node.js/Express, SQL, MongoDB, Docker, GitHub Actions
+- **Contact:** [Email](mailto:22je1052@iitism.ac.in) · [GitHub](https://github.com/adhinaik13)
 
-![Profile Views](https://komarev.com/ghpvc/?username=adhinaik13&color=a78bfa&style=flat)
-![Followers](https://img.shields.io/github/followers/adhinaik13?label=Followers&color=a78bfa&style=flat)
+## Selected projects
 
-</div>
-
----
-
-## Connect With Me
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <a href="https://linkedin.com/in/adhinaik" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="55" height="55" alt="LinkedIn"/>
-      </a>
-    </td>
-    <td align="center" width="96">
-      <a href="https://github.com/adhinaik13" target="_blank">
-        <img src="https://cdn.simpleicons.org/github/ffffff" width="55" height="55" alt="GitHub"/>
-      </a>
-    </td>
-    <td align="center" width="96">
-      <a href="mailto:22je1052@iitism.ac.in" target="_blank">
-        <img src="https://cdn.simpleicons.org/gmail/EA4335" width="55" height="55" alt="Email"/>
-      </a>
-    </td>
-  </tr>
-</table>
-
----
-
-## Featured Engineering Projects
-
-| Project | What it demonstrates |
+| Project | Engineering focus |
 |---|---|
-| [UPI Offline Mesh](https://github.com/adhinaik13/UPI_Without_Internet) | Java 17 and Spring Boot settlement gateway, encrypted QR payment simulation, idempotent processing, and security-focused tests. Native Bluetooth/Wi-Fi transport remains future work. |
-| [Low-Latency Matching Engine](https://github.com/adhinaik13/low-latency-matching-engine) | C++20 order-book/matching-engine project with an event pipeline, concurrency components, benchmark tooling, and a GitHub Actions build/test workflow. |
-| [DataPulse Analytics](https://github.com/adhinaik13/DataPulse-Analytics) | FastAPI, SQLAlchemy, PostgreSQL, and React/TypeScript analytics demo with a documented API and CI workflow. |
-| [HealthStream ETL](https://github.com/adhinaik13/HealthStream-ETL) | Standard-library Python ETL for synthetic encounter records, schema validation, duplicate handling, deterministic summaries, quality reports, unit tests, and passing CI. |
+| [UPI Offline Mesh](https://github.com/adhinaik13/UPI_Without_Internet) | Spring Boot settlement gateway, encrypted QR payment simulation, idempotency, and security tests. Native Bluetooth/Wi-Fi transport is planned work. |
+| [Low-Latency Matching Engine](https://github.com/adhinaik13/low-latency-matching-engine) | C++20 matching-engine project, order processing, and automated build/test workflow. |
+| [HealthStream ETL](https://github.com/adhinaik13/HealthStream-ETL) | Python ETL for synthetic records, validation, deduplication, deterministic aggregation, quality reporting, and unit tests. |
+| [DataPulse Analytics](https://github.com/adhinaik13/DataPulse-Analytics) | Analytics application and API project with documented setup and CI checks. |
+| [AQI Forecasting](https://github.com/adhinaik13/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) | Time-series forecasting experiments for Indian city air-quality data; reported metrics should be interpreted alongside each experiment's evaluation setup. |
+| [TodoList Management](https://github.com/adhinaik13/TodoList-Management-Application) | Responsive React task manager with filtering, completion states, tests, and production-build CI. |
 
-These are project demos, not claims of production deployment or measured production performance. See each repository for implementation details, current limitations, and test status.
+## Engineering practices
 
-[![HealthStream ETL CI](https://github.com/adhinaik13/HealthStream-ETL/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/HealthStream-ETL/actions/workflows/ci.yml) [![TodoList CI](https://github.com/adhinaik13/TodoList-Management-Application/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/TodoList-Management-Application/actions/workflows/ci.yml) [![UPI CI](https://github.com/adhinaik13/UPI_Without_Internet/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/UPI_Without_Internet/actions/workflows/ci.yml)
+- Automated tests and CI workflows where supported
+- Environment-based configuration rather than committed secrets
+- Documentation that distinguishes implemented features from planned work
+- Iterative dependency and security review
 
-## Current Focus
+## Build status
 
-- Backend engineering, data structures and algorithms, and systems programming
-- Secure API design, testing, and CI automation
-- Building projects with clear implementation evidence and honest documentation
-
----
-
-## Tech Stack
-
-### Languages
-<table>
-  <tr>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="55" height="55" alt="C"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="55" height="55" alt="C++"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="55" height="55" alt="Python"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="55" height="55" alt="JavaScript"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="55" height="55" alt="Java"/></td>
-  </tr>
-</table>
-
-### Data Science
-<table>
-  <tr>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="55" height="55" alt="Pandas"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="55" height="55" alt="NumPy"/></td>
-  </tr>
-</table>
-
-### Web & App Dev
-<table>
-  <tr>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="55" height="55" alt="React"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="55" height="55" alt="Node.js"/></td>
-    <td align="center" width="96"><img src="https://cdn.simpleicons.org/express/ffffff" width="55" height="55" alt="Express"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="55" height="55" alt="HTML5"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="55" height="55" alt="CSS3"/></td>
-  </tr>
-</table>
-
-### Cloud & Infra
-<table>
-  <tr>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="55" height="55" alt="Docker"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" width="55" height="55" alt="GitHub Actions"/></td>
-  </tr>
-</table>
-
-### Databases
-<table>
-  <tr>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="55" height="55" alt="MongoDB"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="55" height="55" alt="MySQL"/></td>
-  </tr>
-</table>
-
-### Dev Tools
-<table>
-  <tr>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="55" height="55" alt="Git"/></td>
-    <td align="center" width="96"><img src="https://cdn.simpleicons.org/github/ffffff" width="55" height="55" alt="GitHub"/></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="55" height="55" alt="VS Code"/></td>
-  </tr>
-</table>
+[![HealthStream ETL](https://github.com/adhinaik13/HealthStream-ETL/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/HealthStream-ETL/actions/workflows/ci.yml)
+[![UPI Offline Mesh](https://github.com/adhinaik13/UPI_Without_Internet/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/UPI_Without_Internet/actions/workflows/ci.yml)
+[![TodoList](https://github.com/adhinaik13/TodoList-Management-Application/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/TodoList-Management-Application/actions/workflows/ci.yml)
+[![AQI Forecasting](https://github.com/adhinaik13/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions/workflows/validate-artifacts.yml/badge.svg)](https://github.com/adhinaik13/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions/workflows/validate-artifacts.yml)
+[![DataPulse Analytics](https://github.com/adhinaik13/DataPulse-Analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/DataPulse-Analytics/actions/workflows/ci.yml)
 
 ---
 
-## GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats-tau-lovat-77.vercel.app/api?username=adhinaik13&show_icons=true&theme=tokyonight&hide_border=true&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9" width="49%"/>
-<img src="https://github-readme-stats-tau-lovat-77.vercel.app/api/top-langs/?username=adhinaik13&layout=compact&theme=tokyonight&hide_border=true&title_color=A78BFA&text_color=c9d1d9" width="49%"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=adhinaik13&theme=tokyonight&hide_border=true&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA" width="70%"/>
-
-</div>
-
----
-
-## Contribution Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adhinaik13&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
-</div>
-
----
-
-<div align="center">
-
-> "The best way to predict the future is to build it."
-
-```
-██████╗ ██╗   ██╗██╗██╗     ██████╗ ██╗███╗   ██╗ ██████╗
-██╔══██╗██║   ██║██║██║     ██╔══██╗██║████╗  ██║██╔════╝
-██████╔╝██║   ██║██║██║     ██║  ██║██║██╔██╗ ██║██║  ███╗
-██╔══██╗██║   ██║██║██║     ██║  ██║██║██║╚██╗██║██║   ██║
-██████╔╝╚██████╔╝██║███████╗██████╔╝██║██║ ╚████║╚██████╔╝
-╚═════╝  ╚═════╝ ╚═╝╚══════╝╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝
-```
-
-*One commit at a time.*
-
-</div>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:A78BFA&height=120&section=footer" width="100%"/>
+*Each repository documents its own setup, implementation scope, and known limitations. These projects are demonstrations and should not be interpreted as production deployments unless explicitly stated in the repository.*
