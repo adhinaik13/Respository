@@ -46,8 +46,11 @@
 | [UPI Offline Mesh](https://github.com/adhinaik13/UPI_Without_Internet) | Java 17 and Spring Boot settlement gateway, encrypted QR payment simulation, idempotent processing, and security-focused tests. Native Bluetooth/Wi-Fi transport remains future work. |
 | [Low-Latency Matching Engine](https://github.com/adhinaik13/low-latency-matching-engine) | C++20 order-book/matching-engine project with an event pipeline, concurrency components, benchmark tooling, and a GitHub Actions build/test workflow. |
 | [DataPulse Analytics](https://github.com/adhinaik13/DataPulse-Analytics) | FastAPI, SQLAlchemy, PostgreSQL, and React/TypeScript analytics demo with a documented API and CI workflow. |
+| [HealthStream ETL](https://github.com/adhinaik13/HealthStream-ETL) | Standard-library Python ETL for synthetic encounter records, schema validation, duplicate handling, deterministic summaries, quality reports, unit tests, and passing CI. |
 
 These are project demos, not claims of production deployment or measured production performance. See each repository for implementation details, current limitations, and test status.
+
+[![HealthStream ETL CI](https://github.com/adhinaik13/HealthStream-ETL/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/HealthStream-ETL/actions/workflows/ci.yml) [![TodoList CI](https://github.com/adhinaik13/TodoList-Management-Application/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/TodoList-Management-Application/actions/workflows/ci.yml) [![UPI CI](https://github.com/adhinaik13/UPI_Without_Internet/actions/workflows/ci.yml/badge.svg)](https://github.com/adhinaik13/UPI_Without_Internet/actions/workflows/ci.yml)
 
 ## Current Focus
 
