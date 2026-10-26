@@ -40,7 +40,7 @@ CPython · Python tooling · Regression tests
 
 ## SELECTED WORK
 
-<sub>THREE PROJECTS · THREE DIFFERENT ENGINEERING PROBLEMS</sub>
+<sub>FIVE PROJECTS · SYSTEMS, PAYMENTS, ANALYTICS, DATA QUALITY &amp; ML</sub>
 
 ### 01 — LOW-LATENCY MATCHING ENGINE
 <img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Custom matching engine systems dashboard showing bid book, price-time matching core and event path"/>
@@ -73,11 +73,33 @@ A full-stack event-analytics prototype combining API ingestion and aggregation, 
 
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
 
+### 04 — HEALTHSTREAM ETL
+
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-healthstream.svg" width="100%" alt="HealthStream ETL dashboard illustration showing ingestion, validation, normalization, deduplication and data-quality reporting"/>
+
+A synthetic healthcare-event pipeline focused on data quality: validation, normalization, deduplication, and quality reporting. The illustration describes the workflow; it does not display patient data or live pipeline telemetry.
+
+**FOCUS** &nbsp; `ETL` &nbsp; `Data validation` &nbsp; `Normalization` &nbsp; `Deduplication`
+
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/HealthStream-ETL)
+
+---
+
+### 05 — AQI PREDICTION
+
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-aqi.svg" width="100%" alt="AQI prediction dashboard illustration with time-series trend, persistence baseline and station-wise evaluation workflow"/>
+
+An air-quality prediction project exploring time-series evaluation with a chronological persistence baseline and per-station comparisons. The chart is illustrative, not a live air-quality feed.
+
+**FOCUS** &nbsp; `Python` &nbsp; `Time series` &nbsp; `Baseline evaluation` &nbsp; `Air quality`
+
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning)
+
+---
+
 <details>
 <summary><strong>MORE BUILDS — DATA · ML · FRONTEND</strong></summary>
 
-- **[HealthStream ETL](https://github.com/vankudothuadhinaik/HealthStream-ETL)** — synthetic healthcare-event pipeline with validation, normalization, deduplication, and quality reporting.
-- **[AQI Prediction](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning)** — time-series experiments with a chronological persistence baseline evaluated per station series.
 - **[TodoList Management Application](https://github.com/vankudothuadhinaik/TodoList-Management-Application)** — React task workflow with accessible actions and localStorage persistence.
 
 [SEE ALL REPOSITORIES ↗](https://github.com/vankudothuadhinaik?tab=repositories)
