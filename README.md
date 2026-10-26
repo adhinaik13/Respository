@@ -1,143 +1,148 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/profile-command-center.svg" width="100%" alt="Vankudothu Adhi Naik — premium software engineering portfolio dashboard"/>
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/profile-command-center.svg" width="100%" alt="Vankudothu Adhi Naik engineering portfolio cover in warm ivory, editorial blue, coral and chartreuse"/>
 
 **INTEGRATED M.TECH · MATHEMATICS & COMPUTING · IIT (ISM) DHANBAD**
 
-Systems thinking. Reliable backends. Useful open source.
+*I build systems that behave predictably — and test the edges where they don't.*
 
-[PROJECTS](https://github.com/vankudothuadhinaik?tab=repositories) &nbsp; / &nbsp; [CONTRIBUTIONS](#open-source) &nbsp; / &nbsp; [CONTACT](mailto:22je1052@iitism.ac.in)
+[EXPLORE PROJECTS](#selected-work) &nbsp; · &nbsp; [OPEN SOURCE](#open-source) &nbsp; · &nbsp; [CONTACT](mailto:22je1052@iitism.ac.in)
 
 </div>
 
 ---
 
-## ENGINEERING PROFILE
+## THE ENGINEERING DNA
 
 <table>
 <tr>
-<td width="25%" valign="top">
+<td width="50%" valign="top">
 
-**01 — SYSTEMS**
+### 01 / SYSTEMS & PERFORMANCE
 
-C++20  
-Data structures  
-Order books  
-Concurrency fundamentals
+**C++20 · Data structures · Order books · Concurrency**
 
-</td>
-<td width="25%" valign="top">
-
-**02 — BACKEND**
-
-Java · Spring Boot  
-Python · FastAPI  
-REST APIs · SQL
+I like understanding what happens beneath the abstraction: order lifecycles, deterministic matching, event flow, and the edge cases that expose hidden assumptions.
 
 </td>
-<td width="25%" valign="top">
+<td width="50%" valign="top">
 
-**03 — DATA**
+### 02 / BACKEND & DATA
 
-Validation  
-Normalization  
-Deduplication  
-Deterministic aggregation
+**Java · Spring Boot · Python · FastAPI · SQL**
+
+I build API and data workflows with a focus on clear contracts, validation, idempotency, useful tests, and predictable failure handling.
 
 </td>
-<td width="25%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**04 — PRACTICE**
+### 03 / PRODUCT ENGINEERING
 
-Git · CMake · Maven  
-pytest · unit testing  
-Reproducible workflows
+**React · TypeScript · REST APIs**
+
+Turning backend capability into a clear interface, with attention to readable information hierarchy and practical user workflows.
+
+</td>
+<td width="50%" valign="top">
+
+### 04 / OPEN SOURCE
+
+**CPython · Python tooling · Regression tests**
+
+Contributing fixes, investigating behavior, and writing tests that capture the bug rather than just the happy path.
 
 </td>
 </tr>
 </table>
 
-## SELECTED ENGINEERING WORK
+## SELECTED WORK
 
-### 01 / LOW-LATENCY MATCHING ENGINE
+<sub>THREE PROJECTS · THREE DIFFERENT ENGINEERING PROBLEMS</sub>
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Matching engine dashboard: limit order book, matching core and event stream"/>
+### 01 — LOW-LATENCY MATCHING ENGINE
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Custom matching engine systems dashboard showing bid book, price-time matching core and event path"/>
 
-A C++20 limit-order-book prototype built around deterministic matching: price-time priority, full and partial fills, cancellation, order lookup, and a bounded single-producer/single-consumer event path.
+A C++20 limit-order-book prototype with price-time priority, full and partial fills, cancellation, order lookup, and a bounded single-producer/single-consumer event path.
 
-**STACK** &nbsp; C++20 · CMake · tests · benchmarking
+**STACK** &nbsp; `C++20` &nbsp; `CMake` &nbsp; `Testing` &nbsp; `Benchmarking`
 
-[OPEN REPOSITORY →](https://github.com/vankudothuadhinaik/low-latency-matching-engine)
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine)
 
 ---
 
-### 02 / UPI OFFLINE MESH
-
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-upi-mesh.svg" width="100%" alt="UPI Offline Mesh dashboard: encrypted payload, signature verification, offline queue and simulated reconciliation"/>
+### 02 — UPI OFFLINE MESH
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-upi-mesh.svg" width="100%" alt="Custom UPI Offline Mesh dashboard showing encrypted payload, signature verification, safe queueing and simulated reconciliation"/>
 
 An offline-payment prototype exploring encrypted QR payloads, RSA-PSS signatures, replay protection, idempotency, and simulated store-and-forward settlement.
 
-**STACK** &nbsp; Java 17 · Spring Boot · AES-GCM · RSA-PSS
+**STACK** &nbsp; `Java 17` &nbsp; `Spring Boot` &nbsp; `AES-GCM` &nbsp; `RSA-PSS`
 
-[OPEN REPOSITORY →](https://github.com/vankudothuadhinaik/UPI_Without_Internet)
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/UPI_Without_Internet)
 
 ---
 
-### 03 / DATAPULSE ANALYTICS
+### 03 — DATAPULSE ANALYTICS
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-datapulse.svg" width="100%" alt="Custom DataPulse Analytics dashboard showing event volume illustration, FastAPI ingestion, validation and dashboard layers"/>
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-datapulse.svg" width="100%" alt="DataPulse dashboard: event volume illustration, API ingestion, validation and dashboard layers"/>
+A full-stack event-analytics prototype combining API ingestion and aggregation, SQLAlchemy models, and a React + TypeScript dashboard. The chart in this illustration is sample artwork, not live product telemetry.
 
-A full-stack event-analytics prototype combining API ingestion and aggregation, SQLAlchemy models, and a React + TypeScript dashboard. The chart in the illustration is decorative—not live application data.
+**STACK** &nbsp; `FastAPI` &nbsp; `SQLAlchemy` &nbsp; `React` &nbsp; `TypeScript`
 
-**STACK** &nbsp; FastAPI · SQLAlchemy · React · TypeScript
-
-[OPEN REPOSITORY →](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
 
 <details>
-<summary><strong>MORE BUILDS / DATA · ML · FRONTEND</strong></summary>
+<summary><strong>MORE BUILDS — DATA · ML · FRONTEND</strong></summary>
 
 - **[HealthStream ETL](https://github.com/vankudothuadhinaik/HealthStream-ETL)** — synthetic healthcare-event pipeline with validation, normalization, deduplication, and quality reporting.
 - **[AQI Prediction](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning)** — time-series experiments with a chronological persistence baseline evaluated per station series.
 - **[TodoList Management Application](https://github.com/vankudothuadhinaik/TodoList-Management-Application)** — React task workflow with accessible actions and localStorage persistence.
 
+[SEE ALL REPOSITORIES ↗](https://github.com/vankudothuadhinaik?tab=repositories)
+
 </details>
 
 ## OPEN SOURCE
 
-| PROJECT | CONTRIBUTION | STATUS |
-|---|---|---|
-| [CPython #160707](https://github.com/python/cpython/pull/160707) | Free-threaded garbage-collector traversal fix and regression coverage | **Merged** |
-| [chunklet-py #107](https://github.com/speedyk-005/chunklet-py/pull/107) | Windows multiprocessing pickling fix and regression tests | **Merged** |
-| [CPython #160714](https://github.com/python/cpython/pull/160714) | `kqueue` interruption-handling proposal and regression test | **Open** |
+<table>
+<tr><th align="left">PROJECT</th><th align="left">WHAT CHANGED</th><th align="center">STATUS</th></tr>
+<tr><td><a href="https://github.com/python/cpython/pull/160707">CPython #160707</a></td><td>Free-threaded garbage-collector traversal fix and regression coverage</td><td align="center">🟢 Merged</td></tr>
+<tr><td><a href="https://github.com/speedyk-005/chunklet-py/pull/107">chunklet-py #107</a></td><td>Windows multiprocessing pickling fix and regression tests</td><td align="center">🟢 Merged</td></tr>
+<tr><td><a href="https://github.com/python/cpython/pull/160714">CPython #160714</a></td><td><code>kqueue</code> interruption-handling proposal and regression test</td><td align="center">🟡 Open</td></tr>
+</table>
 
-Merged work and open proposals are listed separately so the contribution status stays accurate.
+<sub>Merged contributions and open proposals are intentionally distinguished.</sub>
 
-## GITHUB ACTIVITY / LIVE PANELS
+## LIVE GITHUB COMMAND CENTER
 
 <div align="center">
 
-<a href="https://github.com/vankudothuadhinaik"><img height="175" src="https://github-readme-stats.vercel.app/api?username=vankudothuadhinaik&show_icons=true&hide_border=true&rank_icon=github&bg_color=0B1020&title_color=70C9FF&icon_color=50E3C2&text_color=EAF0FF" alt="Live GitHub overview statistics"/></a>
-<a href="https://github.com/vankudothuadhinaik?tab=repositories"><img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vankudothuadhinaik&layout=compact&hide_border=true&bg_color=0B1020&title_color=70C9FF&text_color=EAF0FF&langs_count=7" alt="Live language distribution"/></a>
+<a href="https://github.com/vankudothuadhinaik"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=vankudothuadhinaik&show_icons=true&hide_border=true&rank_icon=github&bg_color=101923&title_color=EF8557&icon_color=D4F06A&text_color=F6F0E6" alt="GitHub profile statistics panel"/></a>
+<a href="https://github.com/vankudothuadhinaik?tab=repositories"><img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vankudothuadhinaik&layout=compact&hide_border=true&bg_color=101923&title_color=EF8557&text_color=F6F0E6&langs_count=6" alt="GitHub language distribution panel"/></a>
 
+<a href="https://github.com/vankudothuadhinaik?tab=repositories"><img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vankudothuadhinaik&theme=github_dark" alt="GitHub profile contribution summary"/></a>
 
-<sub>Statistics and language panels are generated by a third-party service and may occasionally be unavailable.</sub>
+<sub>Live panels use external services and may occasionally be delayed or unavailable. The project illustrations above are design visuals, not live application metrics.</sub>
 
 </div>
 
 ## TOOLKIT
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=cpp,java,python,spring,fastapi,react,ts,postgres,git,github,cmake,linux&perline=6" alt="C++, Java, Python, Spring, FastAPI, React, TypeScript, PostgreSQL, Git, GitHub, CMake and Linux"/>
+
+<img src="https://skillicons.dev/icons?i=cpp,java,python,spring,fastapi,react,ts,postgres,git,github,cmake,linux&perline=6" alt="C++, Java, Python, Spring, FastAPI, React, TypeScript, PostgreSQL, Git, GitHub, CMake and Linux technology icons"/>
+
 </div>
 
 ---
 
 <div align="center">
 
-**ENGINEER WITH INTENT. TEST THE EDGE CASES.**
+### BUILD WITH INTENT. VERIFY THE EDGE CASES.
 
-Backend engineering · systems programming · developer tools · open source
+**Backend engineering · Systems programming · Developer tools · Open source**
 
-[EMAIL](mailto:22je1052@iitism.ac.in) &nbsp; / &nbsp; [ALL REPOSITORIES](https://github.com/vankudothuadhinaik?tab=repositories)
+[EMAIL ME ↗](mailto:22je1052@iitism.ac.in) &nbsp; · &nbsp; [GITHUB ↗](https://github.com/vankudothuadhinaik)
 
 </div>
