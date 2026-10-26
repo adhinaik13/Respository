@@ -57,6 +57,14 @@ Prototype scope excludes authentication and deployment integration.
 - [AQI Prediction](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) — Time-series experiments with a dependency-free chronological persistence baseline evaluated independently per station series.
 - [TodoList Management Application](https://github.com/vankudothuadhinaik/TodoList-Management-Application) — Browser-only React task workflow with accessible add, complete, and delete actions plus localStorage persistence.
 
+## Open-source contributions
+
+### chunklet-py — Windows multiprocessing fix
+
+[**Merged PR #107**](https://github.com/speedyk-005/chunklet-py/pull/107) · Python · Multiprocessing · Pytest
+
+Fixed a Windows multiprocessing pickling issue by replacing a local wrapper closure with a module-level callable. Added pickle round-trip regression coverage and a native Windows multiprocessing test for the public API. The PR was merged upstream after six CI checks passed.
+
 ## Working principles
 
 Prefer understandable systems over impressive claims; test important boundaries and document how results were produced.
