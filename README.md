@@ -1,88 +1,144 @@
+<!--
+  Profile README — Vankudothu Adhi Naik
+  Dynamic cards are rendered by their respective third-party services.
+-->
+
+<div align="center">
+
+<img src="./assets/profile-hero-v4.svg" alt="Building reliable software systems" width="100%"/>
+
 # Vankudothu Adhi Naik
 
-![Building reliable software systems](./assets/profile-hero-v4.svg)
+### Systems Engineering · Backend Development · Applied Data
 
-Backend systems, C++ data structures, and practical data workflows.
+<p>
+  <a href="https://github.com/vankudothuadhinaik"><img src="https://img.shields.io/badge/GitHub-vankudothuadhinaik-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="mailto:22je1052@iitism.ac.in"><img src="https://img.shields.io/badge/Email-Contact%20me-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://img.shields.io/badge/IIT%20(ISM)%20Dhanbad-Mathematics%20%26%20Computing-6D28D9?style=for-the-badge" alt="IIT ISM Dhanbad"/>
+</p>
 
-Integrated M.Tech student in Mathematics and Computing at IIT (ISM) Dhanbad.
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1100&color=58A6FF&center=true&vCenter=true&width=720&lines=Building+reliable+software+systems;C%2B%2B+%7C+Java+%7C+Python+%7C+TypeScript;Testing+edge+cases%2C+not+just+happy+paths;Learning+in+public+through+open+source" alt="Animated engineering tagline"/></a>
 
-[GitHub](https://github.com/vankudothuadhinaik) / [Email](mailto:22je1052@iitism.ac.in)
+</div>
 
-## Engineering focus
+---
 
-I build small, testable systems with explicit state, clear interfaces, and reproducible evaluation. My current work sits at the intersection of systems programming, backend engineering, data processing, and applied machine learning.
+## 👋 About me
 
-- Systems programming: C++20, order books, price-time priority, bounded queues.
-- Backend engineering: Java, Spring Boot, Python, FastAPI, REST APIs, SQLAlchemy.
-- Data workflows: validation, normalization, deduplication, and deterministic aggregation.
-- Quality: unit tests, frontend tests, Maven, CMake, and GitHub Actions.
+I'm an Integrated M.Tech student in **Mathematics and Computing at IIT (ISM) Dhanbad**, interested in systems programming, backend engineering, data pipelines, and practical machine learning.
 
-## Selected work
+I like turning complicated requirements into software that is **testable, observable, and understandable**. I care about correctness at boundaries, reproducible tests, and documenting what has—and has not—been validated.
 
-### Low-Latency Matching Engine
+- ⚙️ **Systems:** C++20, data structures, order books, concurrency fundamentals
+- 🧩 **Backend:** Java, Spring Boot, Python, FastAPI, REST APIs
+- 📊 **Data & UI:** SQL, SQLAlchemy, React, TypeScript, analytics workflows
+- 🧪 **Engineering practice:** regression testing, GitHub Actions, CMake, Maven, CI debugging
+- 🌱 **Open source:** contributing fixes and regression tests to real projects
 
-![A limit-order book matching flow: bid and ask queues meet at a price-time matching core](./assets/matching-engine-v4.svg)
+## 📡 Live GitHub dashboard
 
-[Repository](https://github.com/vankudothuadhinaik/low-latency-matching-engine)
+<div align="center">
 
-An educational C++20 limit-order book with price-time priority, full and partial fills, cancellation, fixed-point prices, order lookup, and a bounded SPSC event path.
+<a href="https://github.com/vankudothuadhinaik?tab=repositories"><img height="165" src="https://github-readme-stats.vercel.app/api?username=vankudothuadhinaik&show_icons=true&rank_icon=github&hide_border=true&theme=transparent&include_all_commits=true" alt="GitHub profile statistics"/></a>
+<a href="https://github.com/vankudothuadhinaik?tab=repositories"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vankudothuadhinaik&layout=compact&langs_count=8&hide_border=true&theme=transparent" alt="Most-used languages by repository"/></a>
 
-`C++20` `CMake` `order book` `unit tests`
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=vankudothuadhinaik&hide_border=true&theme=transparent" alt="GitHub contribution streak"/></a>
 
-Educational implementation; benchmark results are environment-dependent.
+<a href="https://github.com/vankudothuadhinaik"><img src="https://github-readme-activity-graph.vercel.app/graph?username=vankudothuadhinaik&bg_color=00000000&color=58A6FF&line=8B5CF6&point=58A6FF&area=true&hide_border=true" alt="GitHub contribution activity graph" width="100%"/></a>
 
-### UPI Offline Mesh
+</div>
 
-[Repository](https://github.com/vankudothuadhinaik/UPI_Without_Internet)
+<sub>These are live third-party widgets, not hand-entered metrics. Availability, caching, rate limits, and the services' counting rules can affect what appears.</sub>
 
-A Spring Boot settlement prototype covering encrypted QR payloads, RSA-PSS signatures, replay and idempotency defenses, simulated store-and-forward delivery, and atomic settlement.
+## 🚀 Featured engineering projects
 
-`Java 17` `Spring Boot` `AES-GCM` `RSA-PSS`
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Native device networking and bank or NPCI settlement rails are outside the current implementation.
+### ⚡ Low-Latency Matching Engine
 
-### DataPulse Analytics
+<a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vankudothuadhinaik&repo=low-latency-matching-engine&hide_border=true&theme=transparent" alt="Low-Latency Matching Engine repository card" width="100%"/></a>
 
-[Repository](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
+Educational C++20 limit-order book with price-time priority, full and partial fills, cancellation, fixed-point prices, order lookup, and a bounded SPSC event path.
 
-A full-stack event analytics prototype with FastAPI ingestion and aggregation, SQLAlchemy models, a React and TypeScript dashboard, backend tests, and a configured Vite production build.
+**Focus:** C++20 · CMake · data structures · testing
 
-`FastAPI` `SQLAlchemy` `React` `TypeScript`
+<sub>Benchmark performance depends on the environment; no universal performance claim is made.</sub>
 
-Prototype scope excludes authentication and deployment integration.
+</td>
+<td width="50%" valign="top">
 
-## Open-source contributions
+### 🔐 UPI Offline Mesh
 
-### CPython — free-threaded garbage collection
+<a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vankudothuadhinaik&repo=UPI_Without_Internet&hide_border=true&theme=transparent" alt="UPI Offline Mesh repository card" width="100%"/></a>
 
-[**Merged PR #160707**](https://github.com/python/cpython/pull/160707) · [Issue #160682](https://github.com/python/cpython/issues/160682) · C · Runtime · Regression testing
+A Spring Boot settlement prototype exploring signed/encrypted QR payloads, replay and idempotency defenses, simulated store-and-forward delivery, and atomic settlement.
 
-Fixed missing references to running function objects in free-threaded garbage-collector traversal paths and added a regression test. The PR was merged into CPython `main` on October 26, 2026.
+**Focus:** Java 17 · Spring Boot · AES-GCM · RSA-PSS
 
-Validation reported for a Py_DEBUG free-threaded build: focused regression passed; the free-threaded GC module had 8 passing tests; the `test_free_threading` package had 267 passed and 1 skipped. Native macOS validation was not performed.
+<sub>Native device networking and bank/NPCI settlement rails are outside the current implementation.</sub>
 
-### CPython — interrupted kqueue waits
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-[**Open PR #160714**](https://github.com/python/cpython/pull/160714) · [Issue #160700](https://github.com/python/cpython/issues/160700) · Python · Subprocess · Signal handling
+### 📈 DataPulse Analytics
 
-Proposed fix to propagate `InterruptedError` from `kqueue.control()` while retaining fallback polling for other `OSError` failures, with a kqueue-specific regression test. The PR is open and still requires suitable CI/macOS validation; the focused test has not been run locally.
+<a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vankudothuadhinaik&repo=DataPulse-Analytics&hide_border=true&theme=transparent" alt="DataPulse Analytics repository card" width="100%"/></a>
 
-### chunklet-py — Windows multiprocessing fix
+Full-stack event analytics prototype with FastAPI ingestion and aggregation, SQLAlchemy models, a React/TypeScript dashboard, backend tests, and a Vite production build.
 
-[**Merged PR #107**](https://github.com/speedyk-005/chunklet-py/pull/107) · Python · Multiprocessing · Pytest
+**Focus:** Python · FastAPI · SQLAlchemy · React · TypeScript
 
-Fixed a Windows multiprocessing pickling issue by replacing a local wrapper closure with a module-level callable. Added pickle round-trip regression coverage and a native Windows multiprocessing test for the public API. The PR was merged upstream after six CI checks passed.
+</td>
+<td width="50%" valign="top">
 
-## Additional projects
+### 🧰 HealthStream ETL
 
-- [HealthStream ETL](https://github.com/vankudothuadhinaik/HealthStream-ETL) — Standard-library Python ETL for synthetic healthcare encounter events, with validation, normalization, deduplication, deterministic summaries, and quality reporting.
-- [AQI Prediction](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) — Time-series experiments with a dependency-free chronological persistence baseline evaluated independently per station series.
-- [TodoList Management Application](https://github.com/vankudothuadhinaik/TodoList-Management-Application) — Browser-only React task workflow with accessible add, complete, and delete actions plus localStorage persistence.
+<a href="https://github.com/vankudothuadhinaik/HealthStream-ETL"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vankudothuadhinaik&repo=HealthStream-ETL&hide_border=true&theme=transparent" alt="HealthStream ETL repository card" width="100%"/></a>
 
-## Working principles
+A standard-library Python ETL project for synthetic encounter events, covering validation, normalization, deduplication, deterministic summaries, and data-quality reporting.
 
-Prefer understandable systems over impressive claims; test important boundaries and document how results were produced. I distinguish merged contributions from open proposals and report validation limitations explicitly.
+**Focus:** Python · ETL · data quality · reproducibility
 
-## Contact
+</td>
+</tr>
+</table>
 
-[GitHub](https://github.com/vankudothuadhinaik) / [22je1052@iitism.ac.in](mailto:22je1052@iitism.ac.in)
+## 🧑‍💻 Open-source work
+
+| Project | Contribution | Status |
+|---|---|---|
+| [CPython #160707](https://github.com/python/cpython/pull/160707) | Free-threaded garbage-collector traversal fix and regression coverage | **Merged** |
+| [chunklet-py #107](https://github.com/speedyk-005/chunklet-py/pull/107) | Windows multiprocessing pickling fix and regression tests | **Merged** |
+| [CPython #160714](https://github.com/python/cpython/pull/160714) | Proposed fix for interrupted kqueue waits, with regression coverage | **Open** |
+| [CPython #160703](https://github.com/python/cpython/pull/160703) | Monitoring callback errors in for-loops; tier-2 executor test coverage | **Open — CI/review pending** |
+| [read-process-memory #26](https://github.com/rbspy/read-process-memory/pull/26) | FreeBSD short remote-read error classification and tests | **Open — maintainer review pending** |
+
+I distinguish merged work from open proposals and avoid presenting unverified CI or benchmark results as completed facts.
+
+## 🧪 More projects
+
+- [AQI Prediction](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) — time-series experiments with a chronological persistence baseline evaluated per station series.
+- [TodoList Management Application](https://github.com/vankudothuadhinaik/TodoList-Management-Application) — browser-based React task workflow with accessible actions and localStorage persistence.
+- [All repositories →](https://github.com/vankudothuadhinaik?tab=repositories)
+
+## 🧭 Engineering principles
+
+- **Correctness before cleverness.** Test error paths, edge cases, and state transitions.
+- **Evidence before claims.** Separate local checks, CI results, benchmarks, and production validation.
+- **Small interfaces, explicit behavior.** Prefer code that another engineer can understand and verify.
+- **Document limitations.** A prototype should say what it does not yet implement.
+
+---
+
+<div align="center">
+
+**Thanks for visiting — explore a project, inspect the tests, or say hello.**
+
+<a href="https://github.com/vankudothuadhinaik?tab=repositories"><img src="https://img.shields.io/badge/Explore-Projects-2563EB?style=for-the-badge&logo=github" alt="Explore projects"/></a>
+<a href="mailto:22je1052@iitism.ac.in"><img src="https://img.shields.io/badge/Let's%20connect-Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact by email"/></a>
+
+</div>
