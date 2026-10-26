@@ -70,7 +70,7 @@ An educational C++20 limit-order book implementing price-time priority, full and
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vankudothuadhinaik&repo=UPI_Without_Internet&hide_border=true&theme=transparent" alt="UPI Offline Mesh repository card" width="100%"/></a>
+<a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet"><img src="./assets/upi-offline-mesh.svg" alt="UPI Offline Mesh security flow: encrypted QR, signed instruction, replay defense, offline queue, and settlement" width="100%"/></a>
 
 ### 🔐 UPI Offline Mesh
 
@@ -87,7 +87,7 @@ A Spring Boot settlement prototype exploring encrypted QR payloads, RSA-PSS sign
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vankudothuadhinaik&repo=DataPulse-Analytics&hide_border=true&theme=transparent" alt="DataPulse Analytics repository card" width="100%"/></a>
+<a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics"><img src="./assets/datapulse-analytics.svg" alt="DataPulse analytics dashboard illustration with event ingestion, processing, and metrics" width="100%"/></a>
 
 ### 📊 DataPulse Analytics
 
