@@ -9,6 +9,9 @@
 <a href="https://github.com/vankudothuadhinaik?tab=repositories"><img src="https://img.shields.io/badge/Repositories-Explore-7C3AED?style=flat-square&logo=github" alt="Repositories"/></a>
 </p>
 
+  <br/>
+  <img src="https://avatars.githubusercontent.com/u/204493729?v=4" alt="GitHub profile avatar" width="116"/>
+
 </div>
 
 # Software engineering, with evidence.
