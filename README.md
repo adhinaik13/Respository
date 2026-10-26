@@ -51,13 +51,21 @@ A full-stack event analytics prototype with FastAPI ingestion and aggregation, S
 
 Prototype scope excludes authentication and deployment integration.
 
-## Additional projects
-
-- [HealthStream ETL](https://github.com/vankudothuadhinaik/HealthStream-ETL) — Standard-library Python ETL for synthetic healthcare encounter events, with validation, normalization, deduplication, deterministic summaries, and quality reporting.
-- [AQI Prediction](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) — Time-series experiments with a dependency-free chronological persistence baseline evaluated independently per station series.
-- [TodoList Management Application](https://github.com/vankudothuadhinaik/TodoList-Management-Application) — Browser-only React task workflow with accessible add, complete, and delete actions plus localStorage persistence.
-
 ## Open-source contributions
+
+### CPython — free-threaded garbage collection
+
+[**Merged PR #160707**](https://github.com/python/cpython/pull/160707) · [Issue #160682](https://github.com/python/cpython/issues/160682) · C · Runtime · Regression testing
+
+Fixed missing references to running function objects in free-threaded garbage-collector traversal paths and added a regression test. The PR was merged into CPython `main` on October 26, 2026.
+
+Validation reported for a Py_DEBUG free-threaded build: focused regression passed; the free-threaded GC module had 8 passing tests; the `test_free_threading` package had 267 passed and 1 skipped. Native macOS validation was not performed.
+
+### CPython — interrupted kqueue waits
+
+[**Open PR #160714**](https://github.com/python/cpython/pull/160714) · [Issue #160700](https://github.com/python/cpython/issues/160700) · Python · Subprocess · Signal handling
+
+Proposed fix to propagate `InterruptedError` from `kqueue.control()` while retaining fallback polling for other `OSError` failures, with a kqueue-specific regression test. The PR is open and still requires suitable CI/macOS validation; the focused test has not been run locally.
 
 ### chunklet-py — Windows multiprocessing fix
 
@@ -65,9 +73,15 @@ Prototype scope excludes authentication and deployment integration.
 
 Fixed a Windows multiprocessing pickling issue by replacing a local wrapper closure with a module-level callable. Added pickle round-trip regression coverage and a native Windows multiprocessing test for the public API. The PR was merged upstream after six CI checks passed.
 
+## Additional projects
+
+- [HealthStream ETL](https://github.com/vankudothuadhinaik/HealthStream-ETL) — Standard-library Python ETL for synthetic healthcare encounter events, with validation, normalization, deduplication, deterministic summaries, and quality reporting.
+- [AQI Prediction](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) — Time-series experiments with a dependency-free chronological persistence baseline evaluated independently per station series.
+- [TodoList Management Application](https://github.com/vankudothuadhinaik/TodoList-Management-Application) — Browser-only React task workflow with accessible add, complete, and delete actions plus localStorage persistence.
+
 ## Working principles
 
-Prefer understandable systems over impressive claims; test important boundaries and document how results were produced.
+Prefer understandable systems over impressive claims; test important boundaries and document how results were produced. I distinguish merged contributions from open proposals and report validation limitations explicitly.
 
 ## Contact
 
