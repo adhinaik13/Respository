@@ -14,48 +14,29 @@
 
 ## THE ENGINEERING DNA
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### 01 / SYSTEMS & PERFORMANCE
+**01 · SYSTEMS & PERFORMANCE**  
+C++20 · Data structures · Order books · Concurrency
 
-**C++20 · Data structures · Order books · Concurrency**
+*Deterministic matching, event flow, and edge cases that expose hidden assumptions.*
 
-I like understanding what happens beneath the abstraction: order lifecycles, deterministic matching, event flow, and the edge cases that expose hidden assumptions.
+**02 · BACKEND & DATA**  
+Java · Spring Boot · Python · FastAPI · SQL
 
-</td>
-<td width="50%" valign="top">
+*Clear API contracts, validation, idempotency, useful tests, predictable failure handling.*
 
-### 02 / BACKEND & DATA
+**03 · PRODUCT ENGINEERING**  
+React · TypeScript · REST APIs
 
-**Java · Spring Boot · Python · FastAPI · SQL**
+*Turning backend capability into a clear interface and practical user workflows.*
 
-I build API and data workflows with a focus on clear contracts, validation, idempotency, useful tests, and predictable failure handling.
+**04 · OPEN SOURCE**  
+CPython · Python tooling · Regression tests
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+*Contributing fixes and tests that capture the bug—not just the happy path.*
 
-### 03 / PRODUCT ENGINEERING
-
-**React · TypeScript · REST APIs**
-
-Turning backend capability into a clear interface, with attention to readable information hierarchy and practical user workflows.
-
-</td>
-<td width="50%" valign="top">
-
-### 04 / OPEN SOURCE
-
-**CPython · Python tooling · Regression tests**
-
-Contributing fixes, investigating behavior, and writing tests that capture the bug rather than just the happy path.
-
-</td>
-</tr>
-</table>
+</div>
 
 ## SELECTED WORK
 
@@ -105,12 +86,14 @@ A full-stack event-analytics prototype combining API ingestion and aggregation, 
 
 ## OPEN SOURCE
 
-<table>
-<tr><th align="left">PROJECT</th><th align="left">WHAT CHANGED</th><th align="center">STATUS</th></tr>
-<tr><td><a href="https://github.com/python/cpython/pull/160707">CPython #160707</a></td><td>Free-threaded garbage-collector traversal fix and regression coverage</td><td align="center">🟢 Merged</td></tr>
-<tr><td><a href="https://github.com/speedyk-005/chunklet-py/pull/107">chunklet-py #107</a></td><td>Windows multiprocessing pickling fix and regression tests</td><td align="center">🟢 Merged</td></tr>
-<tr><td><a href="https://github.com/python/cpython/pull/160714">CPython #160714</a></td><td><code>kqueue</code> interruption-handling proposal and regression test</td><td align="center">🟡 Open</td></tr>
-</table>
+**CPython #160707 — MERGED**  
+Free-threaded garbage-collector traversal fix and regression coverage. · [Review the contribution ↗](https://github.com/python/cpython/pull/160707)
+
+**chunklet-py #107 — MERGED**  
+Windows multiprocessing pickling fix and regression tests. · [Review the contribution ↗](https://github.com/speedyk-005/chunklet-py/pull/107)
+
+**CPython #160714 — OPEN**  
+`kqueue` interruption-handling proposal and regression test. · [View open proposal ↗](https://github.com/python/cpython/pull/160714)
 
 <sub>Merged contributions and open proposals are intentionally distinguished.</sub>
 
@@ -119,7 +102,7 @@ A full-stack event-analytics prototype combining API ingestion and aggregation, 
 <div align="center">
 
 <a href="https://github.com/vankudothuadhinaik"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=vankudothuadhinaik&show_icons=true&hide_border=true&rank_icon=github&bg_color=101923&title_color=EF8557&icon_color=D4F06A&text_color=F6F0E6" alt="GitHub profile statistics panel"/></a>
-<a href="https://github.com/vankudothuadhinaik?tab=repositories"><img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vankudothuadhinaik&layout=compact&hide_border=true&bg_color=101923&title_color=EF8557&text_color=F6F0E6&langs_count=6" alt="GitHub language distribution panel"/></a>
+<a href="https://github.com/vankudothuadhinaik?tab=repositories"><img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vankudothuadhinaik&layout=compact&hide_border=true&bg_color=101923&title_color=EF8557&text_color=F6F0E6&langs_count=6&hide=Jupyter%20Notebook" alt="GitHub language distribution panel"/></a>
 
 <a href="https://github.com/vankudothuadhinaik?tab=repositories"><img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vankudothuadhinaik&theme=github_dark" alt="GitHub profile contribution summary"/></a>
 
