@@ -121,8 +121,8 @@ A standard-library Python ETL project for synthetic encounter events, with valid
 <tr><td><a href="https://github.com/python/cpython/pull/160707">CPython #160707</a></td><td>Free-threaded garbage-collector traversal fix and regression coverage</td><td>✅ Merged</td></tr>
 <tr><td><a href="https://github.com/speedyk-005/chunklet-py/pull/107">chunklet-py #107</a></td><td>Windows multiprocessing pickling fix and regression tests</td><td>✅ Merged</td></tr>
 <tr><td><a href="https://github.com/python/cpython/pull/160714">CPython #160714</a></td><td>Proposed handling for interrupted kqueue waits, with regression coverage</td><td>Open</td></tr>
-<tr><td><a href="https://github.com/python/cpython/pull/160703">CPython #160703</a></td><td>Monitoring callback errors in for-loops; tier-2 executor coverage</td><td>Open · CI/review pending</td></tr>
-<tr><td><a href="https://github.com/rbspy/read-process-memory/pull/26">read-process-memory #26</a></td><td>FreeBSD short remote-read error classification and tests</td><td>Open · maintainer review pending</td></tr>
+<tr><td><a href="https://github.com/python/cpython/pull/160703">CPython #160703</a></td><td>Monitoring callback error propagation and regression test</td><td>Closed · not merged</td></tr>
+<tr><td><a href="https://github.com/rbspy/read-process-memory/pull/26">read-process-memory #26</a></td><td>FreeBSD short remote-read error classification; maintainer merged a simplified version separately</td><td>Closed · original PR not merged</td></tr>
 </table>
 
 I distinguish merged work from open proposals and report validation limitations rather than implying pending work is complete.
