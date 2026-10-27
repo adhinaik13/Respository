@@ -108,13 +108,13 @@ An air-quality prediction project exploring time-series evaluation with a chrono
 
 ### 06 — UPTIME SENTINEL
 
-A FastAPI uptime-monitoring service for HTTP/HTTPS endpoints, with latency and failure tracking, incident lifecycle management, a read-only public status page, and PostgreSQL-backed worker leases designed to avoid duplicate concurrent checks.
+A FastAPI uptime-monitoring service for HTTP/HTTPS endpoints, with latency and failure tracking, incident lifecycle management, a read-only public status page, PostgreSQL-backed worker leases, and configurable daily cleanup of expired check history.
 
 **STACK** &nbsp; `Python 3.12` &nbsp; `FastAPI` &nbsp; `PostgreSQL` &nbsp; `SQLAlchemy` &nbsp; `Docker Compose` &nbsp; `GitHub Actions`
 
 **VERIFICATION** &nbsp; CI checks and PostgreSQL concurrency tests passed; Docker Compose health smoke test passed. Real controlled egress-proxy security integration remains an explicit release gate and has not yet passed.
 
-[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [CI RUN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40580619650) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/EGRESS_PROXY_TESTING.md)
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [CI RUN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40583777119) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/EGRESS_PROXY_TESTING.md)
 
 ---
 
