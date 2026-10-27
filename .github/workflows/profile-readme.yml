@@ -1,0 +1,47 @@
+name: Validate profile README
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - profile/elite-engineering-dashboard
+
+permissions:
+  contents: read
+
+jobs:
+  validate-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Validate local README assets
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          readme = Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+          references = re.findall(r'''(?:src|href)=["'](\.?/?assets/[^"']+)["']''', text)
+          missing = [ref for ref in references if not Path(ref.removeprefix("./")).is_file()]
+          if missing:
+              print("Missing local README assets:")
+              for item in missing:
+                  print(f" - {item}")
+              raise SystemExit(1)
+          if not references:
+              raise SystemExit("No local README assets were found to validate.")
+          print(f"Validated {len(references)} local README asset reference(s).")
+          PY
+      - name: Check required profile sections
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          text = Path("README.md").read_text(encoding="utf-8")
+          required = ["## Selected work", "## Open-source contributions", "## Engineering toolkit"]
+          missing = [heading for heading in required if heading not in text]
+          if missing:
+              raise SystemExit("Missing required sections: " + ", ".join(missing))
+          print("Required profile sections are present.")
+          PY
