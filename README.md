@@ -40,7 +40,7 @@ CPython · Python tooling · Regression tests
 
 ## SELECTED WORK
 
-<sub>FIVE PROJECTS · SYSTEMS, PAYMENTS, ANALYTICS, DATA QUALITY &amp; ML</sub>
+<sub>SIX PROJECTS · SYSTEMS, PAYMENTS, ANALYTICS, DATA QUALITY, ML &amp; RELIABILITY</sub>
 
 ### 01 — LOW-LATENCY MATCHING ENGINE
 <img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Custom matching engine systems dashboard showing bid book, price-time matching core and event path"/>
@@ -105,6 +105,18 @@ An air-quality prediction project exploring time-series evaluation with a chrono
 [SEE ALL REPOSITORIES ↗](https://github.com/vankudothuadhinaik?tab=repositories)
 
 </details>
+
+### 06 — UPTIME SENTINEL
+
+A FastAPI uptime-monitoring service for HTTP/HTTPS endpoints, with latency and failure tracking, incident lifecycle management, a read-only public status page, and PostgreSQL-backed worker leases designed to avoid duplicate concurrent checks.
+
+**STACK** &nbsp; `Python 3.12` &nbsp; `FastAPI` &nbsp; `PostgreSQL` &nbsp; `SQLAlchemy` &nbsp; `Docker Compose` &nbsp; `GitHub Actions`
+
+**VERIFICATION** &nbsp; CI checks and PostgreSQL concurrency tests passed; Docker Compose health smoke test passed. Real controlled egress-proxy security integration remains an explicit release gate and has not yet passed.
+
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [CI RUN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40580619650) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/EGRESS_PROXY_TESTING.md)
+
+---
 
 ## OPEN SOURCE
 
