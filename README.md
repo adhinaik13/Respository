@@ -111,8 +111,8 @@ An air-quality prediction project exploring time-series evaluation with a chrono
 **CPython #160707 — MERGED**  
 Free-threaded garbage-collector traversal fix and regression coverage. · [Review the contribution ↗](https://github.com/python/cpython/pull/160707)
 
-**CPython #160703 — OPEN**  
-Monitoring callback error propagation from `for` loops, with tier-1 and tier-2 regression coverage. · [View open contribution ↗](https://github.com/python/cpython/pull/160703)
+**CPython #160703 — CLOSED · NOT MERGED**  
+Monitoring callback error propagation from `for` loops, with a regression test. Tier-2 runtime coverage was not demonstrated in the available build; the proposal was closed without merge. · [View contribution ↗](https://github.com/python/cpython/pull/160703)
 
 **chunklet-py #107 — MERGED**  
 Windows multiprocessing pickling fix and regression tests. · [Review the contribution ↗](https://github.com/speedyk-005/chunklet-py/pull/107)
