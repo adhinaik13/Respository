@@ -112,9 +112,11 @@ A FastAPI uptime-monitoring service for HTTP/HTTPS endpoints, with latency and f
 
 **STACK** &nbsp; `Python 3.12` &nbsp; `FastAPI` &nbsp; `PostgreSQL` &nbsp; `SQLAlchemy` &nbsp; `Docker Compose` &nbsp; `GitHub Actions`
 
-**VERIFICATION** &nbsp; CI run #82 passed the standard checks, Compose smoke test, and Codecov patch check on commit `092e18e`. The real controlled egress-proxy security integration remains skipped pending private proxy fixtures/secrets; production deployment is not yet verified.
+**VERIFICATION** &nbsp; CI run #88 passed the standard checks and Docker Compose smoke test, including Codecov upload. The real controlled egress-proxy security integration remains skipped pending private proxy fixtures/secrets; production deployment is not yet verified.
 
-[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [LATEST PR CI RUN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40659958443) · [OPEN PR #4 ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/pull/4) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/EGRESS_PROXY_TESTING.md)
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/integration/sentry-doppler/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel architecture diagram showing API, worker, PostgreSQL and controlled egress boundary"/>
+
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [LATEST VERIFIED CI RUN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40681979743) · [OPEN PR #4 ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/pull/4) · [PROJECT README ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/integration/sentry-doppler/README.md) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/integration/sentry-doppler/EGRESS_PROXY_TESTING.md)
 
 ---
 
