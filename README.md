@@ -114,7 +114,7 @@ A FastAPI uptime-monitoring service for HTTP/HTTPS endpoints, with latency and f
 
 **VERIFICATION** &nbsp; CI checks and PostgreSQL concurrency tests passed; Docker Compose health smoke test passed. Real controlled egress-proxy security integration remains an explicit release gate and has not yet passed.
 
-[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [CI RUN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40584218809) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/EGRESS_PROXY_TESTING.md)
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [LATEST PR CI RUN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40631151266) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/EGRESS_PROXY_TESTING.md)
 
 ---
 
