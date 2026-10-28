@@ -112,9 +112,9 @@ A FastAPI uptime-monitoring service for HTTP/HTTPS endpoints, with latency and f
 
 **STACK** &nbsp; `Python 3.12` &nbsp; `FastAPI` &nbsp; `PostgreSQL` &nbsp; `SQLAlchemy` &nbsp; `Docker Compose` &nbsp; `GitHub Actions`
 
-**VERIFICATION** &nbsp; CI checks and PostgreSQL concurrency tests passed; Docker Compose health smoke test passed. Real controlled egress-proxy security integration remains an explicit release gate and has not yet passed.
+**VERIFICATION** &nbsp; CI run #82 passed the standard checks, Compose smoke test, and Codecov patch check on commit `092e18e`. The real controlled egress-proxy security integration remains skipped pending private proxy fixtures/secrets; production deployment is not yet verified.
 
-[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [LATEST PR CI RUN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40656327041) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/EGRESS_PROXY_TESTING.md)
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [LATEST PR CI RUN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40659958443) · [OPEN PR #4 ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/pull/4) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/EGRESS_PROXY_TESTING.md)
 
 ---
 
