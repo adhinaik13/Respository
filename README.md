@@ -114,7 +114,7 @@ A FastAPI uptime-monitoring service for HTTP/HTTPS endpoints, with latency and f
 
 **PROJECT STATUS** &nbsp; Free GitHub portfolio project · local Compose demo · no paid hosting required.
 
-**VERIFICATION** &nbsp; The latest confirmed passing baseline [CI run #179](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40830636294) passed code checks and Docker Compose smoke tests. Later documentation commits are triggering CI; see [all workflow runs](https://github.com/vankudothuadhinaik/uptime-sentinel/actions). The opt-in controlled egress-proxy security suite is skipped until dedicated fixtures/secrets are configured, so it is not claimed as passed. No production deployment is claimed.
+**VERIFICATION** &nbsp; [CI run #188](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40831277236) passed code checks and the Docker Compose end-to-end smoke test, including registration/login, monitor creation, worker check persistence, and public status. See [all workflow runs](https://github.com/vankudothuadhinaik/uptime-sentinel/actions) for the latest documentation-commit run. The opt-in controlled egress-proxy security suite is skipped until dedicated fixtures/secrets are configured, so it is not claimed as passed. No production deployment is claimed.
 
 <img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/main/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel architecture diagram showing API, worker, PostgreSQL and controlled egress boundary"/>
 
