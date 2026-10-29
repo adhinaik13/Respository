@@ -45,11 +45,11 @@ CPython · Python tooling · Regression tests
 ### 01 — LOW-LATENCY MATCHING ENGINE
 <img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Custom matching engine systems dashboard showing bid book, price-time matching core and event path"/>
 
-A C++20 limit-order-book prototype with price-time priority, full and partial fills, cancellation, order lookup, and a bounded single-producer/single-consumer event path.
+A C++20 limit-order-book prototype with price-time priority, full and partial fills, indexed order cancellation, order lookup, and a bounded single-producer/single-consumer event path. The latest implementation maintains queue-position iterators for efficient cancellation and includes a 1,000-order cancellation/FIFO stress test.
 
 **STACK** &nbsp; `C++20` &nbsp; `CMake` &nbsp; `Testing` &nbsp; `Benchmarking`
 
-**VERIFICATION** &nbsp; Release assertions remain enabled in tests; CI includes AddressSanitizer and UndefinedBehaviorSanitizer. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine/actions)
+**VERIFICATION** &nbsp; Release assertions remain enabled in tests; CI includes AddressSanitizer and UndefinedBehaviorSanitizer, cancellation-heavy workload checks, and five-workload benchmark evidence with runner/compiler metadata. Results are CI-run-specific, not universal hardware claims. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine/actions) · [Benchmark methodology ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine/blob/main/docs/BENCHMARKING.md)
 
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine)
 
