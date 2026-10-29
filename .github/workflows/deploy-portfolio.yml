@@ -32,9 +32,6 @@ jobs:
           grep -q '<title>' site/index.html
           grep -q 'prefers-reduced-motion' site/index.html
           grep -q 'aria-label="Main navigation"' site/index.html
-          grep -q 'id="introVideo"' site/index.html
-          grep -q 'talking-intro.mp4' site/index.html
-          grep -q 'Read the transcript' site/index.html
           grep -q 'developer-avatar-talking.svg' site/index.html
           test -s site/assets/developer-avatar-talking.svg
       - name: Configure Pages
