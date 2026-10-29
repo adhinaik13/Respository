@@ -70,6 +70,43 @@ header{top:10px}.nav{padding-block:12px}.brand{color:var(--ink)}.mark{border-col
 .character-card.is-speaking .character-bubble:after{background:#c9ff57}
 @keyframes talkFloat{from{transform:translateY(0) rotate(-1deg) scale(1)}to{transform:translateY(-5px) rotate(1deg) scale(1.025)}}
 @media(prefers-reduced-motion:reduce){.character-card.is-speaking{animation:none}}
+
+/* Hero composition cleanup: give each visual element its own space */
+@media (min-width:901px){
+  .hero-art{min-height:640px;padding:22px 0 8px}
+  .art-card{width:min(100%,500px);transform:translateY(-34px);padding:9px}
+  .fl-one{top:0;right:2%;z-index:4}
+  .fl-two{bottom:0;left:0;z-index:4}
+  .character-card{width:148px;right:1%;bottom:2%;z-index:5}
+  .character-bubble{right:-8px;top:0;max-width:145px;white-space:normal;text-align:center;line-height:1.35}
+}
+@media (min-width:901px) and (max-width:1150px){
+  .hero-grid{grid-template-columns:1fr .95fr;gap:28px}
+  .hero-art{min-height:580px}
+  .art-card{width:100%;transform:translateY(-25px)}
+  .character-card{width:125px;right:0;bottom:1%}
+  .float-label{padding:10px 12px}
+  .fl-two{left:-1%}
+}
+@media (max-width:900px){
+  .hero-art{min-height:510px;padding:18px 0 30px}
+  .art-card{width:min(100%,480px);transform:none}
+  .fl-one{top:0;right:2%}
+  .fl-two{bottom:0;left:2%}
+  .character-card{width:125px;right:0;bottom:0}
+  .character-bubble{right:-5px;top:0;max-width:130px;white-space:normal;text-align:center;line-height:1.35}
+}
+@media (max-width:640px){
+  .hero-art{min-height:400px;padding:20px 0 28px}
+  .art-card{width:calc(100% - 12px);padding:7px;border-radius:19px}
+  .art-caption{font-size:9px;padding:12px 5px 4px}
+  .float-label{font-size:9px;padding:8px 10px;border-radius:10px}
+  .fl-one{top:0;right:0}
+  .fl-two{bottom:0;left:0}
+  .character-card{width:100px;right:-2px;bottom:-2px}
+  .character-bubble{right:-2px;top:-3px;max-width:112px;padding:7px 8px;font-size:9px}
+}
+
 </style>
 </head>
 <body>
