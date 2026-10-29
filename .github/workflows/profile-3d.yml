@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: profile-3d-contrib
+  group: profile-art-refresh
   cancel-in-progress: false
 
 jobs:
