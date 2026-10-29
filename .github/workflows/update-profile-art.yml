@@ -8,6 +8,10 @@ on:
     branches: [main]
     paths:
       - "scripts/**"
+      - "README.md"
+      - "contrib-heatmap.svg"
+      - "avi-ascii.svg"
+      - "info-card.svg"
       - ".github/workflows/update-profile-art.yml"
 
 permissions:
