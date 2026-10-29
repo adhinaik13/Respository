@@ -108,16 +108,17 @@ An air-quality prediction project exploring time-series evaluation with a chrono
 
 ### 06 — UPTIME SENTINEL
 
-A FastAPI uptime-monitoring service for HTTP/HTTPS endpoints, with latency and failure tracking, incident lifecycle management, a read-only public status page, PostgreSQL-backed worker leases, and configurable daily cleanup of expired check history.
+A FastAPI uptime-monitoring service for HTTP/HTTPS endpoints, with latency and failure tracking, incident lifecycle management, a read-only public status page, PostgreSQL-backed worker leases, and configurable cleanup of expired check history.
 
 **STACK** &nbsp; `Python 3.12` &nbsp; `FastAPI` &nbsp; `PostgreSQL` &nbsp; `SQLAlchemy` &nbsp; `Docker Compose` &nbsp; `GitHub Actions`
 
-**VERIFICATION** &nbsp; CI run #88 passed the standard checks and Docker Compose smoke test, including Codecov upload. The real controlled egress-proxy security integration remains skipped pending private proxy fixtures/secrets; production deployment is not yet verified.
+**PROJECT STATUS** &nbsp; Free GitHub portfolio project · local Compose demo · no paid hosting required.
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/integration/sentry-doppler/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel architecture diagram showing API, worker, PostgreSQL and controlled egress boundary"/>
+**VERIFICATION** &nbsp; The latest confirmed passing baseline [CI run #179](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40830636294) passed code checks and Docker Compose smoke tests. Later documentation commits are triggering CI; see [all workflow runs](https://github.com/vankudothuadhinaik/uptime-sentinel/actions). The opt-in controlled egress-proxy security suite is skipped until dedicated fixtures/secrets are configured, so it is not claimed as passed. No production deployment is claimed.
 
-[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [LATEST VERIFIED CI RUN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40681979743) · [OPEN PR #4 ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/pull/4) · [PROJECT README ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/integration/sentry-doppler/README.md) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/integration/sentry-doppler/EGRESS_PROXY_TESTING.md)
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/main/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel architecture diagram showing API, worker, PostgreSQL and controlled egress boundary"/>
 
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [LATEST CI RUNS ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions) · [PROJECT README ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/README.md) · [RELEASE CHECKLIST ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/RELEASE_CHECKLIST.md) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/EGRESS_PROXY_TESTING.md)
 ---
 
 ## OPEN SOURCE
