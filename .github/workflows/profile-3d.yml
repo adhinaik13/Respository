@@ -42,4 +42,17 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add profile-3d-contrib
           git commit -m "chore: refresh 3D contribution profile"
-          git push
+          # Other profile workflows may have advanced main after this job checked out.
+          # Rebase the generated asset commit onto the latest main before pushing.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; refreshing main and retrying."
+            git rebase --abort || true
+            sleep 2
+          done
+          echo "Could not push generated 3D contribution assets after three attempts."
+          exit 1
