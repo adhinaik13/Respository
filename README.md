@@ -124,9 +124,29 @@ An air-quality prediction project exploring time-series evaluation with a chrono
 ---
 
 <details>
-<summary><strong>MORE BUILDS — DATA · ML · FRONTEND</strong></summary>
+<summary><strong>MORE BUILDS — DEVELOPER TOOLS · STORAGE · JOB QUEUES · FRONTEND</strong></summary>
 
-- **[TodoList Management Application](https://github.com/vankudothuadhinaik/TodoList-Management-Application)** — React task workflow with accessible actions and localStorage persistence.
+### 07 — REP PILOT
+
+Evidence-grounded repository intelligence with local indexing, Python symbol discovery, static import edges, SQLite/FTS search, cited source snippets, optional OpenAI-compatible answers, and MCP tools. The synthetic 50-query benchmark is a reproducibility fixture, not a real-world accuracy claim.
+
+**VERIFICATION** &nbsp; Main CI passes lint, core mypy, tests, compilation, retrieval evaluation, frontend production build, Docker build, and optional MCP import. The API's shared bearer token is not full identity, role-based authorization, or tenant isolation. [Source ↗](https://github.com/vankudothuadhinaik/RepoPilot) · [CI runs ↗](https://github.com/vankudothuadhinaik/RepoPilot/actions)
+
+### 08 — STOREFORGE
+
+An educational object-storage system with content-addressed chunks, SHA-256 integrity checks, SQLite/PostgreSQL metadata options, a three-node replicated demo, replica fallback, and object metadata operations.
+
+**VERIFICATION** &nbsp; Latest main CI passes Ruff, format, mypy, tests, container build, and a three-node integration check for binary upload/download, replica failover, API restart, and PostgreSQL metadata. This local Compose demo does not prove independent hardware failure tolerance; user authentication and automated garbage collection remain unimplemented. [Source ↗](https://github.com/vankudothuadhinaik/StoreForge) · [CI runs ↗](https://github.com/vankudothuadhinaik/StoreForge/actions)
+
+### 09 — FLUXQUEUE
+
+A durable job-processing foundation using FastAPI, SQLAlchemy, PostgreSQL, Alembic, idempotency keys, worker leases, lease fencing, retries, and a dead-letter state.
+
+**VERIFICATION** &nbsp; CI exercises schema migrations and PostgreSQL lease fencing, with API/worker tests and container smoke checks. Execution is at-least-once; authentication and tenant authorization remain outstanding. CodeQL scans source, but SARIF upload permission is still being addressed, so the analysis job is advisory rather than proof of a published clean report. [Source ↗](https://github.com/vankudothuadhinaik/FluxQueue) · [CI runs ↗](https://github.com/vankudothuadhinaik/FluxQueue/actions)
+
+### 10 — TODO LIST MANAGEMENT APPLICATION
+
+A React task workflow with accessible actions and localStorage persistence. [Source ↗](https://github.com/vankudothuadhinaik/TodoList-Management-Application)
 
 [SEE ALL REPOSITORIES ↗](https://github.com/vankudothuadhinaik?tab=repositories)
 
