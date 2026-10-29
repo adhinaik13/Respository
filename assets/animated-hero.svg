@@ -1,59 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
-<title id="title">Adhi Naik — engineer who builds beyond the happy path</title><desc id="desc">Cinematic midnight glass profile hero with animated neon accents, a camera-viewfinder portrait, system telemetry and a prominent introduction.</desc>
-<defs>
- <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080b15"/><stop offset=".55" stop-color="#10152a"/><stop offset="1" stop-color="#1b1030"/></linearGradient>
- <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38e8ff"/><stop offset=".48" stop-color="#9b8cff"/><stop offset="1" stop-color="#ff79c6"/></linearGradient>
- <linearGradient id="nameGlow" x1="0" y1="0" x2="1" y2=".2"><stop stop-color="#f6fbff"/><stop offset=".42" stop-color="#7ceeff"/><stop offset=".76" stop-color="#b5a5ff"/><stop offset="1" stop-color="#ff9bd6"/></linearGradient>
- <radialGradient id="halo"><stop stop-color="#6b5cff" stop-opacity=".35"/><stop offset="1" stop-color="#6b5cff" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9ca9ff" stroke-opacity=".075" stroke-width="1"/></pattern>
- <filter id="glow"><feGaussianBlur stdDeviation="4"/></filter>
- <clipPath id="portraitClip"><rect x="810" y="65" width="310" height="300" rx="28"/></clipPath>
-</defs>
-<rect width="1200" height="460" rx="26" fill="url(#hbg)"/><rect width="1200" height="460" rx="26" fill="url(#grid)"/>
-<ellipse cx="1000" cy="190" rx="270" ry="250" fill="url(#halo)"><animate attributeName="opacity" values=".65;1;.65" dur="6s" repeatCount="indefinite"/></ellipse>
-<rect x="1" y="1" width="1198" height="458" rx="25" fill="none" stroke="url(#aurora)" stroke-opacity=".72"/>
-<path d="M0 390 Q260 340 520 410 T1200 370" fill="none" stroke="#7c73ff" stroke-opacity=".16" stroke-width="1"/>
-<text x="48" y="43" fill="#6eeaff" font-family="monospace" font-size="12" letter-spacing="3">ADHI.NAIK / ENGINEERING PORTFOLIO</text>
-<rect x="48" y="66" width="222" height="30" rx="15" fill="#10252d" stroke="#2ce6e9" stroke-opacity=".55"/>
-<circle cx="65" cy="81" r="4" fill="#48f0c8"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
-<text x="79" y="85" fill="#c7fff2" font-family="monospace" font-size="11" letter-spacing=".6">OPEN TO OPPORTUNITIES</text>
-<text x="48" y="145" fill="#d5deff" font-family="Arial,sans-serif" font-size="21">Hi, I'm</text>
-<text x="44" y="205" fill="url(#nameGlow)" font-family="Arial,sans-serif" font-size="57" font-weight="800" letter-spacing="-2">Adhi Naik.</text>
-<rect x="48" y="224" width="3" height="28" rx="1.5" fill="#46e7ff"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
-<text x="63" y="244" fill="#e4e9ff" font-family="Arial,sans-serif" font-size="20">I engineer systems that hold up under pressure.</text>
-<text x="48" y="276" fill="#aeb8d8" font-family="Arial,sans-serif" font-size="15">C++ · backend platforms · developer tools · open source</text>
-<g font-family="monospace" font-size="11">
- <rect x="48" y="306" width="116" height="32" rx="8" fill="#152438" stroke="#3bdcf3" stroke-opacity=".6"/><text x="106" y="326" fill="#6feaff" text-anchor="middle">SYSTEMS</text>
- <rect x="174" y="306" width="116" height="32" rx="8" fill="#201b3b" stroke="#a99aff" stroke-opacity=".65"/><text x="232" y="326" fill="#c6baff" text-anchor="middle">BACKEND</text>
- <rect x="300" y="306" width="142" height="32" rx="8" fill="#321c35" stroke="#ff83cc" stroke-opacity=".6"/><text x="371" y="326" fill="#ffb1df" text-anchor="middle">OPEN SOURCE</text>
-</g>
-<text x="48" y="389" fill="#8491b5" font-family="monospace" font-size="11">IIT (ISM) DHANBAD  /  INTEGRATED M.TECH</text>
-<text x="48" y="409" fill="#65718f" font-family="monospace" font-size="10">MATHEMATICS &amp; COMPUTING</text>
-<!-- camera monitor -->
-<rect x="794" y="47" width="344" height="338" rx="25" fill="#0a0e1a" stroke="#6273a8" stroke-opacity=".55"/>
-<rect x="805" y="58" width="322" height="316" rx="18" fill="#10182a" stroke="#283858"/>
-<g clip-path="url(#portraitClip)">
- <rect x="810" y="65" width="310" height="300" rx="28" fill="#121b30"/>
- <circle cx="964" cy="178" r="148" fill="#1b2b4b"/><circle cx="964" cy="178" r="119" fill="#21385a" opacity=".6"/>
- <path d="M828 368 Q833 278 896 256 L1035 256 Q1095 282 1103 368Z" fill="#202f50"/>
- <path d="M918 231 L918 271 L964 301 L1011 270 L1011 231" fill="#dba17f"/>
- <path d="M895 136 Q897 80 963 80 Q1030 80 1034 139 L1027 195 Q1016 241 964 247 Q915 241 902 194Z" fill="#e8b18e"/>
- <path d="M893 153 Q873 111 897 81 Q927 48 976 57 Q1036 60 1043 110 L1033 154 L1018 119 Q986 118 957 96 Q930 120 902 119Z" fill="#111522"/>
- <path d="M899 113 Q945 61 1002 84" fill="none" stroke="#6ce9ff" stroke-width="3" stroke-opacity=".85"/>
- <path d="M919 153 Q935 143 950 153 M980 153 Q995 143 1010 153" fill="none" stroke="#312532" stroke-width="4" stroke-linecap="round"/>
- <ellipse cx="935" cy="164" rx="5" ry="7" fill="#201c2a"/><ellipse cx="994" cy="164" rx="5" ry="7" fill="#201c2a"/>
- <path d="M950 190 L945 202 L960 207" fill="none" stroke="#b77b68" stroke-width="3" stroke-linecap="round"/>
- <path d="M941 218 Q963 234 986 217" fill="none" stroke="#914f5c" stroke-width="4" stroke-linecap="round"/>
- <rect x="910" y="144" width="46" height="34" rx="10" fill="none" stroke="#131a2a" stroke-width="4"/><rect x="979" y="144" width="46" height="34" rx="10" fill="none" stroke="#131a2a" stroke-width="4"/><path d="M956 157H979" stroke="#131a2a" stroke-width="4"/>
- <path d="M907 264 L964 305 L1020 264 L1054 368 L874 368Z" fill="#172440" stroke="#53e8ff" stroke-opacity=".5" stroke-width="2"/>
- <path d="M946 288 L964 306 L982 288" fill="none" stroke="#8b9dca" stroke-width="3"/>
- <path d="M810 110H836 M810 110V136 M1120 110H1094 M1120 110V136 M810 330H836 M810 330V304 M1120 330H1094 M1120 330V304" fill="none" stroke="#5deaff" stroke-width="3"/>
- <path d="M810 194H1120" stroke="#5deaff" stroke-opacity=".2"><animate attributeName="opacity" values=".1;.7;.1" dur="3s" repeatCount="indefinite"/></path>
-</g>
-<circle cx="1100" cy="76" r="4" fill="#ff638e"><animate attributeName="opacity" values="1;.2;1" dur="1s" repeatCount="indefinite"/></circle>
-<text x="1085" y="80" fill="#ff8aa8" font-family="monospace" font-size="9" text-anchor="end">REC</text>
-<rect x="820" y="347" width="292" height="4" rx="2" fill="#24344f"/><rect x="820" y="347" width="120" height="4" rx="2" fill="url(#aurora)"><animate attributeName="width" values="10;292;10" dur="5s" repeatCount="indefinite"/></rect>
-<text x="810" y="410" fill="#91a2ca" font-family="monospace" font-size="10">FIG. 01 / BUILDER MODE</text>
-<text x="1137" y="410" fill="#5be8ff" font-family="monospace" font-size="10" text-anchor="end">BUILD → TEST → SHIP</text>
-<path d="M700 430h440" stroke="url(#aurora)" stroke-opacity=".45"/><circle cx="700" cy="430" r="3" fill="#64eaff"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Adhi Naik — systems, backend engineering, and developer tools</title><desc id="desc">A clean cinematic midnight portfolio banner with large readable typography and animated abstract orbital geometry.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080d18"/><stop offset=".55" stop-color="#10172b"/><stop offset="1" stop-color="#21122d"/></linearGradient><linearGradient id="edge"><stop stop-color="#40eaff"/><stop offset=".5" stop-color="#9e91ff"/><stop offset="1" stop-color="#ff7fc8"/></linearGradient><linearGradient id="type"><stop stop-color="#fff"/><stop offset=".45" stop-color="#7defff"/><stop offset=".8" stop-color="#b7a8ff"/><stop offset="1" stop-color="#ffacd9"/></linearGradient><radialGradient id="aura"><stop stop-color="#5a68ff" stop-opacity=".24"/><stop offset="1" stop-color="#5a68ff" stop-opacity="0"/></radialGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9aa9ff" stroke-opacity=".065"/></pattern></defs>
+<rect width="1200" height="390" rx="24" fill="url(#bg)"/><rect width="1200" height="390" rx="24" fill="url(#grid)"/><rect x="1" y="1" width="1198" height="388" rx="23" fill="none" stroke="url(#edge)" stroke-opacity=".7"/><ellipse cx="950" cy="190" rx="260" ry="230" fill="url(#aura)"><animate attributeName="opacity" values=".65;1;.65" dur="6s" repeatCount="indefinite"/></ellipse>
+<text x="52" y="47" fill="#68eaff" font-family="monospace" font-size="12" letter-spacing="3">ADHI NAIK / ENGINEERING PORTFOLIO</text><rect x="52" y="66" width="226" height="31" rx="15" fill="#10262f" stroke="#37dfe8" stroke-opacity=".65"/><circle cx="70" cy="81" r="4" fill="#5bf0c8"><animate attributeName="opacity" values="1;.25;1" dur="1.5s" repeatCount="indefinite"/></circle><text x="84" y="85" fill="#c7fff2" font-family="monospace" font-size="11" letter-spacing=".6">BUILDING IN PUBLIC</text>
+<text x="52" y="151" fill="#d9e3ff" font-family="Arial,sans-serif" font-size="21">Hi, I'm</text><text x="48" y="214" fill="url(#type)" font-family="Arial,sans-serif" font-size="62" font-weight="800" letter-spacing="-2">Adhi Naik.</text><text x="53" y="251" fill="#f0f3ff" font-family="Arial,sans-serif" font-size="21">I build systems that stay predictable under pressure.</text><text x="53" y="282" fill="#aebbd9" font-family="Arial,sans-serif" font-size="16">Systems programming · Backend platforms · Developer tools · Open source</text>
+<g font-family="monospace" font-size="11"><rect x="52" y="309" width="139" height="34" rx="8" fill="#102b38" stroke="#39e3f4"/><text x="121" y="330" fill="#86f1ff" text-anchor="middle">SYSTEMS</text><rect x="202" y="309" width="139" height="34" rx="8" fill="#211c3d" stroke="#a99aff"/><text x="271" y="330" fill="#d0c6ff" text-anchor="middle">BACKEND</text><rect x="352" y="309" width="159" height="34" rx="8" fill="#301b35" stroke="#f47fc4"/><text x="431" y="330" fill="#ffb6df" text-anchor="middle">OPEN SOURCE</text></g><text x="53" y="368" fill="#7788ad" font-family="monospace" font-size="11">INTEGRATED M.TECH · MATHEMATICS &amp; COMPUTING · IIT (ISM) DHANBAD</text>
+<g transform="translate(930 188)"><circle r="142" fill="none" stroke="#39446c" stroke-width="1" stroke-dasharray="3 8"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="48s" repeatCount="indefinite"/></circle><ellipse rx="150" ry="63" fill="none" stroke="#40eaff" stroke-opacity=".8" stroke-width="1.5" transform="rotate(-28)"><animateTransform attributeName="transform" type="rotate" from="-28" to="332" dur="24s" repeatCount="indefinite"/></ellipse><ellipse rx="150" ry="63" fill="none" stroke="#a99aff" stroke-opacity=".8" stroke-width="1.5" transform="rotate(52)"><animateTransform attributeName="transform" type="rotate" from="52" to="412" dur="30s" repeatCount="indefinite"/></ellipse><ellipse rx="150" ry="63" fill="none" stroke="#ff7fc8" stroke-opacity=".7" stroke-width="1.5" transform="rotate(90)"/><circle r="76" fill="#111a30" stroke="url(#edge)" stroke-width="2"/><circle r="59" fill="none" stroke="#3c4b76" stroke-dasharray="4 7"/><path d="M-30 -13L-8 -35L14 -13L-8 9Z M-8 9L-30 31L-8 53L14 31L-8 9 M14 -13L36 9L14 31" fill="none" stroke="#73ecff" stroke-width="4" stroke-linejoin="round"/><circle cx="-105" cy="-63" r="7" fill="#43e9ff"><animate attributeName="r" values="5;9;5" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="106" cy="-75" r="6" fill="#ff8dce"><animate attributeName="r" values="4;8;4" dur="2.2s" repeatCount="indefinite"/></circle><circle cx="65" cy="121" r="5" fill="#b4a5ff"><animate attributeName="opacity" values="1;.2;1" dur="2.5s" repeatCount="indefinite"/></circle></g><text x="1090" y="350" fill="#91a2ca" font-family="monospace" font-size="10" text-anchor="end">DESIGN → TEST → SHIP</text></svg>
