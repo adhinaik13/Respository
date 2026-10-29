@@ -6,6 +6,8 @@
 
 [EXPLORE PROJECT DEEP DIVES](#project-deep-dives) &nbsp; · &nbsp; [OPEN SOURCE](#open-source) &nbsp; · &nbsp; [CONTACT](mailto:22je1052@iitism.ac.in)
 
+[Matching Engine](https://github.com/vankudothuadhinaik/low-latency-matching-engine) &nbsp; · &nbsp; [Uptime Sentinel](https://github.com/vankudothuadhinaik/uptime-sentinel) &nbsp; · &nbsp; [UPI Offline Mesh](https://github.com/vankudothuadhinaik/UPI_Without_Internet) &nbsp; · &nbsp; [DataPulse](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
+
 </div>
 
 ---
