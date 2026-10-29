@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/hero-final.svg" width="100%" alt="Midnight portfolio hero with a glowing orbital system motif"/>
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-hero-v2.svg" width="100%" alt="Midnight portfolio hero with a glowing orbital system motif"/>
 
 ### ADHI NAIK
 **SYSTEMS ENGINEERING · BACKEND · DEVELOPER TOOLS**
@@ -9,7 +9,7 @@
 
 [FEATURED BUILDS](#featured-builds) &nbsp; · &nbsp; [ENGINEERING NOTES](#project-deep-dives) &nbsp; · &nbsp; [OPEN SOURCE](#open-source) &nbsp; · &nbsp; [CONTACT](mailto:22je1052@iitism.ac.in)
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-id-dashboard.svg?v=4" width="100%" alt="Illustrated developer identity card beside a dark engineering dashboard"/>
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-about-life.svg?v=5" width="100%" alt="Illustrated developer identity card beside a dark engineering dashboard"/>
 
 <sub>INTEGRATED M.TECH · MATHEMATICS & COMPUTING · IIT (ISM) DHANBAD</sub>
 
@@ -32,6 +32,12 @@
 ---
 
 ## FEATURED BUILDS
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/project-constellation.svg?v=1" width="100%" alt="Animated constellation connecting systems, reliability, analytics, and developer tools projects"/>
+
+</div>
 
 <table>
 <tr>
