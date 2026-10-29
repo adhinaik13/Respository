@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./hero.svg?v=2" width="100%" alt="Animated midnight-glass hero for Adhi Naik, systems and backend engineer"/>
+<img src="./hero.svg?v=3" width="100%" alt="Animated midnight-glass hero for Adhi Naik, systems and backend engineer"/>
 
 **SYSTEMS ENGINEERING · BACKEND PLATFORMS · DEVELOPER TOOLS · OPEN SOURCE**
 
@@ -10,11 +10,11 @@
 
 ---
 
-<img src="./about-life.svg?v=2" width="100%" alt="What I build and engineering interests"/>
+<img src="./about-life.svg?v=3" width="100%" alt="What I build and engineering interests"/>
 
-<img src="./stack.svg?v=2" width="100%" alt="Animated orbiting technology stack and skills"/>
+<img src="./stack.svg?v=3" width="100%" alt="Animated orbiting technology stack and skills"/>
 
-<img src="./id-dashboard.svg?v=2" width="100%" alt="Animated engineering ID badge and featured repository dashboard"/>
+<img src="./id-dashboard.svg?v=3" width="100%" alt="Animated engineering ID badge and featured repository dashboard"/>
 
 ---
 
@@ -211,7 +211,7 @@ A responsive React task manager with accessible controls, active/completed filte
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/profile-3d-contrib/profile-night-rainbow.svg?v=2" width="100%" alt="Three-dimensional GitHub contribution city, refreshed daily by GitHub Actions"/>
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/profile-3d-contrib/profile-night-rainbow.svg?v=3" width="100%" alt="Three-dimensional GitHub contribution city, refreshed daily by GitHub Actions"/>
 
 <sub>A separate 3D activity visualization, refreshed by GitHub Actions. GitHub’s native contribution graph below the README remains the authoritative yearly total.</sub>
 
@@ -291,4 +291,4 @@ jvm-mcp #230 belongs to another contributor (Chandu0501) and is merged upstream;
 
 ---
 
-<img src="./connect.svg?v=2" width="100%" alt="Animated contact panel for Adhi Naik"/>
+<img src="./connect.svg?v=3" width="100%" alt="Animated contact panel for Adhi Naik"/>
