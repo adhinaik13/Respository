@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-hero.svg?v=5" width="100%" alt="Animated midnight-glass engineering portfolio for Vankudothu Adhi Naik"/>
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/hero-final.svg" width="100%" alt="Animated midnight-glass engineering portfolio for Vankudothu Adhi Naik"/>
 
 **INTEGRATED M.TECH · MATHEMATICS & COMPUTING · IIT (ISM) DHANBAD**
 
