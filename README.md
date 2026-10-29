@@ -1,37 +1,34 @@
 <div align="center">
 
-<h3><code>adhi@github ~ $ ./contributions.sh</code></h3>
+<img src="./hero.svg?v=2" width="100%" alt="Animated midnight-glass hero for Adhi Naik, systems and backend engineer"/>
 
-<img src="./contrib-heatmap.svg?v=1" width="100%" alt="Animated GitHub contribution heatmap generated from the public contribution calendar"/>
+**SYSTEMS ENGINEERING · BACKEND PLATFORMS · DEVELOPER TOOLS · OPEN SOURCE**
 
-<br><br>
-
-<h3><code>adhi@github ~ $ whoami</code></h3>
-
-<table>
-<tr>
-<td valign="top" width="40%" align="center"><img src="./avi-ascii.svg?v=1" width="100%" alt="Animated monochrome ASCII portrait"/></td>
-<td valign="top" width="60%"><img src="./info-card.svg?v=1" width="100%" alt="Animated neofetch-style developer information card"/></td>
-</tr>
-</table>
-
-<sub>Self-generated SVG art · no external stats service · contribution calendar refreshed daily by GitHub Actions</sub>
+[PROJECTS](#project-table) · [ENGINEERING PRINCIPLES](#engineering-principles) · [OPEN SOURCE](#open-source) · [CONTACT](#connect)
 
 </div>
 
 ---
 
-<div align="center">
+<img src="./about-life.svg?v=2" width="100%" alt="What I build and engineering interests"/>
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-portfolio-dashboard-v2.svg?v=1" width="100%" alt="Readable animated portfolio dashboard with illustrated profile, bold identity, orbital system map, and four featured projects"/>
+<img src="./stack.svg?v=2" width="100%" alt="Animated orbiting technology stack and skills"/>
 
-**SYSTEMS ENGINEERING · BACKEND PLATFORMS · DEVELOPER TOOLS · OPEN SOURCE**
+<img src="./id-dashboard.svg?v=2" width="100%" alt="Animated engineering ID badge and featured repository dashboard"/>
 
-[EXPLORE PROJECT DEEP DIVES](#project-deep-dives) &nbsp; · &nbsp; [OPEN SOURCE](#open-source) &nbsp; · &nbsp; [CONTACT](mailto:22je1052@iitism.ac.in)
+---
 
-[Matching Engine](https://github.com/vankudothuadhinaik/low-latency-matching-engine) &nbsp; · &nbsp; [Uptime Sentinel](https://github.com/vankudothuadhinaik/uptime-sentinel) &nbsp; · &nbsp; [UPI Offline Mesh](https://github.com/vankudothuadhinaik/UPI_Without_Internet) &nbsp; · &nbsp; [DataPulse](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
+## PROJECT TABLE
 
-</div>
+<table>
+<tr><th>Project</th><th>What it demonstrates</th><th>Stack</th></tr>
+<tr><td><a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine">Low-Latency Matching Engine</a></td><td>Price-time order matching, cancellation, bounded event path, benchmark methodology</td><td>C++20 · CMake</td></tr>
+<tr><td><a href="https://github.com/vankudothuadhinaik/RepoPilot">RepoPilot</a></td><td>Local code indexing, evidence-grounded search, API and dashboard</td><td>Python · SQLite · React</td></tr>
+<tr><td><a href="https://github.com/vankudothuadhinaik/FluxQueue">FluxQueue</a></td><td>Durable jobs, leases, idempotency, retries and dead-letter handling</td><td>FastAPI · PostgreSQL</td></tr>
+<tr><td><a href="https://github.com/vankudothuadhinaik/uptime-sentinel">Uptime Sentinel</a></td><td>Scheduled checks, incidents, worker coordination and status pages</td><td>FastAPI · PostgreSQL</td></tr>
+<tr><td><a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet">UPI Offline Mesh</a></td><td>Offline-payment prototype, authenticated encryption and replay protection</td><td>Java · Spring Boot</td></tr>
+<tr><td><a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics">DataPulse Analytics</a></td><td>Event ingestion, aggregation, migrations and dashboard</td><td>FastAPI · PostgreSQL · React</td></tr>
+</table>
 
 ---
 
@@ -290,3 +287,8 @@ jvm-mcp #230 belongs to another contributor (Chandu0501) and is merged upstream;
 [EMAIL ME ↗](mailto:22je1052@iitism.ac.in) &nbsp; · &nbsp; [GITHUB ↗](https://github.com/vankudothuadhinaik)
 
 </div>
+
+
+---
+
+<img src="./connect.svg?v=2" width="100%" alt="Animated contact panel for Adhi Naik"/>
