@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="t d">
+<title id="t">Adhi Naik — animated systems engineering portfolio</title>
+<desc id="d">A cinematic animated sci-fi interface with orbiting nodes, glowing code streams, animated status indicators, a luminous geometric core, and bold portfolio typography.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050812"/><stop offset=".48" stop-color="#0d1428"/><stop offset="1" stop-color="#20102c"/></linearGradient>
+ <linearGradient id="neon"><stop stop-color="#4ff6ff"/><stop offset=".48" stop-color="#a08cff"/><stop offset="1" stop-color="#ff69c7"/></linearGradient>
+ <linearGradient id="headline"><stop stop-color="#fff"/><stop offset=".35" stop-color="#9bf6ff"/><stop offset=".7" stop-color="#c3aaff"/><stop offset="1" stop-color="#ffb2e3"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#5a69ff" stop-opacity=".34"/><stop offset=".65" stop-color="#7c3fff" stop-opacity=".12"/><stop offset="1" stop-color="#7c3fff" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#7f94d9" stroke-opacity=".09" stroke-width=".7"/></pattern>
+ <filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
+ <filter id="glowline"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="clip"><rect width="1200" height="500" rx="26"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+ <rect width="1200" height="500" fill="url(#bg)"/><rect width="1200" height="500" fill="url(#grid)"/>
+ <ellipse cx="936" cy="245" rx="300" ry="260" fill="url(#glow)"><animate attributeName="opacity" values=".65;1;.65" dur="5s" repeatCount="indefinite"/></ellipse>
+ <g fill="none" stroke="#5369a3" stroke-opacity=".32"><path d="M0 420L380 40L720 40L1180 500"/><path d="M0 460L420 40"/><path d="M670 0L1200 450"/><path d="M760 0L1200 350"/></g>
+ <g fill="#b9eaff"><circle cx="720" cy="82" r="1.4"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle><circle cx="1120" cy="95" r="2"><animate attributeName="opacity" values="1;.2;1" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="1080" cy="390" r="1.5"/><circle cx="640" cy="380" r="1.2"/><circle cx="760" cy="440" r="2"><animate attributeName="r" values="1;3;1" dur="3s" repeatCount="indefinite"/></circle><circle cx="1150" cy="260" r="1.4"/></g>
+ <rect x="1" y="1" width="1198" height="498" rx="25" fill="none" stroke="url(#neon)" stroke-opacity=".8"/>
+ <path d="M0 118H1200" stroke="#92a8e8" stroke-opacity=".15"/><path d="M0 120H1200" stroke="#4ff6ff" stroke-opacity=".35"><animate attributeName="stroke-opacity" values=".08;.45;.08" dur="4s" repeatCount="indefinite"/></path>
+ <text x="46" y="47" fill="#7bf2ff" font-family="monospace" font-size="12" letter-spacing="3">PORTFOLIO.EXE <tspan fill="#7786b3">/ 2026</tspan></text>
+ <g transform="translate(1025 44)" font-family="monospace" font-size="10"><circle r="4" fill="#5cf0c7"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle><text x="13" y="4" fill="#b5ffe9" letter-spacing="1">SYSTEMS ONLINE</text></g>
+ <rect x="46" y="77" width="252" height="27" rx="13.5" fill="#10272f" stroke="#3de8ef" stroke-opacity=".65"/><circle cx="63" cy="90" r="3.5" fill="#54f4ce"><animate attributeName="r" values="2.5;4;2.5" dur="1.7s" repeatCount="indefinite"/></circle><text x="76" y="94" fill="#c8fff4" font-family="monospace" font-size="10" letter-spacing="1">BUILDING IN PUBLIC</text>
+ <text x="46" y="178" fill="#b5c1df" font-family="Arial,sans-serif" font-size="20">Hello, world. I'm</text>
+ <text x="40" y="245" fill="url(#headline)" font-family="Arial,sans-serif" font-size="65" font-weight="800" letter-spacing="-2">Adhi Naik</text>
+ <rect x="46" y="261" width="5" height="31" rx="2" fill="#54efff"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+ <text x="62" y="284" fill="#f5f5ff" font-family="Arial,sans-serif" font-size="23">I build software that survives the edge cases.</text>
+ <text x="47" y="319" fill="#a7b4d7" font-family="Arial,sans-serif" font-size="15">Systems programming · Backend platforms · Developer tools</text>
+ <g font-family="monospace" font-size="10">
+  <rect x="46" y="350" width="132" height="33" rx="8" fill="#102c39" stroke="#3de8ef"/><text x="112" y="371" fill="#8af6ff" text-anchor="middle">C++ / SYSTEMS</text>
+  <rect x="189" y="350" width="137" height="33" rx="8" fill="#211c3d" stroke="#a99aff"/><text x="257" y="371" fill="#d4caff" text-anchor="middle">BACKEND / API</text>
+  <rect x="337" y="350" width="151" height="33" rx="8" fill="#301b35" stroke="#ff7fc8"/><text x="412" y="371" fill="#ffb6e2" text-anchor="middle">OPEN SOURCE</text>
+ </g>
+ <text x="47" y="422" fill="#7888b0" font-family="monospace" font-size="10" letter-spacing=".7">INTEGRATED M.TECH · MATHEMATICS &amp; COMPUTING</text>
+ <text x="47" y="440" fill="#7888b0" font-family="monospace" font-size="10">IIT (ISM) DHANBAD</text>
+ <path d="M47 461H470" stroke="#3a476d"/><path d="M47 461H47" stroke="#65f1ff" stroke-width="2"><animate attributeName="d" values="M47 461H47;M47 461H470;M47 461H47" dur="6s" repeatCount="indefinite"/></path>
+ <text x="47" y="482" fill="#68799f" font-family="monospace" font-size="9">DESIGN → TEST → OBSERVE → IMPROVE</text>
+ <!-- Animated reactor / orbital system -->
+ <g transform="translate(900 268)">
+  <circle r="185" fill="url(#glow)"/>
+  <circle r="162" fill="none" stroke="#394c80" stroke-width="1" stroke-dasharray="2 8"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="65s" repeatCount="indefinite"/></circle>
+  <ellipse rx="190" ry="70" fill="none" stroke="#4cecff" stroke-opacity=".8" stroke-width="1.4" transform="rotate(-28)"><animateTransform attributeName="transform" type="rotate" from="-28" to="332" dur="22s" repeatCount="indefinite"/></ellipse>
+  <ellipse rx="170" ry="91" fill="none" stroke="#b59aff" stroke-opacity=".75" stroke-width="1.4" transform="rotate(53)"><animateTransform attributeName="transform" type="rotate" from="53" to="-307" dur="29s" repeatCount="indefinite"/></ellipse>
+  <ellipse rx="145" ry="117" fill="none" stroke="#ff7cc9" stroke-opacity=".72" stroke-width="1.3" transform="rotate(110)"><animateTransform attributeName="transform" type="rotate" from="110" to="470" dur="36s" repeatCount="indefinite"/></ellipse>
+  <circle r="105" fill="#0a1123" stroke="url(#neon)" stroke-width="2.5" filter="url(#glowline)"><animate attributeName="r" values="101;106;101" dur="4s" repeatCount="indefinite"/></circle>
+  <circle r="88" fill="none" stroke="#425586" stroke-dasharray="3 7"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite"/></circle>
+  <path d="M-42 -12L0 -54L42 -12L0 30Z M0 30L-42 72L0 114L42 72L0 30 M42 -12L84 30L42 72" fill="none" stroke="#6ff1ff" stroke-width="5" stroke-linejoin="round" transform="translate(0 -30) scale(.72)"/>
+  <circle cx="0" cy="-30" r="4" fill="#ff8bd4"><animate attributeName="r" values="3;7;3" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="0" y="53" fill="#e5e9ff" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="2">ENGINEERING</text>
+  <text x="0" y="69" fill="#7b8bb5" text-anchor="middle" font-family="monospace" font-size="8">CORE / V.01</text>
+  <g><circle cx="-157" cy="-76" r="7" fill="#4cecff" filter="url(#glowline)"><animateMotion dur="8s" repeatCount="indefinite" path="M0 0 A170 70 -28 1 1 1 0"/></animateMotion></circle><circle cx="148" cy="81" r="5" fill="#ff7cc9"><animateMotion dur="7s" repeatCount="indefinite" path="M0 0 A145 117 110 1 0 1 0"/></animateMotion></circle><circle cx="42" cy="-160" r="4" fill="#b59aff"><animateMotion dur="10s" repeatCount="indefinite" path="M0 0 A170 91 53 1 1 1 0"/></animateMotion></circle></g>
+  <g font-family="monospace" font-size="9"><rect x="-240" y="-132" width="104" height="25" rx="7" fill="#0d2634" stroke="#3de8ef"/><text x="-188" y="-116" text-anchor="middle" fill="#8af6ff">C++20 / CORE</text><rect x="128" y="-134" width="108" height="25" rx="7" fill="#201b3a" stroke="#a99aff"/><text x="182" y="-118" text-anchor="middle" fill="#d3caff">API / DATA</text><rect x="143" y="129" width="112" height="25" rx="7" fill="#301b35" stroke="#ff7fc8"/><text x="199" y="145" text-anchor="middle" fill="#ffb8e3">OPEN SOURCE</text><rect x="-254" y="126" width="105" height="25" rx="7" fill="#16233a" stroke="#6277a7"/><text x="-201" y="142" text-anchor="middle" fill="#b5c5ee">TEST / VERIFY</text></g>
+ </g>
+ <!-- floating code panes -->
+ <g transform="translate(670 64)" opacity=".9"><rect width="184" height="62" rx="10" fill="#0b1224" stroke="#43537d" stroke-opacity=".8"/><circle cx="13" cy="13" r="3" fill="#ff7799"/><circle cx="23" cy="13" r="3" fill="#ffd36e"/><circle cx="33" cy="13" r="3" fill="#55e8bd"/><text x="14" y="34" fill="#62e9ff" font-family="monospace" font-size="9">if (edge_case)</text><text x="14" y="49" fill="#b5a5ff" font-family="monospace" font-size="9">  test_it();</text><path d="M-9 67H192" stroke="url(#neon)" stroke-opacity=".4"><animate attributeName="stroke-opacity" values=".1;.8;.1" dur="3s" repeatCount="indefinite"/></path></g>
+ <g transform="translate(1015 390)" opacity=".9"><rect width="142" height="54" rx="9" fill="#0b1224" stroke="#43537d"/><text x="13" y="20" fill="#8495bd" font-family="monospace" font-size="8">CI / CHECKS</text><text x="13" y="38" fill="#62f0c4" font-family="monospace" font-size="11">✓ VERIFIED</text><path d="M103 13L111 21L127 5" transform="translate(0 17)" fill="none" stroke="#62f0c4" stroke-width="2"><animate attributeName="stroke-opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/></path></g>
+ <path d="M654 165L704 165L724 185" fill="none" stroke="#6beaff" stroke-opacity=".5" stroke-dasharray="3 5"><animate attributeName="stroke-dashoffset" values="0;-16" dur="2s" repeatCount="indefinite"/></path>
+ <path d="M1040 160L1082 160L1100 178" fill="none" stroke="#ff83cf" stroke-opacity=".6" stroke-dasharray="3 5"><animate attributeName="stroke-dashoffset" values="0;-16" dur="2s" repeatCount="indefinite"/></path>
+</g>
+</svg>
