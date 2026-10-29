@@ -53,7 +53,23 @@ A C++20 limit-order-book prototype with price-time priority, full and partial fi
 
 ---
 
-### 02 — UPI OFFLINE MESH
+### 02 — UPTIME SENTINEL
+
+A FastAPI uptime-monitoring service for HTTP/HTTPS endpoints, with latency and failure tracking, incident lifecycle management, a read-only public status page, PostgreSQL-backed worker leases, and configurable cleanup of expired check history.
+
+**STACK** &nbsp; `Python 3.12` &nbsp; `FastAPI` &nbsp; `PostgreSQL` &nbsp; `SQLAlchemy` &nbsp; `Docker Compose` &nbsp; `GitHub Actions`
+
+**PROJECT STATUS** &nbsp; Free GitHub portfolio project · local Compose demo · no paid hosting required.
+
+**VERIFICATION** &nbsp; [CI run #197](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40837386321) passed code checks and the Docker Compose end-to-end smoke test, including registration/login, monitor creation, worker check persistence, and public status. A separate local Compose run on 2026-10-29 verified the same flow with a persisted HTTP 200 check. GitHub Secret Scanning showed 0 open alerts in the repository UI screenshot on 2026-10-29; push protection was not separately verified. The opt-in controlled egress-proxy security suite remains skipped until dedicated fixtures/secrets are configured, so it is not claimed as passed. [Verification report](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/VERIFICATION_REPORT.md) · [Release checklist](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/RELEASE_CHECKLIST.md). No production deployment is claimed.
+
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/main/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel architecture diagram showing API, worker, PostgreSQL and controlled egress boundary"/>
+
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [LATEST CI RUNS ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions) · [PROJECT README ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/README.md) · [RELEASE CHECKLIST ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/RELEASE_CHECKLIST.md) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/EGRESS_PROXY_TESTING.md)
+
+---
+
+### 03 — UPI OFFLINE MESH
 <img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-upi-mesh.svg" width="100%" alt="Custom UPI Offline Mesh dashboard showing encrypted payload, signature verification, safe queueing and simulated reconciliation"/>
 
 An offline-payment prototype exploring encrypted QR payloads, RSA-PSS signatures, replay protection, idempotency, and simulated store-and-forward settlement.
@@ -64,7 +80,7 @@ An offline-payment prototype exploring encrypted QR payloads, RSA-PSS signatures
 
 ---
 
-### 03 — DATAPULSE ANALYTICS
+### 04 — DATAPULSE ANALYTICS
 <img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-datapulse.svg" width="100%" alt="Custom DataPulse Analytics dashboard showing event volume illustration, FastAPI ingestion, validation and dashboard layers"/>
 
 A full-stack event-analytics prototype combining API ingestion and aggregation, SQLAlchemy models, and a React + TypeScript dashboard. The chart in this illustration is sample artwork, not live product telemetry.
@@ -73,7 +89,7 @@ A full-stack event-analytics prototype combining API ingestion and aggregation, 
 
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
 
-### 04 — HEALTHSTREAM ETL
+### 05 — HEALTHSTREAM ETL
 
 <img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-healthstream.svg" width="100%" alt="HealthStream ETL dashboard illustration showing ingestion, validation, normalization, deduplication and data-quality reporting"/>
 
@@ -85,7 +101,7 @@ A synthetic healthcare-event pipeline focused on data quality: validation, norma
 
 ---
 
-### 05 — AQI PREDICTION
+### 06 — AQI PREDICTION
 
 <img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-aqi.svg" width="100%" alt="AQI prediction dashboard illustration with time-series trend, persistence baseline and station-wise evaluation workflow"/>
 
@@ -106,19 +122,7 @@ An air-quality prediction project exploring time-series evaluation with a chrono
 
 </details>
 
-### 06 — UPTIME SENTINEL
 
-A FastAPI uptime-monitoring service for HTTP/HTTPS endpoints, with latency and failure tracking, incident lifecycle management, a read-only public status page, PostgreSQL-backed worker leases, and configurable cleanup of expired check history.
-
-**STACK** &nbsp; `Python 3.12` &nbsp; `FastAPI` &nbsp; `PostgreSQL` &nbsp; `SQLAlchemy` &nbsp; `Docker Compose` &nbsp; `GitHub Actions`
-
-**PROJECT STATUS** &nbsp; Free GitHub portfolio project · local Compose demo · no paid hosting required.
-
-**VERIFICATION** &nbsp; [CI run #197](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40837386321) passed code checks and the Docker Compose end-to-end smoke test, including registration/login, monitor creation, worker check persistence, and public status. A separate local Compose run on 2026-10-29 verified the same flow with a persisted HTTP 200 check. GitHub Secret Scanning showed 0 open alerts in the repository UI screenshot on 2026-10-29; push protection was not separately verified. The opt-in controlled egress-proxy security suite remains skipped until dedicated fixtures/secrets are configured, so it is not claimed as passed. [Verification report](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/VERIFICATION_REPORT.md) · [Release checklist](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/RELEASE_CHECKLIST.md). No production deployment is claimed.
-
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/main/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel architecture diagram showing API, worker, PostgreSQL and controlled egress boundary"/>
-
-[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [LATEST CI RUNS ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions) · [PROJECT README ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/README.md) · [RELEASE CHECKLIST ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/RELEASE_CHECKLIST.md) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/EGRESS_PROXY_TESTING.md)
 ---
 
 ## OPEN SOURCE
