@@ -19,6 +19,12 @@ def main() -> None:
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
     days = []
+    # GitHub places calendar tooltip text in separate elements referenced by cell id.
+    tooltip_by_id = {
+        str(node.get("for")): node.get_text(" ", strip=True)
+        for node in soup.select("tool-tip[for]")
+        if node.get("for")
+    }
     for cell in soup.select("td.ContributionCalendar-day"):
         day = cell.get("data-date")
         if not day:
@@ -30,6 +36,7 @@ def main() -> None:
         tooltip_text = " ".join([
             str(cell.get("aria-label", "")),
             cell.get_text(" ", strip=True),
+            tooltip_by_id.get(str(cell.get("id", "")), ""),
             " ".join(str(node.get_text(" ", strip=True)) for node in cell.select("tool-tip, title")),
         ])
         count_match = re.search(r"(\d[\d,]*)\s+contributions?", tooltip_text, re.IGNORECASE)
@@ -39,6 +46,9 @@ def main() -> None:
     if not days:
         raise RuntimeError("GitHub returned no contribution day cells; refusing to overwrite valid data.")
     days.sort(key=lambda item: item["date"])
+    # Never publish a misleading all-zero calendar when GitHub's tooltip markup changes.
+    if any(item["level"] > 0 for item in days) and not any(item["count"] > 0 for item in days):
+        raise RuntimeError("Contribution intensity exists but counts could not be parsed; refusing to publish false zero totals.")
     active = [item for item in days if item["count"] > 0]
     best = max(days, key=lambda item: item["count"])
     streak = longest = current = 0
