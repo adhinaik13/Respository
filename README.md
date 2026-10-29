@@ -103,7 +103,7 @@ A synthetic healthcare-event pipeline focused on data quality: validation, norma
 
 **FOCUS** &nbsp; `ETL` &nbsp; `Data validation` &nbsp; `Normalization` &nbsp; `Deduplication`
 
-**VERIFICATION** &nbsp; CI runs unit tests and a sample pipeline; tests cover empty inputs, row diagnostics, and Decimal rounding boundaries. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/HealthStream-ETL/actions)
+**VERIFICATION** &nbsp; CI passes unit tests and the sample pipeline; regression tests cover Decimal rounding, deterministic output, malformed CSV quoting, duplicate headers, surplus row fields, and source-row diagnostics. Source CSV is read incrementally, while accepted rows and rejection details are still retained in memory. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/HealthStream-ETL/actions) · [CSV validation PR ↗](https://github.com/vankudothuadhinaik/HealthStream-ETL/pull/8)
 
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/HealthStream-ETL)
 
