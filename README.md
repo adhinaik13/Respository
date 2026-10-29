@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./hero.svg?v=3" width="100%" alt="Animated midnight-glass hero for Adhi Naik, systems and backend engineer"/>
+<img src="./profile-photo.jpg?v=1" width="112" alt="Adhi Naik profile photo"/>
+
+<img src="./hero.svg?v=4" width="100%" alt="Animated midnight-glass hero for Adhi Naik, systems and backend engineer"/>
 
 **SYSTEMS ENGINEERING · BACKEND PLATFORMS · DEVELOPER TOOLS · OPEN SOURCE**
 
