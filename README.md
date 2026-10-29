@@ -78,7 +78,7 @@ An offline-payment prototype exploring encrypted QR payloads, RSA-PSS signatures
 
 **STACK** &nbsp; `Java 17` &nbsp; `Spring Boot` &nbsp; `AES-GCM` &nbsp; `RSA-PSS`
 
-**VERIFICATION** &nbsp; CI builds/tests the backend and Docker image; production profile now fails closed if Redis idempotency claims are unavailable. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/UPI_Without_Internet/actions)
+**VERIFICATION** &nbsp; CI validates the Java build and Docker image; a separate PostgreSQL + Redis production-profile test job passes, including Flyway startup and the current test suite. The latest work also fixes provisional idempotency-claim cleanup and aligns the production schema with the JPA entities. These checks validate the prototype's test configuration—not real payment rails or production security readiness. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/UPI_Without_Internet/actions) · [Persistence/retry PR ↗](https://github.com/vankudothuadhinaik/UPI_Without_Internet/pull/8)
 
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/UPI_Without_Internet)
 
