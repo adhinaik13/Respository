@@ -42,10 +42,15 @@ def main() -> None:
         else:
             current = 0
         previous = current_date
-    # Current streak only remains current if the last contribution day is today or yesterday.
-    last_active = date.fromisoformat(active[-1]["date"]) if active else None
-    today = date.today()
-    current_streak = current if last_active and (today - last_active).days <= 1 else 0
+    # Count backwards from today (or yesterday if today's cell is not yet updated).
+    day_map = {date.fromisoformat(item["date"]): item["count"] for item in days}
+    cursor = date.today()
+    if day_map.get(cursor, 0) == 0 and day_map.get(cursor.fromordinal(cursor.toordinal() - 1), 0) > 0:
+        cursor = cursor.fromordinal(cursor.toordinal() - 1)
+    current_streak = 0
+    while day_map.get(cursor, 0) > 0:
+        current_streak += 1
+        cursor = cursor.fromordinal(cursor.toordinal() - 1)
     totals = Counter()
     for item in days:
         totals[item["date"][:7]] += item["count"]
