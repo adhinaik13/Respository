@@ -35,6 +35,9 @@ jobs:
           grep -q 'data-filter="systems"' site/index.html
           grep -q 'id="copyEmail"' site/index.html
           grep -q 'id="projectGrid"' site/index.html
+          grep -q 'id="introAudio"' site/index.html
+          grep -q 'developer-avatar-talking.svg' site/index.html
+          test -s site/assets/developer-avatar-talking.svg
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
