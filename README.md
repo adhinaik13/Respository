@@ -132,8 +132,20 @@ Monitoring callback error propagation from `for` loops, with a regression test. 
 **chunklet-py #107 — MERGED**  
 Windows multiprocessing pickling fix and regression tests. · [Review the contribution ↗](https://github.com/speedyk-005/chunklet-py/pull/107)
 
-**jvm-mcp #238 — OPEN · REVIEW IN PROGRESS**  
-Spring bean discovery error reporting: distinguish failed Actuator/JMX discovery from a genuinely empty application context, preserve safe diagnostics, and add regression tests. Local verification is documented in the PR; GitHub Actions checks still require resolution before merge. · [View open pull request ↗](https://github.com/oscarbol09/jvm-mcp/pull/238)
+**jvm-mcp #238 — OPEN · CHECKS PASSING**  
+Spring bean discovery error reporting: distinguish failed Actuator/JMX discovery from a genuinely empty application context, preserve safe diagnostics, and add regression tests. Required GitHub Actions checks are passing; awaiting maintainer review. · [View pull request ↗](https://github.com/oscarbol09/jvm-mcp/pull/238)
+
+**jvm-mcp #239 — OPEN · CHECKS PASSING**  
+Detect Java versions from JVM executable paths. GitHub Actions checks pass and the branch has no reported conflicts; PR description and maintainer review remain pending. · [View pull request ↗](https://github.com/oscarbol09/jvm-mcp/pull/239)
+
+**jvm-mcp #240 — OPEN · CHECKS PASSING**  
+Preserve root causes when JMX connections fail and close partially initialized connectors safely, with regression tests for cleanup behavior. · [View pull request ↗](https://github.com/oscarbol09/jvm-mcp/pull/240)
+
+**jvm-mcp #241 — OPEN · CHECKS PASSING**  
+Make virtual-thread summary inspection opt-in to avoid unnecessary thread-dump work; add CLI/MCP controls, size limits, cleanup, and Java 21 coverage. · [View pull request ↗](https://github.com/oscarbol09/jvm-mcp/pull/241)
+
+**jvm-mcp #242 — OPEN · CHECKS PASSING**  
+Correct framework detection and improve relative JAR-path resolution using the target JVM's working directory when available. · [View pull request ↗](https://github.com/oscarbol09/jvm-mcp/pull/242)
 
 **CPython #160714 — OPEN**  
 `kqueue` interruption-handling proposal and regression test. · [View open proposal ↗](https://github.com/python/cpython/pull/160714)
