@@ -133,7 +133,7 @@ Monitoring callback error propagation from `for` loops, with a regression test. 
 Windows multiprocessing pickling fix and regression tests. · [Review the contribution ↗](https://github.com/speedyk-005/chunklet-py/pull/107)
 
 **jvm-mcp #230 — MERGED**  
-Java main-class extraction fix: derive the main class from the launch-target token, preserve quoted JAR launch paths, and add regression coverage for JAR references in program arguments. · [Review the contribution ↗](https://github.com/oscarbol09/jvm-mcp/pull/230)
+Java main-class extraction fix: derive the main class from the launch-target token, preserve quoted JAR launch paths, and add regression coverage for JAR references in program arguments. · [Review the contribution ↗](https://github.com/oscarbol09/jvm-mcp/pull/230) · [LinkedIn write-up ↗](https://www.linkedin.com/feed/update/urn:li:activity:7521471751357124609/)
 
 **CPython #160714 — OPEN**  
 `kqueue` interruption-handling proposal and regression test. · [View open proposal ↗](https://github.com/python/cpython/pull/160714)
