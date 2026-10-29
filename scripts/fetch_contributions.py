@@ -24,9 +24,18 @@ def main() -> None:
         if not day:
             continue
         level = cell.get("data-level", "0")
-        match = re.search(r"\d+", str(level))
-        days.append({"date": day, "level": int(match.group()) if match else 0,
-                     "count": int(cell.get("data-count", "0") or 0)})
+        level_match = re.search(r"\d+", str(level))
+        # GitHub exposes intensity on data-level; the actual count is usually
+        # rendered in the cell's tooltip rather than a data-count attribute.
+        tooltip_text = " ".join([
+            str(cell.get("aria-label", "")),
+            cell.get_text(" ", strip=True),
+            " ".join(str(node.get_text(" ", strip=True)) for node in cell.select("tool-tip, title")),
+        ])
+        count_match = re.search(r"(\d[\d,]*)\s+contributions?", tooltip_text, re.IGNORECASE)
+        count = int(count_match.group(1).replace(",", "")) if count_match else 0
+        days.append({"date": day, "level": int(level_match.group()) if level_match else 0,
+                     "count": count})
     if not days:
         raise RuntimeError("GitHub returned no contribution day cells; refusing to overwrite valid data.")
     days.sort(key=lambda item: item["date"])
