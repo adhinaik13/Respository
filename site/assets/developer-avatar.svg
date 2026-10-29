@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="500" viewBox="0 0 440 500" role="img" aria-labelledby="title desc">
+<title id="title">Illustrated developer character</title><desc id="desc">An original stylized developer character in a dark hoodie, seated with a laptop, drawn as a friendly dimensional vector illustration. It is a portfolio illustration, not a photographic likeness.</desc>
+<defs>
+ <linearGradient id="hood" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8175ff"/><stop offset="1" stop-color="#4139a7"/></linearGradient>
+ <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4c5a2"/><stop offset="1" stop-color="#c98662"/></linearGradient>
+ <linearGradient id="laptop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5fe5f5"/><stop offset="1" stop-color="#7c6dff"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#7867ff" stop-opacity=".24"/><stop offset="1" stop-color="#7867ff" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<ellipse cx="220" cy="442" rx="133" ry="24" fill="#252052" opacity=".14" filter="url(#shadow)"/>
+<circle cx="220" cy="223" r="195" fill="url(#halo)"/>
+<circle cx="220" cy="220" r="156" fill="none" stroke="#9387ff" stroke-opacity=".3" stroke-width="1.5" stroke-dasharray="4 9"><animateTransform attributeName="transform" type="rotate" from="0 220 220" to="360 220 220" dur="48s" repeatCount="indefinite"/></circle>
+<g class="body">
+ <path d="M124 420L145 298Q154 260 189 253H252Q287 260 297 298L316 420Z" fill="url(#hood)"/>
+ <path d="M174 264Q220 301 266 264L249 246H190Z" fill="#302b75"/>
+ <path d="M179 270Q220 298 261 270L246 334H194Z" fill="#29265c" opacity=".7"/>
+ <path d="M164 292Q144 303 143 344L137 394Q136 414 156 416Q174 416 177 395L190 333Z" fill="url(#hood)"/>
+ <path d="M276 292Q298 305 302 344L307 392Q309 411 290 416Q272 416 268 395L254 333Z" fill="url(#hood)"/>
+ <path d="M150 398Q157 390 169 399L177 417Q178 429 163 432L148 429Q139 425 143 413Z" fill="url(#skin)"/>
+ <path d="M286 398Q278 390 267 399L260 417Q259 429 274 432L289 429Q298 425 294 413Z" fill="url(#skin)"/>
+</g>
+<g class="head">
+ <path d="M172 159Q169 111 220 107Q274 108 269 164L263 205Q256 243 220 248Q184 243 177 205Z" fill="url(#skin)"/>
+ <path d="M169 166Q151 130 175 100Q195 76 232 84Q273 87 278 124Q282 146 268 166L260 139Q236 135 219 118Q203 141 177 143Z" fill="#201b30"/>
+ <path d="M174 137Q194 129 213 109Q230 133 265 137L267 154Q285 131 271 105Q257 79 223 78Q187 76 169 103Q155 127 174 154Z" fill="#2c2540"/>
+ <path d="M180 161Q174 152 168 161Q165 174 179 181M260 161Q267 152 273 161Q276 174 261 181" fill="url(#skin)"/>
+ <path d="M193 164Q202 159 210 164M231 164Q240 159 248 164" fill="none" stroke="#51352e" stroke-width="3" stroke-linecap="round"/>
+ <ellipse cx="203" cy="175" rx="4" ry="5" fill="#252034"/><ellipse cx="239" cy="175" rx="4" ry="5" fill="#252034"/>
+ <circle cx="204" cy="173" r="1.2" fill="#fff"/><circle cx="240" cy="173" r="1.2" fill="#fff"/>
+ <path d="M219 176L215 190Q220 194 225 190" fill="none" stroke="#b87556" stroke-width="2.5" stroke-linecap="round"/>
+ <path d="M204 207Q220 221 238 205Q222 214 204 207Z" fill="#fff" stroke="#a95e51" stroke-width="2" stroke-linejoin="round"/>
+ <path d="M185 194Q189 200 196 198M244 198Q252 200 256 193" fill="none" stroke="#df9b7b" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g class="laptop">
+ <path d="M116 326Q118 317 129 317H311Q322 317 324 327L339 407H101Z" fill="#20223b" stroke="#9d9bff" stroke-width="2"/>
+ <rect x="129" y="330" width="182" height="63" rx="5" fill="#0e152a"/>
+ <g stroke-width="3" stroke-linecap="round">
+  <path d="M145 347H177M145 357H165M145 367H189" stroke="#5ce7f3"/>
+  <path d="M201 347H241M201 357H226M201 367H252" stroke="#a494ff"/>
+  <path d="M267 347H292M267 357H286M267 367H291" stroke="#e9a2ff"/>
+ </g>
+ <path d="M101 407H339L324 422H117Z" fill="url(#laptop)"/>
+ <path d="M188 407H252L246 414H194Z" fill="#222746"/>
+</g>
+<g class="sparkles" fill="#5fe5f5"><path d="M95 175L100 188L113 193L100 198L95 211L90 198L77 193L90 188Z"><animate attributeName="opacity" values=".4;1;.4" dur="3s" repeatCount="indefinite"/></path><circle cx="322" cy="155" r="4"><animate attributeName="r" values="3;6;3" dur="2.5s" repeatCount="indefinite"/></circle><path d="M327 260L331 270L341 274L331 278L327 288L323 278L313 274L323 270Z" fill="#b39cff"><animate attributeName="opacity" values="1;.35;1" dur="2.8s" repeatCount="indefinite"/></path></g>
+<text x="220" y="468" text-anchor="middle" fill="#4b456f" font-family="monospace" font-size="11" letter-spacing="2">BUILD · TEST · IMPROVE</text>
+</svg>
