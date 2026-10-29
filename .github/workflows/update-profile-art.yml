@@ -12,6 +12,11 @@ on:
       - "contrib-heatmap.svg"
       - "avi-ascii.svg"
       - "info-card.svg"
+      - "hero.svg"
+      - "about-life.svg"
+      - "stack.svg"
+      - "id-dashboard.svg"
+      - "connect.svg"
       - ".github/workflows/update-profile-art.yml"
 
 permissions:
