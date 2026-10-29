@@ -173,6 +173,8 @@ A C++20 limit-order-book prototype with price-time priority, full and partial fi
 
 ### 02 — REPOPILOT
 
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-repopilot.svg" width="100%" alt="RepoPilot dashboard showing repository indexing, code search, source-line evidence, and grounded answers"/>
+
 RepoPilot indexes local codebases and combines incremental indexing, Python symbol extraction, conservative cross-language import/include edges, SQLite FTS5 retrieval, line-addressable evidence, an API, optional MCP tools, and a React dashboard.
 
 **STACK** &nbsp; Python · SQLite/FTS5 · FastAPI · MCP · React · TypeScript
@@ -184,6 +186,8 @@ RepoPilot indexes local codebases and combines incremental indexing, Python symb
 ---
 
 ### 03 — FLUXQUEUE
+
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-fluxqueue.svg" width="100%" alt="FluxQueue pipeline showing API submission, durable PostgreSQL state, leased workers, retries, and dead-letter outcomes"/>
 
 A durable job-processing platform built around validated job submission, tenant-scoped API keys, idempotency, PostgreSQL persistence, leases and heartbeats, stale-token fencing, bounded retries, terminal dead-letter state, and payload-free worker logs.
 
@@ -197,6 +201,8 @@ A durable job-processing platform built around validated job submission, tenant-
 
 ### 04 — UPTIME SENTINEL
 
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/main/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel monitoring architecture with API, worker, PostgreSQL, and controlled egress"/>
+
 A FastAPI service for scheduled HTTP/HTTPS checks, latency and failure history, incident open/update/recovery, a read-only public status page, and a PostgreSQL-backed worker using shared leases and fencing.
 
 **STACK** &nbsp; Python · FastAPI · PostgreSQL · SQLAlchemy · Docker Compose
@@ -209,6 +215,8 @@ A FastAPI service for scheduled HTTP/HTTPS checks, latency and failure history, 
 
 ### 05 — UPI OFFLINE MESH
 
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-upi-mesh.svg" width="100%" alt="UPI Offline Mesh prototype showing encrypted QR payloads, verification, and simulated reconciliation"/>
+
 An offline-payment prototype exploring encrypted QR payloads, AES-GCM authenticated encryption, RSA-PSS signatures, duplicate/replay protection, and idempotent settlement once a message reaches the simulated gateway.
 
 **STACK** &nbsp; Java 17 · Spring Boot · Cryptography · PostgreSQL · Flyway
@@ -220,6 +228,8 @@ An offline-payment prototype exploring encrypted QR payloads, AES-GCM authentica
 ---
 
 ### 06 — DATAPULSE ANALYTICS
+
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-datapulse.svg" width="100%" alt="DataPulse Analytics ingestion and aggregation dashboard"/>
 
 A portfolio-scale event analytics demo: validated event ingestion, SQLAlchemy persistence, metrics/top-event aggregation, PostgreSQL migrations, and a React + TypeScript dashboard.
 
@@ -234,6 +244,8 @@ A portfolio-scale event analytics demo: validated event ingestion, SQLAlchemy pe
 
 ### 07 — HEALTHSTREAM ETL
 
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-healthstream.svg" width="100%" alt="HealthStream ETL pipeline for validating, normalizing, deduplicating, and reporting synthetic encounter data"/>
+
 A standard-library Python ETL pipeline for synthetic healthcare encounter events: input validation, normalization, duplicate handling, deterministic aggregation, and quality reports with row-level rejection reasons.
 
 **VERIFICATION** &nbsp; CI checks the unit suite and sample end-to-end pipeline. Regression tests cover Decimal rounding, malformed CSV, duplicate headers, surplus fields, invalid dates, and clear input-row diagnostics. All data is fabricated; this is not a clinical or billing system.
@@ -242,11 +254,15 @@ A standard-library Python ETL pipeline for synthetic healthcare encounter events
 
 ### 08 — AQI PREDICTION
 
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-aqi.svg" width="100%" alt="AQI forecasting evaluation chart showing chronological test window and persistence baseline"/>
+
 A time-series forecasting exploration for Indian-city AQI, now with a reproducible chronological persistence baseline and input validation. The historical ARIMA/SARIMAX/Prophet metric table remains unverified because its original split and evaluation protocol were not fully documented.
 
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) · [BASELINE CI ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions)
 
 ### 09 — TODO LIST MANAGEMENT APPLICATION
+
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-todo-list.svg" width="100%" alt="Todo List Manager interface showing task entry, filters, completion states, and browser-local persistence"/>
 
 A responsive React task manager with accessible controls, active/completed filters, input validation, empty states, and browser-local persistence. It is intentionally a frontend learning project, without a backend or cross-device sync.
 
