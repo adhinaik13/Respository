@@ -1,5 +1,3 @@
-# Talking introduction asset
+# Portfolio assets
 
-Place the final exported video at `site/assets/talking-intro.mp4`.
-
-Recommended delivery: H.264 video, AAC audio, 16:9 aspect ratio, short duration, and a web-optimized MP4 (`faststart`/`moov` atom at the beginning). The portfolio page already includes a poster, native controls, a transcript, and a graceful fallback when this file is absent or fails to load.
+The hero uses `developer-avatar-talking.svg` as a static illustrated character. The portfolio intentionally does not require a talking video or external video-generation service. Keep project illustrations in this directory and optimize any future media assets for web delivery.
