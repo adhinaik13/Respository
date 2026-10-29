@@ -117,7 +117,7 @@ An air-quality prediction project exploring time-series evaluation with a chrono
 
 **FOCUS** &nbsp; `Python` &nbsp; `Time series` &nbsp; `Baseline evaluation` &nbsp; `Air quality`
 
-**VERIFICATION** &nbsp; CI validates notebook/data structure and publishes commit-specific persistence-baseline metrics as an artifact. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions)
+**VERIFICATION** &nbsp; CI validates notebook/data structure and publishes commit-specific persistence-baseline metrics; regression tests cover malformed CSV quoting, duplicate headers, surplus fields, invalid dates, and non-finite AQI values. Historical ARIMA/SARIMAX/Prophet scores remain unverified. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions) · [CSV validation PR ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/pull/7)
 
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning)
 
