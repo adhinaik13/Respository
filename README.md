@@ -91,7 +91,7 @@ A full-stack event-analytics prototype combining API ingestion and aggregation, 
 
 **STACK** &nbsp; `FastAPI` &nbsp; `SQLAlchemy` &nbsp; `React` &nbsp; `TypeScript`
 
-**VERIFICATION** &nbsp; Backend CI tests event validation and analytics; a database readiness endpoint distinguishes liveness from dependency availability. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics/actions)
+**VERIFICATION** &nbsp; Backend endpoint tests pass; CI also applies the initial Alembic schema to PostgreSQL 16, checks ORM/migration parity, and verifies production startup does not run implicit schema creation. Rate limiting, full user authorization, and broader PostgreSQL API integration coverage remain incomplete. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics/actions) · [Migration PR ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics/pull/8)
 
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
 
