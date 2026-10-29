@@ -1,32 +1,96 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/hero-final.svg" width="100%" alt="Animated midnight-glass engineering portfolio for Vankudothu Adhi Naik"/>
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/hero-final.svg" width="100%" alt="Midnight portfolio hero with a glowing orbital system motif"/>
 
-**INTEGRATED M.TECH · MATHEMATICS & COMPUTING · IIT (ISM) DHANBAD**
+### ADHI NAIK
+**SYSTEMS ENGINEERING · BACKEND · DEVELOPER TOOLS**
 
-*I build systems that behave predictably — and test the edges where they don't.*
+*I build reliable software by designing clear contracts, testing failure paths, and measuring what actually happens.*
 
-[EXPLORE PROJECTS](#selected-work) &nbsp; · &nbsp; [OPEN SOURCE](#open-source) &nbsp; · &nbsp; [CONTACT](mailto:22je1052@iitism.ac.in)
+[FEATURED BUILDS](#featured-builds) &nbsp; · &nbsp; [ENGINEERING NOTES](#project-deep-dives) &nbsp; · &nbsp; [OPEN SOURCE](#open-source) &nbsp; · &nbsp; [CONTACT](mailto:22je1052@iitism.ac.in)
+
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-id-dashboard.svg?v=4" width="100%" alt="Illustrated developer identity card beside a dark engineering dashboard"/>
+
+<sub>INTEGRATED M.TECH · MATHEMATICS & COMPUTING · IIT (ISM) DHANBAD</sub>
 
 </div>
 
 ---
 
-## A BUILDER IN MOTION
+## THE WAY I BUILD
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-about-life.svg?v=3" width="100%" alt="Animated cards describing systems engineering, backend development, and current interests"/>
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-stack.svg?v=4" width="100%" alt="Animated technology orbit and engineering stack"/>
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-stack.svg?v=3" width="100%" alt="Animated orbit illustration and technology stack"/>
+**DESIGN → TEST → OBSERVE → IMPROVE**
 
+`C++20` &nbsp; `Java` &nbsp; `Python` &nbsp; `FastAPI` &nbsp; `Spring Boot` &nbsp; `React` &nbsp; `TypeScript` &nbsp; `PostgreSQL`
 
+</div>
+
+---
+
+## FEATURED BUILDS
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Low-latency matching engine visual"/></a>
+### [Low-Latency Matching Engine](https://github.com/vankudothuadhinaik/low-latency-matching-engine)
+Price-time matching, partial fills, indexed cancellation, and a bounded event path in a C++20 prototype.
+<sub>`C++20` · `CMake` · `Sanitizers`</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/vankudothuadhinaik/uptime-sentinel"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/main/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel service architecture"/></a>
+### [Uptime Sentinel](https://github.com/vankudothuadhinaik/uptime-sentinel)
+HTTP/HTTPS monitoring, incident lifecycle, public status pages, worker leases, and controlled-egress tests.
+<sub>`FastAPI` · `PostgreSQL` · `Docker`</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-upi-mesh.svg" width="100%" alt="UPI Offline Mesh project visual"/></a>
+### [UPI Offline Mesh](https://github.com/vankudothuadhinaik/UPI_Without_Internet)
+An offline-payment prototype exploring signed QR payloads, replay protection, idempotency, and simulated reconciliation.
+<sub>`Java` · `Spring Boot` · `AES-GCM` · `RSA-PSS`</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-datapulse.svg" width="100%" alt="DataPulse Analytics project visual"/></a>
+### [DataPulse Analytics](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
+Event ingestion and aggregation API paired with a React + TypeScript analytics dashboard.
+<sub>`FastAPI` · `SQLAlchemy` · `React` · `TypeScript`</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/vankudothuadhinaik/HealthStream-ETL"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-healthstream.svg" width="100%" alt="HealthStream ETL project visual"/></a>
+### [HealthStream ETL](https://github.com/vankudothuadhinaik/HealthStream-ETL)
+A synthetic data pipeline for validation, normalization, deduplication, and data-quality reporting.
+<sub>`Python` · `ETL` · `Data Quality`</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/vankudothuadhinaik/RepoPilot"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-aqi.svg" width="100%" alt="Data analysis and evaluation project visual"/></a>
+### [RepoPilot](https://github.com/vankudothuadhinaik/RepoPilot)
+Repository intelligence with local indexing, symbol discovery, source-cited snippets, search, and optional LLM answers.
+<sub>`Python` · `SQLite/FTS` · `MCP` · `React`</sub>
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**MORE SYSTEMS**
+
+[StoreForge — replicated object-storage demo](https://github.com/vankudothuadhinaik/StoreForge) &nbsp; · &nbsp; [FluxQueue — durable job processing](https://github.com/vankudothuadhinaik/FluxQueue) &nbsp; · &nbsp; [AQI Prediction](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning)
 
 </div>
 
 ---
 
 ## ENGINEERING PRINCIPLES
+
+
 
 <div align="center">
 
@@ -52,7 +116,7 @@ CPython · Python tooling · Regression tests
 
 </div>
 
-## SELECTED WORK
+## PROJECT DEEP DIVES
 
 <sub>TEN PROJECTS · SYSTEMS, PAYMENTS, ANALYTICS, DATA QUALITY, ML, STORAGE &amp; DEVELOPER TOOLS</sub>
 
