@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-profile-art
+  group: profile-art-refresh
   cancel-in-progress: false
 
 jobs:
