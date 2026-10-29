@@ -132,9 +132,6 @@ Monitoring callback error propagation from `for` loops, with a regression test. 
 **chunklet-py #107 — MERGED**  
 Windows multiprocessing pickling fix and regression tests. · [Review the contribution ↗](https://github.com/speedyk-005/chunklet-py/pull/107)
 
-**jvm-mcp #230 — MERGED**  
-Java main-class extraction fix: derive the main class from the launch-target token, preserve quoted JAR launch paths, and add regression coverage for JAR references in program arguments. · [Review the contribution ↗](https://github.com/oscarbol09/jvm-mcp/pull/230) · [LinkedIn write-up ↗](https://www.linkedin.com/feed/update/urn:li:activity:7521471751357124609/)
-
 **jvm-mcp #238 — OPEN · REVIEW IN PROGRESS**  
 Spring bean discovery error reporting: distinguish failed Actuator/JMX discovery from a genuinely empty application context, preserve safe diagnostics, and add regression tests. Local verification is documented in the PR; GitHub Actions checks still require resolution before merge. · [View open pull request ↗](https://github.com/oscarbol09/jvm-mcp/pull/238)
 
