@@ -15,7 +15,8 @@ def main() -> None:
     row_svg = []
     for i, (key, value) in enumerate(ROWS):
         y = 105 + i * 43
-        row_svg.append(f'<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="{0.35+i*0.16:.2f}s" dur=".45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 7" to="0 0" begin="{0.35+i*0.16:.2f}s" dur=".45s" fill="freeze"/><text x="28" y="{y}" fill="#7ee787" font-family="ui-monospace,monospace" font-size="13">{key}</text><text x="132" y="{y}" fill="#e6edf3" font-family="ui-monospace,monospace" font-size="13">{value.replace('&','&amp;').replace('<','&lt;')}</text></g>')
+        safe_value = value.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        row_svg.append('<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="{0:.2f}s" dur=".45s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 7" to="0 0" begin="{0:.2f}s" dur=".45s" fill="freeze"/><text x="28" y="{1}" fill="#7ee787" font-family="ui-monospace,monospace" font-size="13">{2}</text><text x="132" y="{1}" fill="#e6edf3" font-family="ui-monospace,monospace" font-size="13">{3}</text></g>'.format(0.35+i*0.16, y, key, safe_value))
     OUT.write_text(f'''<svg xmlns="http://www.w3.org/2000/svg" width="640" height="390" viewBox="0 0 640 390" role="img" aria-labelledby="title desc">
 <title id="title">Adhi's neofetch-style developer profile</title><desc id="desc">Terminal information card describing engineering focus, tools, projects, and principles.</desc>
 <rect width="640" height="390" rx="14" fill="#0d1117" stroke="#30363d"/><path d="M1 42H639" stroke="#30363d"/>
