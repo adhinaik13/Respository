@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Adhi Naik — animated engineering portfolio</title>
+<desc id="desc">A readable dark portfolio dashboard with an illustrated profile, bold identity statement, animated orbital system graphic and four featured project cards. Designed to remain legible when scaled inside a GitHub README.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090c1a"/><stop offset=".52" stop-color="#11162d"/><stop offset="1" stop-color="#21132f"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b2242"/><stop offset="1" stop-color="#11172d"/></linearGradient>
+ <linearGradient id="cyan"><stop stop-color="#65edff"/><stop offset="1" stop-color="#5b9dff"/></linearGradient>
+ <linearGradient id="violet"><stop stop-color="#8a7aff"/><stop offset="1" stop-color="#c28aff"/></linearGradient>
+ <linearGradient id="pink"><stop stop-color="#ff83ca"/><stop offset="1" stop-color="#ffb77f"/></linearGradient>
+ <linearGradient id="titleGrad"><stop stop-color="#ffffff"/><stop offset=".53" stop-color="#d4d2ff"/><stop offset="1" stop-color="#81eeff"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#7862ff" stop-opacity=".36"/><stop offset="1" stop-color="#7862ff" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#a5b1ed" stroke-opacity=".06"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="frame"><rect width="1200" height="720" rx="24"/></clipPath>
+ <clipPath id="portrait"><rect x="34" y="126" width="264" height="294" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="1200" height="720" fill="url(#bg)"/><rect width="1200" height="720" fill="url(#grid)"/>
+<circle cx="970" cy="170" r="330" fill="url(#aura)"><animate attributeName="opacity" values=".6;1;.6" dur="7s" repeatCount="indefinite"/></circle>
+<rect x="1" y="1" width="1198" height="718" rx="23" fill="none" stroke="#4a527f"/>
+<!-- Header -->
+<rect width="1200" height="68" fill="#0b1022" fill-opacity=".97"/><path d="M0 68H1200" stroke="#4b537d" stroke-opacity=".7"/>
+<g transform="translate(28 20)"><rect width="29" height="29" rx="8" fill="#20264a" stroke="url(#violet)" stroke-width="1.5"/><path d="M7 14.5L14.5 7L22 14.5L14.5 22Z" fill="none" stroke="#c9f5ff" stroke-width="1.7"/><text x="42" y="20" fill="#f6f5ff" font-family="Arial,sans-serif" font-size="19" font-weight="700">ADHI NAIK <tspan fill="#9e9aff">/ ENGINEERING PORTFOLIO</tspan></text></g>
+<g font-family="monospace" font-size="13" fill="#c0c9e7"><text x="705" y="39">SYSTEMS</text><text x="807" y="39">BACKEND</text><text x="911" y="39">DEV TOOLS</text><text x="1022" y="39">OPEN SOURCE</text></g>
+<circle cx="677" cy="34" r="5" fill="#65e8c8"><animate attributeName="opacity" values="1;.25;1" dur="1.7s" repeatCount="indefinite"/></circle>
+<!-- profile panel -->
+<rect x="28" y="88" width="278" height="352" rx="17" fill="url(#panel)" stroke="#4e5687"/>
+<text x="48" y="116" fill="#b5c0e7" font-family="monospace" font-size="13" letter-spacing="1">PROFILE / BUILDER</text>
+<g clip-path="url(#portrait)">
+ <rect x="34" y="126" width="264" height="294" fill="#22274e"/>
+ <circle cx="250" cy="175" r="115" fill="url(#aura)"/>
+ <path d="M30 365L102 280L142 313L208 230L306 319V430H30Z" fill="#30365f"/>
+ <path d="M58 426Q68 340 103 318L128 304L166 310Q214 331 236 426Z" fill="#38457f" stroke="#6e82d7" stroke-opacity=".7"/>
+ <!-- original stylized male character -->
+ <path d="M103 213Q91 163 128 148Q169 138 187 176L178 238Q163 267 142 268Q113 259 106 234Z" fill="#171a31"/>
+ <path d="M112 200Q110 166 143 162Q172 163 174 197L168 228Q158 248 142 248Q122 244 116 226Z" fill="#dca68d"/>
+ <path d="M107 197Q95 168 118 150Q144 130 169 149Q187 164 179 198L166 177L156 166Q135 181 111 178Z" fill="#171a2d"/>
+ <path d="M122 207H133M150 207H160" stroke="#302239" stroke-width="3" stroke-linecap="round"/><path d="M134 226Q142 230 149 224" fill="none" stroke="#9f566c" stroke-width="2" stroke-linecap="round"/>
+ <path d="M125 248L125 273L143 288L161 271L160 246" fill="#dca68d"/>
+ <path d="M95 324L125 273L143 288L162 271L194 324L179 380H110Z" fill="#252d5d" stroke="#6e80d8" stroke-opacity=".75"/>
+ <path d="M125 275L143 288L161 272L166 299L143 322L119 299Z" fill="#5667d4"/>
+ <circle cx="235" cy="161" r="17" fill="#292e61" stroke="#a89bff"/><path d="M228 161L233 166L243 155" fill="none" stroke="#d9d3ff" stroke-width="2.2" stroke-linecap="round"/>
+ <circle cx="58" cy="175" r="3" fill="#75eaff"><animate attributeName="opacity" values=".2;1;.2" dur="2.3s" repeatCount="indefinite"/></circle>
+ <circle cx="259" cy="272" r="3" fill="#ff9bdc"><animate attributeName="opacity" values="1;.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
+</g>
+<text x="48" y="382" fill="#f7f7ff" font-family="Arial,sans-serif" font-size="25" font-weight="700">Adhi Naik</text>
+<text x="48" y="405" fill="#bdc7e6" font-family="Arial,sans-serif" font-size="14">IIT (ISM) Dhanbad</text>
+<text x="48" y="425" fill="#929fc9" font-family="Arial,sans-serif" font-size="13">Mathematics &amp; Computing</text>
+<!-- central identity panel -->
+<rect x="322" y="88" width="535" height="352" rx="17" fill="url(#panel)" stroke="#4e5687"/>
+<text x="348" y="119" fill="#b5c0e7" font-family="monospace" font-size="13" letter-spacing="1">BUILDING IN PUBLIC / 2026</text>
+<text x="344" y="178" fill="url(#titleGrad)" font-family="Arial,sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5">Build systems.</text>
+<text x="344" y="229" fill="url(#titleGrad)" font-family="Arial,sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5">Prove they work.</text>
+<rect x="348" y="248" width="55" height="4" rx="2" fill="url(#cyan)"/><rect x="410" y="248" width="20" height="4" rx="2" fill="#8175ff"/>
+<text x="348" y="285" fill="#d1d8ef" font-family="Arial,sans-serif" font-size="18">Backend platforms, systems programming,</text>
+<text x="348" y="310" fill="#d1d8ef" font-family="Arial,sans-serif" font-size="18">developer tools, and open-source engineering.</text>
+<g font-family="monospace" font-size="13"><rect x="348" y="334" width="116" height="32" rx="8" fill="#142b3e" stroke="#57d9ed"/><text x="406" y="355" fill="#b0f5ff" text-anchor="middle">C++ / SYSTEMS</text><rect x="474" y="334" width="104" height="32" rx="8" fill="#221e42" stroke="#a396ff"/><text x="526" y="355" fill="#d8d0ff" text-anchor="middle">BACKEND</text><rect x="588" y="334" width="137" height="32" rx="8" fill="#2b1c3b" stroke="#d781df"/><text x="656" y="355" fill="#ffc5f4" text-anchor="middle">OPEN SOURCE</text></g>
+<path d="M348 386H831" stroke="#4b557e"/><text x="348" y="414" fill="#b4bfdf" font-family="monospace" font-size="13">DESIGN</text><path d="M410 409H438M432 403L438 409L432 415" fill="none" stroke="#6be9ff" stroke-width="1.5"/><text x="450" y="414" fill="#b4bfdf" font-family="monospace" font-size="13">TEST</text><path d="M492 409H520M514 403L520 409L514 415" fill="none" stroke="#a89aff" stroke-width="1.5"/><text x="532" y="414" fill="#b4bfdf" font-family="monospace" font-size="13">OBSERVE</text><path d="M608 409H636M630 403L636 409L630 415" fill="none" stroke="#ff9edb" stroke-width="1.5"/><text x="648" y="414" fill="#b4bfdf" font-family="monospace" font-size="13">IMPROVE</text>
+<!-- orbital panel -->
+<rect x="873" y="88" width="299" height="352" rx="17" fill="url(#panel)" stroke="#4e5687"/>
+<text x="895" y="117" fill="#b5c0e7" font-family="monospace" font-size="13" letter-spacing="1">SYSTEM MAP / 01</text>
+<circle cx="1023" cy="252" r="127" fill="url(#aura)"/>
+<g transform="translate(1023 250)">
+ <ellipse rx="111" ry="43" fill="none" stroke="#66eaff" stroke-opacity=".8" stroke-width="1.7" transform="rotate(-28)"><animateTransform attributeName="transform" type="rotate" from="-28" to="332" dur="28s" repeatCount="indefinite"/></ellipse>
+ <ellipse rx="95" ry="65" fill="none" stroke="#aa9aff" stroke-opacity=".82" stroke-width="1.7" transform="rotate(52)"><animateTransform attributeName="transform" type="rotate" from="52" to="-308" dur="24s" repeatCount="indefinite"/></ellipse>
+ <ellipse rx="80" ry="80" fill="none" stroke="#ff92d8" stroke-opacity=".6" stroke-width="1.5" transform="rotate(110)"><animateTransform attributeName="transform" type="rotate" from="110" to="470" dur="34s" repeatCount="indefinite"/></ellipse>
+ <circle r="47" fill="#10162d" stroke="url(#cyan)" stroke-width="2.5" filter="url(#glow)"><animate attributeName="r" values="44;49;44" dur="4.5s" repeatCount="indefinite"/></circle>
+ <path d="M-18 -13L0 -31L18 -13L0 5Z M-18 9L0 28L18 9 M0 5V28" fill="none" stroke="#d3f8ff" stroke-width="2.8" stroke-linejoin="round"/>
+ <circle cx="-90" cy="-24" r="5" fill="#73efff" filter="url(#glow)"><animateMotion dur="8s" repeatCount="indefinite" path="M0 0 A111 43 -28 1 1 1 0"/></circle>
+ <circle cx="66" cy="44" r="4.5" fill="#ff9bdc"><animateMotion dur="9s" repeatCount="indefinite" path="M0 0 A95 65 52 1 0 1 0"/></circle>
+</g>
+<g font-family="monospace" font-size="12"><rect x="894" y="145" width="105" height="27" rx="7" fill="#142b3e" stroke="#55d7ec"/><text x="946" y="163" fill="#b3f5ff" text-anchor="middle">DETERMINISM</text><rect x="1042" y="145" width="107" height="27" rx="7" fill="#241f43" stroke="#a394ff"/><text x="1095" y="163" fill="#d9d1ff" text-anchor="middle">RESILIENCE</text><rect x="894" y="341" width="121" height="27" rx="7" fill="#2b1c3a" stroke="#d680df"/><text x="954" y="359" fill="#ffc3f2" text-anchor="middle">OBSERVABILITY</text><rect x="1024" y="341" width="125" height="27" rx="7" fill="#142b3e" stroke="#55d7ec"/><text x="1086" y="359" fill="#b3f5ff" text-anchor="middle">TESTED EDGES</text></g>
+<text x="895" y="402" fill="#a8b4d6" font-family="Arial,sans-serif" font-size="13">Reliable by design.</text><text x="895" y="420" fill="#a8b4d6" font-family="Arial,sans-serif" font-size="13">Verified through tests.</text>
+<!-- project gallery -->
+<text x="29" y="482" fill="#f5f5ff" font-family="Arial,sans-serif" font-size="25" font-weight="700">Featured projects</text><text x="1171" y="480" text-anchor="end" fill="#aeb9dc" font-family="monospace" font-size="13">SYSTEMS · RELIABILITY · PAYMENTS · ANALYTICS</text>
+<!-- card 1 -->
+<g><rect x="28" y="502" width="278" height="178" rx="14" fill="url(#panel)" stroke="#4b668f"/><rect x="28" y="502" width="278" height="4" rx="2" fill="url(#cyan)"/><rect x="44" y="520" width="246" height="64" rx="8" fill="#0a1225" stroke="#2c4267"/>
+<g stroke="#273b60" stroke-width="1"><path d="M53 533H280M53 544H280M53 555H280M53 566H280"/><path d="M73 526V578M103 526V578M133 526V578M163 526V578M193 526V578M223 526V578M253 526V578"/></g>
+<path d="M53 568H85V553H118V539H150V548H183V528H218V539H280" fill="none" stroke="#67e9ff" stroke-width="2.5" stroke-dasharray="280" stroke-dashoffset="280"><animate attributeName="stroke-dashoffset" values="280;0;0" dur="5s" repeatCount="indefinite"/></path>
+<text x="45" y="608" fill="#83eeff" font-family="monospace" font-size="12">C++20 / SYSTEMS</text><text x="45" y="634" fill="#f6f6ff" font-family="Arial,sans-serif" font-size="20" font-weight="700">Matching Engine</text><text x="45" y="657" fill="#bdc7e2" font-family="Arial,sans-serif" font-size="14">Price-time priority · order book</text></g>
+<!-- card 2 -->
+<g><rect x="323" y="502" width="278" height="178" rx="14" fill="url(#panel)" stroke="#625a92"/><rect x="323" y="502" width="278" height="4" rx="2" fill="url(#violet)"/><rect x="339" y="520" width="246" height="64" rx="8" fill="#0c1125" stroke="#35345e"/>
+<g transform="translate(382 552)"><circle r="23" fill="none" stroke="#393d67" stroke-width="7"/><circle r="23" fill="none" stroke="#aa9aff" stroke-width="7" stroke-dasharray="92 52" transform="rotate(-90)"><animate attributeName="stroke-dasharray" values="65 79;102 42;65 79" dur="5s" repeatCount="indefinite"/></circle><circle r="12" fill="#201e46" stroke="#a99aff"/><path d="M-6 0L-1 5L8 -7" fill="none" stroke="#e4deff" stroke-width="2"/></g><g><rect x="422" y="535" width="143" height="8" rx="4" fill="#282d4e"/><rect x="422" y="535" width="97" height="8" rx="4" fill="#9688ff"/><rect x="422" y="551" width="120" height="6" rx="3" fill="#343757"/><rect x="422" y="565" width="135" height="6" rx="3" fill="#343757"/></g>
+<text x="340" y="608" fill="#bdb0ff" font-family="monospace" font-size="12">PYTHON / RELIABILITY</text><text x="340" y="634" fill="#f6f6ff" font-family="Arial,sans-serif" font-size="20" font-weight="700">Uptime Sentinel</text><text x="340" y="657" fill="#c2c2e1" font-family="Arial,sans-serif" font-size="14">Monitoring · incident lifecycle</text></g>
+<!-- card 3 -->
+<g><rect x="618" y="502" width="278" height="178" rx="14" fill="url(#panel)" stroke="#89557f"/><rect x="618" y="502" width="278" height="4" rx="2" fill="url(#pink)"/><rect x="634" y="520" width="246" height="64" rx="8" fill="#170f25" stroke="#51304e"/><g transform="translate(757 552)"><circle r="25" fill="#211832" stroke="#81507e"/><circle r="19" fill="none" stroke="#ff91d4" stroke-dasharray="5 4"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/></circle><path d="M-12 -8L0 -19L12 -8V8L0 19L-12 8Z" fill="#4a2850" stroke="#ff9bd8" stroke-width="1.5"/><path d="M-6 0L-1 5L8 -6" fill="none" stroke="#ffd4ef" stroke-width="2"/></g>
+<text x="635" y="608" fill="#ffb1e1" font-family="monospace" font-size="12">JAVA / PAYMENTS</text><text x="635" y="634" fill="#f6f6ff" font-family="Arial,sans-serif" font-size="20" font-weight="700">UPI Offline Mesh</text><text x="635" y="657" fill="#d4bdd8" font-family="Arial,sans-serif" font-size="14">Signed payloads · replay protection</text></g>
+<!-- card 4 -->
+<g><rect x="913" y="502" width="259" height="178" rx="14" fill="url(#panel)" stroke="#3b7483"/><rect x="913" y="502" width="259" height="4" rx="2" fill="url(#cyan)"/><rect x="929" y="520" width="227" height="64" rx="8" fill="#0b1727" stroke="#29495b"/><g transform="translate(947 526)"><path d="M0 52V30H14V52M24 52V12H38V52M48 52V35H62V52M72 52V3H86V52M96 52V24H110V52" fill="#1e3b50" stroke="#4eb8cc"/><path d="M0 22L24 31L48 14L72 24L96 4L112 14" fill="none" stroke="#73e9ff" stroke-width="2.2" stroke-dasharray="130" stroke-dashoffset="130"><animate attributeName="stroke-dashoffset" values="130;0;0" dur="4.5s" repeatCount="indefinite"/></path></g>
+<text x="930" y="608" fill="#83eeff" font-family="monospace" font-size="12">FASTAPI / REACT</text><text x="930" y="634" fill="#f6f6ff" font-family="Arial,sans-serif" font-size="20" font-weight="700">DataPulse Analytics</text><text x="930" y="657" fill="#bdcde0" font-family="Arial,sans-serif" font-size="14">Event ingestion · analytics</text></g>
+<text x="29" y="704" fill="#a5b1d4" font-family="monospace" font-size="12" letter-spacing=".5">BUILD WITH INTENT  ·  VERIFY THE EDGE CASES  ·  SHIP WITH EVIDENCE</text><text x="1171" y="704" text-anchor="end" fill="#a5b1d4" font-family="monospace" font-size="12">GITHUB.COM/VANKUDOTHUADHINAIK</text>
+</g></svg>
