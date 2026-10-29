@@ -126,7 +126,7 @@ An air-quality prediction project exploring time-series evaluation with a chrono
 <details>
 <summary><strong>MORE BUILDS — DEVELOPER TOOLS · STORAGE · JOB QUEUES · FRONTEND</strong></summary>
 
-### 07 — REP PILOT
+### 07 — REPOPILOT
 
 Evidence-grounded repository intelligence with local indexing, Python symbol discovery, static import edges, SQLite/FTS search, cited source snippets, optional OpenAI-compatible answers, and MCP tools. The synthetic 50-query benchmark is a reproducibility fixture, not a real-world accuracy claim.
 
