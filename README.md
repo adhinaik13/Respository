@@ -1,101 +1,10 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-hero-v2.svg" width="100%" alt="Midnight portfolio hero with a glowing orbital system motif"/>
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/portfolio-command-center.svg?v=1" width="100%" alt="Custom animated engineering portfolio command center with profile, orbiting systems core, animated charts, and featured project tiles"/>
 
-### ADHI NAIK
-**SYSTEMS ENGINEERING · BACKEND · DEVELOPER TOOLS**
+**SYSTEMS ENGINEERING · BACKEND PLATFORMS · DEVELOPER TOOLS · OPEN SOURCE**
 
-*I build reliable software by designing clear contracts, testing failure paths, and measuring what actually happens.*
-
-[FEATURED BUILDS](#featured-builds) &nbsp; · &nbsp; [ENGINEERING PRINCIPLES](#engineering-principles) &nbsp; · &nbsp; [PROJECT DEEP DIVES](#project-deep-dives) &nbsp; · &nbsp; [OPEN SOURCE](#open-source) &nbsp; · &nbsp; [CONTACT](mailto:22je1052@iitism.ac.in)
-
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-about-life.svg?v=5" width="100%" alt="Illustrated developer identity card beside a dark engineering dashboard"/>
-
-<sub>INTEGRATED M.TECH · MATHEMATICS & COMPUTING · IIT (ISM) DHANBAD</sub>
-
-</div>
-
----
-
-## THE WAY I BUILD
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-stack.svg?v=4" width="100%" alt="Animated technology orbit and engineering stack"/>
-
-**DESIGN → TEST → OBSERVE → IMPROVE**
-
-`C++20` &nbsp; `Java` &nbsp; `Python` &nbsp; `FastAPI` &nbsp; `Spring Boot` &nbsp; `React` &nbsp; `TypeScript` &nbsp; `PostgreSQL`
-
-</div>
-
----
-
-
-## FEATURED BUILDS
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/project-constellation.svg?v=2" width="100%" alt="Project constellation connecting systems programming, developer tooling, reliability, job processing, payments, and analytics"/>
-
-</div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Matching engine architecture and event pipeline illustration"/></a>
-<h3><a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine">Low-Latency Matching Engine</a></h3>
-<p>A C++20 limit-order-book prototype with price-time priority, partial fills, indexed cancellation, and a bounded SPSC event pipeline.</p>
-<sub>C++20 · CMake · Sanitizers · Benchmarks</sub>
-<p><a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine/actions">CI &amp; benchmark evidence ↗</a></p>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/vankudothuadhinaik/RepoPilot"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-repopilot.svg" width="100%" alt="RepoPilot dashboard showing repository indexing, code search, source-line evidence, and grounded answers"/></a>
-<h3><a href="https://github.com/vankudothuadhinaik/RepoPilot">RepoPilot</a></h3>
-<p>Local-first repository intelligence: incremental indexing, symbol discovery, FTS search, source-line evidence, multi-repository evaluation, and optional grounded answers.</p>
-<sub>Python · SQLite/FTS5 · FastAPI · MCP · React</sub>
-<p><a href="https://github.com/vankudothuadhinaik/RepoPilot/actions">CI, CodeQL &amp; evaluation reports ↗</a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/vankudothuadhinaik/FluxQueue"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-fluxqueue.svg" width="100%" alt="FluxQueue pipeline showing API submission, durable PostgreSQL state, leased workers, retries, and dead-letter outcomes"/></a>
-<h3><a href="https://github.com/vankudothuadhinaik/FluxQueue">FluxQueue</a></h3>
-<p>A durable job-processing platform with tenant-scoped APIs, idempotent submission, PostgreSQL-backed workers, lease fencing, retries, and dead-letter handling.</p>
-<sub>Python · FastAPI · PostgreSQL · Workers · Docker</sub>
-<p><a href="https://github.com/vankudothuadhinaik/FluxQueue/actions">CI &amp; deployment-smoke history ↗</a> · <a href="https://fluxqueue-api.onrender.com/docs">API demo ↗</a></p>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/vankudothuadhinaik/uptime-sentinel"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/main/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel API, worker, PostgreSQL, and controlled egress architecture"/></a>
-<h3><a href="https://github.com/vankudothuadhinaik/uptime-sentinel">Uptime Sentinel</a></h3>
-<p>HTTP/HTTPS monitoring with incident recovery, worker leases, bounded requests, pagination, and SSRF-focused egress controls.</p>
-<sub>FastAPI · PostgreSQL · Docker Compose · CI</sub>
-<p><a href="https://github.com/vankudothuadhinaik/uptime-sentinel/actions">CI &amp; end-to-end checks ↗</a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-upi-mesh.svg" width="100%" alt="Offline payment QR, cryptographic verification, and simulated reconciliation workflow"/></a>
-<h3><a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet">UPI Offline Mesh</a></h3>
-<p>A cryptographic payment-flow prototype exploring encrypted QR payloads, signatures, replay protection, idempotency, and simulated reconciliation.</p>
-<sub>Java · Spring Boot · AES-GCM · RSA-PSS</sub>
-<p><a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet/actions">Java CI &amp; persistence tests ↗</a></p>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-datapulse.svg" width="100%" alt="DataPulse Analytics ingestion API and dashboard illustration"/></a>
-<h3><a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics">DataPulse Analytics</a></h3>
-<p>An event-ingestion and aggregation API paired with a React + TypeScript dashboard, validated payloads, and versioned PostgreSQL migrations.</p>
-<sub>Python · FastAPI · SQLAlchemy · React · TypeScript</sub>
-<p><a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics/actions">CI &amp; migration checks ↗</a></p>
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-**MORE BUILDS**
-
-[HealthStream ETL — validation, normalization &amp; data quality](https://github.com/vankudothuadhinaik/HealthStream-ETL) &nbsp; · &nbsp; [AQI Prediction — chronological baseline evaluation](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) &nbsp; · &nbsp; [Todo List — accessible React state &amp; persistence](https://github.com/vankudothuadhinaik/TodoList-Management-Application)
+[EXPLORE PROJECT DEEP DIVES](#project-deep-dives) &nbsp; · &nbsp; [OPEN SOURCE](#open-source) &nbsp; · &nbsp; [CONTACT](mailto:22je1052@iitism.ac.in)
 
 </div>
 
