@@ -142,7 +142,7 @@ An educational object-storage system with content-addressed chunks, SHA-256 inte
 
 A durable job-processing foundation using FastAPI, SQLAlchemy, PostgreSQL, Alembic, idempotency keys, worker leases, lease fencing, retries, and a dead-letter state.
 
-**VERIFICATION** &nbsp; CI exercises schema migrations and PostgreSQL lease fencing, with API/worker tests and container smoke checks. Execution is at-least-once; authentication and tenant authorization remain outstanding. CodeQL scans source, but SARIF upload permission is still being addressed, so the analysis job is advisory rather than proof of a published clean report. [Source ↗](https://github.com/vankudothuadhinaik/FluxQueue) · [CI runs ↗](https://github.com/vankudothuadhinaik/FluxQueue/actions)
+**VERIFICATION** &nbsp; CI exercises schema migrations and PostgreSQL lease fencing, with API/worker tests and container smoke checks. Execution is at-least-once; authentication and tenant authorization remain outstanding. CodeQL source analysis runs, but the upload job currently fails with a GitHub integration permission error. No clean uploaded code-scanning report is claimed; repository permissions still need attention. [Source ↗](https://github.com/vankudothuadhinaik/FluxQueue) · [CI runs ↗](https://github.com/vankudothuadhinaik/FluxQueue/actions)
 
 ### 10 — TODO LIST MANAGEMENT APPLICATION
 
