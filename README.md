@@ -171,7 +171,7 @@ A C++20 limit-order-book prototype with price-time priority, full and partial fi
 
 ---
 
-### 02 — REPОPILOT
+### 02 — REPOPILOT
 
 RepoPilot indexes local codebases and combines incremental indexing, Python symbol extraction, conservative cross-language import/include edges, SQLite FTS5 retrieval, line-addressable evidence, an API, optional MCP tools, and a React dashboard.
 
