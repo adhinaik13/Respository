@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-portfolio-reel.svg?v=1" width="100%" alt="Animated dark portfolio hero with an orbital systems map, profile identity, and featured engineering projects"/>
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-portfolio-dashboard.svg?v=1" width="100%" alt="Animated multi-panel dark portfolio dashboard with illustrated profile, orbital systems map, featured engineering projects, and engineering principles"/>
 
 **SYSTEMS ENGINEERING · BACKEND PLATFORMS · DEVELOPER TOOLS · OPEN SOURCE**
 
