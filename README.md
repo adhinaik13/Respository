@@ -37,42 +37,41 @@
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Low-latency matching engine visual"/></a>
-### [Low-Latency Matching Engine](https://github.com/vankudothuadhinaik/low-latency-matching-engine)
-Price-time matching, partial fills, indexed cancellation, and a bounded event path in a C++20 prototype.
+<h3><a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine">Low-Latency Matching Engine</a></h3>
+<p>Price-time matching, partial fills, indexed cancellation, and a bounded event path in a C++20 prototype.</p>
 <sub>`C++20` · `CMake` · `Sanitizers`</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/vankudothuadhinaik/uptime-sentinel"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/main/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel service architecture"/></a>
-### [Uptime Sentinel](https://github.com/vankudothuadhinaik/uptime-sentinel)
-HTTP/HTTPS monitoring, incident lifecycle, public status pages, worker leases, and controlled-egress tests.
+<h3><a href="https://github.com/vankudothuadhinaik/uptime-sentinel">Uptime Sentinel</a></h3>
+<p>HTTP/HTTPS monitoring, incident lifecycle, public status pages, worker leases, and controlled-egress tests.</p>
 <sub>`FastAPI` · `PostgreSQL` · `Docker`</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-upi-mesh.svg" width="100%" alt="UPI Offline Mesh project visual"/></a>
-### [UPI Offline Mesh](https://github.com/vankudothuadhinaik/UPI_Without_Internet)
-An offline-payment prototype exploring signed QR payloads, replay protection, idempotency, and simulated reconciliation.
+<h3><a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet">UPI Offline Mesh</a></h3>
+<p>An offline-payment prototype exploring signed QR payloads, replay protection, idempotency, and simulated reconciliation.</p>
 <sub>`Java` · `Spring Boot` · `AES-GCM` · `RSA-PSS`</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-datapulse.svg" width="100%" alt="DataPulse Analytics project visual"/></a>
-### [DataPulse Analytics](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
-Event ingestion and aggregation API paired with a React + TypeScript analytics dashboard.
+<h3><a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics">DataPulse Analytics</a></h3>
+<p>Event ingestion and aggregation API paired with a React + TypeScript analytics dashboard.</p>
 <sub>`FastAPI` · `SQLAlchemy` · `React` · `TypeScript`</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/vankudothuadhinaik/HealthStream-ETL"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-healthstream.svg" width="100%" alt="HealthStream ETL project visual"/></a>
-### [HealthStream ETL](https://github.com/vankudothuadhinaik/HealthStream-ETL)
-A synthetic data pipeline for validation, normalization, deduplication, and data-quality reporting.
+<h3><a href="https://github.com/vankudothuadhinaik/HealthStream-ETL">HealthStream ETL</a></h3>
+<p>A synthetic data pipeline for validation, normalization, deduplication, and data-quality reporting.</p>
 <sub>`Python` · `ETL` · `Data Quality`</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/vankudothuadhinaik/RepoPilot"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-aqi.svg" width="100%" alt="Data analysis and evaluation project visual"/></a>
-### [RepoPilot](https://github.com/vankudothuadhinaik/RepoPilot)
-Repository intelligence with local indexing, symbol discovery, source-cited snippets, search, and optional LLM answers.
+<h3><a href="https://github.com/vankudothuadhinaik/RepoPilot">RepoPilot</a></h3>
+<p>Repository intelligence with local indexing, symbol discovery, source-cited snippets, search, and optional LLM answers.</p>
 <sub>`Python` · `SQLite/FTS` · `MCP` · `React`</sub>
 </td>
 </tr>
