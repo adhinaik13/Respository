@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/portfolio-command-center.svg?v=1" width="100%" alt="Custom animated engineering portfolio command center with profile, orbiting systems core, animated charts, and featured project tiles"/>
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-portfolio-reel.svg?v=1" width="100%" alt="Animated dark portfolio hero with an orbital systems map, profile identity, and featured engineering projects"/>
 
 **SYSTEMS ENGINEERING · BACKEND PLATFORMS · DEVELOPER TOOLS · OPEN SOURCE**
 
