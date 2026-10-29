@@ -26,4 +26,4 @@ The `.github/workflows/deploy-portfolio.yml` workflow publishes this folder to G
 
 ## Accessibility and performance
 
-Semantic landmarks, keyboard focus styles, responsive layouts, reduced-motion support, lazy-loaded project visuals, and no runtime framework dependencies are included. External fonts and the Uptime Sentinel architecture illustration are loaded from their public URLs.
+Semantic landmarks, keyboard focus styles, responsive layouts, reduced-motion support, lazy-loaded project visuals, and no runtime framework dependencies are included. All illustration assets are bundled locally. The page has no third-party scripts, font downloads, or image-CDN dependencies.
