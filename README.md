@@ -7,7 +7,7 @@
 
 *I build reliable software by designing clear contracts, testing failure paths, and measuring what actually happens.*
 
-[FEATURED BUILDS](#featured-builds) &nbsp; · &nbsp; [ENGINEERING NOTES](#project-deep-dives) &nbsp; · &nbsp; [OPEN SOURCE](#open-source) &nbsp; · &nbsp; [CONTACT](mailto:22je1052@iitism.ac.in)
+[FEATURED BUILDS](#featured-builds) &nbsp; · &nbsp; [ENGINEERING PRINCIPLES](#engineering-principles) &nbsp; · &nbsp; [PROJECT DEEP DIVES](#project-deep-dives) &nbsp; · &nbsp; [OPEN SOURCE](#open-source) &nbsp; · &nbsp; [CONTACT](mailto:22je1052@iitism.ac.in)
 
 <img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-about-life.svg?v=5" width="100%" alt="Illustrated developer identity card beside a dark engineering dashboard"/>
 
@@ -31,63 +31,69 @@
 
 ---
 
+
 ## FEATURED BUILDS
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/project-constellation.svg?v=1" width="100%" alt="Animated constellation connecting systems, reliability, analytics, and developer tools projects"/>
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/project-constellation.svg?v=2" width="100%" alt="Project constellation connecting systems programming, developer tooling, reliability, job processing, payments, and analytics"/>
 
 </div>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Low-latency matching engine visual"/></a>
+<a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Matching engine architecture and event pipeline illustration"/></a>
 <h3><a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine">Low-Latency Matching Engine</a></h3>
-<p>Price-time matching, partial fills, indexed cancellation, and a bounded event path in a C++20 prototype.</p>
-<sub>`C++20` · `CMake` · `Sanitizers`</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/vankudothuadhinaik/uptime-sentinel"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/main/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel service architecture"/></a>
-<h3><a href="https://github.com/vankudothuadhinaik/uptime-sentinel">Uptime Sentinel</a></h3>
-<p>HTTP/HTTPS monitoring, incident lifecycle, public status pages, worker leases, and controlled-egress tests.</p>
-<sub>`FastAPI` · `PostgreSQL` · `Docker`</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-upi-mesh.svg" width="100%" alt="UPI Offline Mesh project visual"/></a>
-<h3><a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet">UPI Offline Mesh</a></h3>
-<p>An offline-payment prototype exploring signed QR payloads, replay protection, idempotency, and simulated reconciliation.</p>
-<sub>`Java` · `Spring Boot` · `AES-GCM` · `RSA-PSS`</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-datapulse.svg" width="100%" alt="DataPulse Analytics project visual"/></a>
-<h3><a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics">DataPulse Analytics</a></h3>
-<p>Event ingestion and aggregation API paired with a React + TypeScript analytics dashboard.</p>
-<sub>`FastAPI` · `SQLAlchemy` · `React` · `TypeScript`</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/vankudothuadhinaik/HealthStream-ETL"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-healthstream.svg" width="100%" alt="HealthStream ETL project visual"/></a>
-<h3><a href="https://github.com/vankudothuadhinaik/HealthStream-ETL">HealthStream ETL</a></h3>
-<p>A synthetic data pipeline for validation, normalization, deduplication, and data-quality reporting.</p>
-<sub>`Python` · `ETL` · `Data Quality`</sub>
+<p>A C++20 limit-order-book prototype with price-time priority, partial fills, indexed cancellation, and a bounded SPSC event pipeline.</p>
+<sub>C++20 · CMake · Sanitizers · Benchmarks</sub>
+<p><a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine/actions">CI &amp; benchmark evidence ↗</a></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/vankudothuadhinaik/RepoPilot">RepoPilot</a></h3>
-<p>Repository intelligence with local indexing, symbol discovery, source-cited snippets, search, and optional LLM answers.</p>
-<sub>`Python` · `SQLite/FTS` · `MCP` · `React`</sub>
+<p>Local-first repository intelligence: incremental indexing, symbol discovery, FTS search, source-line evidence, multi-repository evaluation, and optional grounded answers.</p>
+<sub>Python · SQLite/FTS5 · FastAPI · MCP · React</sub>
+<p><a href="https://github.com/vankudothuadhinaik/RepoPilot/actions">CI, CodeQL &amp; evaluation reports ↗</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/vankudothuadhinaik/FluxQueue">FluxQueue</a></h3>
+<p>A durable job-processing platform with tenant-scoped APIs, idempotent submission, PostgreSQL-backed workers, lease fencing, retries, and dead-letter handling.</p>
+<sub>Python · FastAPI · PostgreSQL · Workers · Docker</sub>
+<p><a href="https://github.com/vankudothuadhinaik/FluxQueue/actions">CI &amp; deployment-smoke history ↗</a> · <a href="https://fluxqueue-api.onrender.com/docs">API demo ↗</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/vankudothuadhinaik/uptime-sentinel"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/main/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel API, worker, PostgreSQL, and controlled egress architecture"/></a>
+<h3><a href="https://github.com/vankudothuadhinaik/uptime-sentinel">Uptime Sentinel</a></h3>
+<p>HTTP/HTTPS monitoring with incident recovery, worker leases, bounded requests, pagination, and SSRF-focused egress controls.</p>
+<sub>FastAPI · PostgreSQL · Docker Compose · CI</sub>
+<p><a href="https://github.com/vankudothuadhinaik/uptime-sentinel/actions">CI &amp; end-to-end checks ↗</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-upi-mesh.svg" width="100%" alt="Offline payment QR, cryptographic verification, and simulated reconciliation workflow"/></a>
+<h3><a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet">UPI Offline Mesh</a></h3>
+<p>A cryptographic payment-flow prototype exploring encrypted QR payloads, signatures, replay protection, idempotency, and simulated reconciliation.</p>
+<sub>Java · Spring Boot · AES-GCM · RSA-PSS</sub>
+<p><a href="https://github.com/vankudothuadhinaik/UPI_Without_Internet/actions">Java CI &amp; persistence tests ↗</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-datapulse.svg" width="100%" alt="DataPulse Analytics ingestion API and dashboard illustration"/></a>
+<h3><a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics">DataPulse Analytics</a></h3>
+<p>An event-ingestion and aggregation API paired with a React + TypeScript dashboard, validated payloads, and versioned PostgreSQL migrations.</p>
+<sub>Python · FastAPI · SQLAlchemy · React · TypeScript</sub>
+<p><a href="https://github.com/vankudothuadhinaik/DataPulse-Analytics/actions">CI &amp; migration checks ↗</a></p>
 </td>
 </tr>
 </table>
 
 <div align="center">
 
-**MORE SYSTEMS**
+**MORE BUILDS**
 
-[StoreForge — replicated object-storage demo](https://github.com/vankudothuadhinaik/StoreForge) &nbsp; · &nbsp; [FluxQueue — durable job processing](https://github.com/vankudothuadhinaik/FluxQueue) &nbsp; · &nbsp; [AQI Prediction](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning)
+[HealthStream ETL — validation, normalization &amp; data quality](https://github.com/vankudothuadhinaik/HealthStream-ETL) &nbsp; · &nbsp; [AQI Prediction — chronological baseline evaluation](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) &nbsp; · &nbsp; [Todo List — accessible React state &amp; persistence](https://github.com/vankudothuadhinaik/TodoList-Management-Application)
 
 </div>
 
@@ -95,146 +101,160 @@
 
 ## ENGINEERING PRINCIPLES
 
+<table>
+<tr>
+<td width="50%" valign="top">
 
+### 01 · Invariants before implementation
+
+Define state transitions, ownership rules, bounds, and idempotency guarantees first. Keep the matching core deterministic and make APIs reject invalid states at their boundaries.
+
+</td>
+<td width="50%" valign="top">
+
+### 02 · Failure paths are part of the design
+
+Test retries, timeouts, stale leases, partial failure, duplicate requests, recovery, and cleanup—not only successful requests. Fail closed when safe behavior cannot be established.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 03 · Evidence over confident guesses
+
+Prefer source-linked evidence, reproducible tests, versioned data, migration checks, and explicit abstention over claims that cannot be verified. A passing metric must always state its scope.
+
+</td>
+<td width="50%" valign="top">
+
+### 04 · Bound trust and resource use
+
+Treat repository content and external inputs as untrusted. Validate paths and payloads, protect credentials, constrain response size and execution time, and keep security boundaries explicit.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 05 · Measure behavior, not headlines
+
+Benchmark real workloads, record environment and compiler settings, inspect distributions and run-to-run variance, and distinguish a local demonstration from production guarantees.
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-**01 · SYSTEMS & PERFORMANCE**  
-C++20 · Data structures · Order books · Concurrency
-
-*Deterministic matching, event flow, and edge cases that expose hidden assumptions.*
-
-**02 · BACKEND & DATA**  
-Java · Spring Boot · Python · FastAPI · SQL
-
-*Clear API contracts, validation, idempotency, useful tests, predictable failure handling.*
-
-**03 · PRODUCT ENGINEERING**  
-React · TypeScript · REST APIs
-
-*Turning backend capability into a clear interface and practical user workflows.*
-
-**04 · OPEN SOURCE**  
-CPython · Python tooling · Regression tests
-
-*Contributing fixes and tests that capture the bug—not just the happy path.*
+**DESIGN → TEST → OBSERVE → IMPROVE**
 
 </div>
 
+---
+
 ## PROJECT DEEP DIVES
 
-<sub>TEN PROJECTS · SYSTEMS, PAYMENTS, ANALYTICS, DATA QUALITY, ML, STORAGE &amp; DEVELOPER TOOLS</sub>
+<sub>SYSTEMS · DEVELOPER TOOLS · JOB PROCESSING · RELIABILITY · PAYMENTS · ANALYTICS</sub>
 
 ### 01 — LOW-LATENCY MATCHING ENGINE
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Custom matching engine systems dashboard showing bid book, price-time matching core and event path"/>
 
-A C++20 limit-order-book prototype with price-time priority, full and partial fills, indexed order cancellation, order lookup, and a bounded single-producer/single-consumer event path. The latest implementation maintains queue-position iterators for efficient cancellation and includes a 1,000-order cancellation/FIFO stress test.
+<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Matching engine dashboard illustration showing the bid/ask book, price-time matching, and event pipeline"/>
 
-**STACK** &nbsp; `C++20` &nbsp; `CMake` &nbsp; `Testing` &nbsp; `Benchmarking`
+A C++20 limit-order-book prototype with price-time priority, full and partial fills, indexed cancellation, order-ID lookup, and a bounded single-producer/single-consumer event path. The matching core is deliberately single-threaded; concurrency is isolated at the event boundary.
 
-**VERIFICATION** &nbsp; Release assertions remain enabled in tests; CI includes AddressSanitizer and UndefinedBehaviorSanitizer, cancellation-heavy workload checks, and five-workload benchmark evidence with runner/compiler metadata. Results are CI-run-specific, not universal hardware claims. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine/actions) · [Benchmark methodology ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine/blob/main/docs/BENCHMARKING.md)
+**STACK** &nbsp; C++20 · CMake · SPSC queue · Sanitizers · Benchmarks
 
-[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine)
+**VERIFICATION** &nbsp; The repository's CI includes Release tests, a Debug AddressSanitizer/UndefinedBehaviorSanitizer run, cancellation-heavy workloads, and multi-workload benchmark artifacts. Throughput and latency depend on the measured environment; the README documents the workload and interpretation limits.
 
----
-
-### 02 — UPTIME SENTINEL
-
-A FastAPI uptime-monitoring service for HTTP/HTTPS endpoints, with latency and failure tracking, incident lifecycle management, a read-only public status page, PostgreSQL-backed worker leases, and configurable cleanup of expired check history.
-
-**STACK** &nbsp; `Python 3.12` &nbsp; `FastAPI` &nbsp; `PostgreSQL` &nbsp; `SQLAlchemy` &nbsp; `Docker Compose` &nbsp; `GitHub Actions`
-
-**PROJECT STATUS** &nbsp; Free GitHub portfolio project · local Compose demo · no paid hosting required.
-
-**VERIFICATION** &nbsp; [latest main CI run #233](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40849831440) passed after documentation updates. The merged PR #11 was validated in [run #229](https://github.com/vankudothuadhinaik/uptime-sentinel/actions/runs/40849371364): `checks`, `compose-smoke`, and the newly required `proxy-local-integration` job passed (29 controlled local proxy security tests). A local Docker Compose E2E run on 2026-10-29 verified readiness, registration/login, monitor creation, worker processing, persisted HTTP 200 check results, and public status. GitHub Secret Scanning showed 0 open and 0 closed alerts in the repository UI screenshot on 2026-10-29; a separate Advanced Security screenshot confirmed Push Protection was On. The separate external controlled-proxy integration remains opt-in and skipped until dedicated fixture URLs/secrets are configured; it is not claimed as passed. [Verification report](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/VERIFICATION_REPORT.md) · [Release checklist](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/RELEASE_CHECKLIST.md). No production deployment is claimed.
-
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/uptime-sentinel/main/docs/images/architecture.svg" width="100%" alt="Uptime Sentinel architecture diagram showing API, worker, PostgreSQL and controlled egress boundary"/>
-
-[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [LATEST CI RUNS ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions) · [PROJECT README ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/README.md) · [RELEASE CHECKLIST ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/RELEASE_CHECKLIST.md) · [SECURITY TEST PLAN ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/EGRESS_PROXY_TESTING.md)
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine) · [CI &amp; artifacts ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine/actions) · [BENCHMARK METHODOLOGY ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine/blob/main/docs/BENCHMARKING.md)
 
 ---
 
-### 03 — UPI OFFLINE MESH
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-upi-mesh.svg" width="100%" alt="Custom UPI Offline Mesh dashboard showing encrypted payload, signature verification, safe queueing and simulated reconciliation"/>
+### 02 — REPОPILOT
 
-An offline-payment prototype exploring encrypted QR payloads, RSA-PSS signatures, replay protection, idempotency, and simulated store-and-forward settlement.
+RepoPilot indexes local codebases and combines incremental indexing, Python symbol extraction, conservative cross-language import/include edges, SQLite FTS5 retrieval, line-addressable evidence, an API, optional MCP tools, and a React dashboard.
 
-**STACK** &nbsp; `Java 17` &nbsp; `Spring Boot` &nbsp; `AES-GCM` &nbsp; `RSA-PSS`
+**STACK** &nbsp; Python · SQLite/FTS5 · FastAPI · MCP · React · TypeScript
 
-**VERIFICATION** &nbsp; CI validates the Java build and Docker image; a separate PostgreSQL + Redis production-profile test job passes, including Flyway startup and the current test suite. The latest work also fixes provisional idempotency-claim cleanup and aligns the production schema with the JPA entities. These checks validate the prototype's test configuration—not real payment rails or production security readiness. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/UPI_Without_Internet/actions) · [Persistence/retry PR ↗](https://github.com/vankudothuadhinaik/UPI_Without_Internet/pull/8)
+**VERIFICATION** &nbsp; CI exercises Python 3.11/3.12, the offline single- and multi-repository evaluation suites, repository performance benchmarks, Windows file-safety tests, frontend browser tests, Docker/authentication smoke tests, CodeQL, and the optional MCP import. The curated evaluation cases still need independent second-person review; structural citation checks do not prove semantic entailment. Live-provider evaluation is optional and separate from ordinary CI.
 
-[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/UPI_Without_Internet)
-
----
-
-### 04 — DATAPULSE ANALYTICS
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-datapulse.svg" width="100%" alt="Custom DataPulse Analytics dashboard showing event volume illustration, FastAPI ingestion, validation and dashboard layers"/>
-
-A full-stack event-analytics prototype combining API ingestion and aggregation, SQLAlchemy models, and a React + TypeScript dashboard. The chart in this illustration is sample artwork, not live product telemetry.
-
-**STACK** &nbsp; `FastAPI` &nbsp; `SQLAlchemy` &nbsp; `React` &nbsp; `TypeScript`
-
-**VERIFICATION** &nbsp; Backend endpoint tests pass; CI also applies the initial Alembic schema to PostgreSQL 16, checks ORM/migration parity, and verifies production startup does not run implicit schema creation. Rate limiting, full user authorization, and broader PostgreSQL API integration coverage remain incomplete. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics/actions) · [Migration PR ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics/pull/8)
-
-[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
-
-### 05 — HEALTHSTREAM ETL
-
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-healthstream.svg" width="100%" alt="HealthStream ETL dashboard illustration showing ingestion, validation, normalization, deduplication and data-quality reporting"/>
-
-A synthetic healthcare-event pipeline focused on data quality: validation, normalization, deduplication, and quality reporting. The illustration describes the workflow; it does not display patient data or live pipeline telemetry.
-
-**FOCUS** &nbsp; `ETL` &nbsp; `Data validation` &nbsp; `Normalization` &nbsp; `Deduplication`
-
-**VERIFICATION** &nbsp; CI passes unit tests and the sample pipeline; regression tests cover Decimal rounding, deterministic output, malformed CSV quoting, duplicate headers, surplus row fields, and source-row diagnostics. Source CSV is read incrementally, while accepted rows and rejection details are still retained in memory. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/HealthStream-ETL/actions) · [CSV validation PR ↗](https://github.com/vankudothuadhinaik/HealthStream-ETL/pull/8)
-
-[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/HealthStream-ETL)
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/RepoPilot) · [CI &amp; EVALUATION ARTIFACTS ↗](https://github.com/vankudothuadhinaik/RepoPilot/actions) · [EVALUATION LIMITS ↗](https://github.com/vankudothuadhinaik/RepoPilot/blob/main/docs/evaluation.md)
 
 ---
 
-### 06 — AQI PREDICTION
+### 03 — FLUXQUEUE
 
-<img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-aqi.svg" width="100%" alt="AQI prediction dashboard illustration with time-series trend, persistence baseline and station-wise evaluation workflow"/>
+A durable job-processing platform built around validated job submission, tenant-scoped API keys, idempotency, PostgreSQL persistence, leases and heartbeats, stale-token fencing, bounded retries, terminal dead-letter state, and payload-free worker logs.
 
-An air-quality prediction project exploring time-series evaluation with a chronological persistence baseline and per-station comparisons. The chart is illustrative, not a live air-quality feed.
+**STACK** &nbsp; Python · FastAPI · SQLAlchemy · PostgreSQL · Alembic · Docker
 
-**FOCUS** &nbsp; `Python` &nbsp; `Time series` &nbsp; `Baseline evaluation` &nbsp; `Air quality`
+**VERIFICATION** &nbsp; Main CI and the documented manual smoke workflow cover database migrations, worker execution, lease/concurrency behavior, API authentication, and container startup. The free-tier hosted endpoint may sleep and has no production availability guarantee. Treat the demo as a portfolio demonstration, not an uptime commitment.
 
-**VERIFICATION** &nbsp; CI validates notebook/data structure and publishes commit-specific persistence-baseline metrics; regression tests cover malformed CSV quoting, duplicate headers, surplus fields, invalid dates, and non-finite AQI values. Historical ARIMA/SARIMAX/Prophet scores remain unverified. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions) · [CSV validation PR ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/pull/7)
-
-[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning)
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/FluxQueue) · [CI RUNS ↗](https://github.com/vankudothuadhinaik/FluxQueue/actions) · [API DEMO ↗](https://fluxqueue-api.onrender.com/docs)
 
 ---
+
+### 04 — UPTIME SENTINEL
+
+A FastAPI service for scheduled HTTP/HTTPS checks, latency and failure history, incident open/update/recovery, a read-only public status page, and a PostgreSQL-backed worker using shared leases and fencing.
+
+**STACK** &nbsp; Python · FastAPI · PostgreSQL · SQLAlchemy · Docker Compose
+
+**VERIFICATION** &nbsp; The latest recorded CI passes lint, format, typing, tests, PostgreSQL concurrency, dependency audit, migration round-trips, local proxy security fixtures, and a registration-to-worker Compose E2E flow. The external controlled-proxy integration remains an opt-in verification gate and is not claimed as passed. Paid hosting and production readiness are out of scope.
+
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/uptime-sentinel) · [CI RUNS ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/actions) · [VERIFICATION REPORT ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/VERIFICATION_REPORT.md) · [RELEASE CHECKLIST ↗](https://github.com/vankudothuadhinaik/uptime-sentinel/blob/main/RELEASE_CHECKLIST.md)
+
+---
+
+### 05 — UPI OFFLINE MESH
+
+An offline-payment prototype exploring encrypted QR payloads, AES-GCM authenticated encryption, RSA-PSS signatures, duplicate/replay protection, and idempotent settlement once a message reaches the simulated gateway.
+
+**STACK** &nbsp; Java 17 · Spring Boot · Cryptography · PostgreSQL · Flyway
+
+**SCOPE &amp; VERIFICATION** &nbsp; The repository implements a backend settlement gateway, QR payment simulation, and server-side store-and-forward/mesh simulation. Native Bluetooth LE/Wi-Fi Direct transport, a native Android client, and real payment rails are not implemented. Java CI includes persistence and production-profile tests; these validate a prototype, not production payment security.
+
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/UPI_Without_Internet) · [CI RUNS ↗](https://github.com/vankudothuadhinaik/UPI_Without_Internet/actions) · [DEMO VIDEO ↗](https://youtu.be/_jcLwtK2IOU)
+
+---
+
+### 06 — DATAPULSE ANALYTICS
+
+A portfolio-scale event analytics demo: validated event ingestion, SQLAlchemy persistence, metrics/top-event aggregation, PostgreSQL migrations, and a React + TypeScript dashboard.
+
+**STACK** &nbsp; Python · FastAPI · Pydantic · SQLAlchemy · PostgreSQL · React · TypeScript
+
+**VERIFICATION** &nbsp; CI runs backend endpoint and payload-validation tests, applies the initial Alembic schema to PostgreSQL, checks migration/model parity, and verifies that production startup does not silently create the schema. Full user authorization, ingestion rate limiting, and broader frontend/API workflows remain future work.
+
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics) · [CI RUNS ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics/actions)
 
 <details>
-<summary><strong>MORE BUILDS — DEVELOPER TOOLS · STORAGE · JOB QUEUES · FRONTEND</strong></summary>
+<summary><strong>MORE BUILDS — ETL · TIME SERIES · FRONTEND</strong></summary>
 
-### 07 — REPOPILOT
+### 07 — HEALTHSTREAM ETL
 
-Evidence-grounded repository intelligence with local indexing, Python symbol discovery, static import edges, SQLite/FTS search, cited source snippets, optional OpenAI-compatible answers, and MCP tools. The synthetic 50-query benchmark is a reproducibility fixture, not a real-world accuracy claim.
+A standard-library Python ETL pipeline for synthetic healthcare encounter events: input validation, normalization, duplicate handling, deterministic aggregation, and quality reports with row-level rejection reasons.
 
-**VERIFICATION** &nbsp; Main CI passes lint, core mypy, tests, compilation, retrieval evaluation, frontend production build, Docker build, and optional MCP import. The API's shared bearer token is not full identity, role-based authorization, or tenant isolation. [Source ↗](https://github.com/vankudothuadhinaik/RepoPilot) · [CI runs ↗](https://github.com/vankudothuadhinaik/RepoPilot/actions)
+**VERIFICATION** &nbsp; CI checks the unit suite and sample end-to-end pipeline. Regression tests cover Decimal rounding, malformed CSV, duplicate headers, surplus fields, invalid dates, and clear input-row diagnostics. All data is fabricated; this is not a clinical or billing system.
 
-### 08 — STOREFORGE
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/HealthStream-ETL) · [CI RUNS ↗](https://github.com/vankudothuadhinaik/HealthStream-ETL/actions)
 
-An educational object-storage system with content-addressed chunks, SHA-256 integrity checks, SQLite/PostgreSQL metadata options, a three-node replicated demo, replica fallback, and object metadata operations.
+### 08 — AQI PREDICTION
 
-**VERIFICATION** &nbsp; Latest main CI passes Ruff, format, mypy, tests, container build, and a three-node integration check for binary upload/download, replica failover, API restart, and PostgreSQL metadata. This local Compose demo does not prove independent hardware failure tolerance; user authentication and automated garbage collection remain unimplemented. [Source ↗](https://github.com/vankudothuadhinaik/StoreForge) · [CI runs ↗](https://github.com/vankudothuadhinaik/StoreForge/actions)
+A time-series forecasting exploration for Indian-city AQI, now with a reproducible chronological persistence baseline and input validation. The historical ARIMA/SARIMAX/Prophet metric table remains unverified because its original split and evaluation protocol were not fully documented.
 
-### 09 — FLUXQUEUE
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning) · [BASELINE CI ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions)
 
-A durable job-processing foundation using FastAPI, SQLAlchemy, PostgreSQL, Alembic, idempotency keys, worker leases, lease fencing, retries, and a dead-letter state.
+### 09 — TODO LIST MANAGEMENT APPLICATION
 
-**VERIFICATION** &nbsp; CI exercises schema migrations and PostgreSQL lease fencing, with API/worker tests and container smoke checks. Execution is at-least-once; authentication and tenant authorization remain outstanding. CodeQL source analysis runs, but the upload job currently fails with a GitHub integration permission error. No clean uploaded code-scanning report is claimed; repository permissions still need attention. [Source ↗](https://github.com/vankudothuadhinaik/FluxQueue) · [CI runs ↗](https://github.com/vankudothuadhinaik/FluxQueue/actions)
+A responsive React task manager with accessible controls, active/completed filters, input validation, empty states, and browser-local persistence. It is intentionally a frontend learning project, without a backend or cross-device sync.
 
-### 10 — TODO LIST MANAGEMENT APPLICATION
+[VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/TodoList-Management-Application) · [CI RUNS ↗](https://github.com/vankudothuadhinaik/TodoList-Management-Application/actions)
 
-A React task workflow with accessible actions and localStorage persistence. [Source ↗](https://github.com/vankudothuadhinaik/TodoList-Management-Application)
-
-[SEE ALL REPOSITORIES ↗](https://github.com/vankudothuadhinaik?tab=repositories)
+[SEE ALL PUBLIC REPOSITORIES ↗](https://github.com/vankudothuadhinaik?tab=repositories)
 
 </details>
-
 
 ---
 
