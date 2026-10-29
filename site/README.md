@@ -23,7 +23,7 @@ The `.github/workflows/deploy-portfolio.yml` workflow publishes this folder to G
 - Project visuals are illustrative diagrams, not product screenshots or live metrics.
 - The selected-work section includes accessible filters for systems, backend, developer tools, security, and data projects.
 - The contact section includes a copy-email action with a fallback for browsers that block clipboard access.
-- The hero includes an original animated vector developer character and a bundled portfolio illustration. The character is illustrative, not a photographic likeness. A personal photo and talking-intro video have not been supplied, so the site does not claim to contain an identity-matched character or finished talking video.
+- The hero includes an original animated vector developer character, a matching talking-mouth variant, and an optional spoken introduction powered by the browser's built-in speech synthesis. The user must click the intro button; no audio is autoplayed and no third-party voice service is used. The character is illustrative, not a photographic likeness, and the generated voice is not a recording of Adi.
 - The résumé download and ID-card data section are omitted until a current résumé PDF is provided. No résumé facts or certifications are invented.
 
 ## Accessibility and performance
