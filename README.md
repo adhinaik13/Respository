@@ -40,7 +40,7 @@ CPython · Python tooling · Regression tests
 
 ## SELECTED WORK
 
-<sub>SIX PROJECTS · SYSTEMS, PAYMENTS, ANALYTICS, DATA QUALITY, ML &amp; RELIABILITY</sub>
+<sub>TEN PROJECTS · SYSTEMS, PAYMENTS, ANALYTICS, DATA QUALITY, ML, STORAGE &amp; DEVELOPER TOOLS</sub>
 
 ### 01 — LOW-LATENCY MATCHING ENGINE
 <img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-matching-engine.svg" width="100%" alt="Custom matching engine systems dashboard showing bid book, price-time matching core and event path"/>
