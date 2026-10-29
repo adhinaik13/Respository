@@ -1,5 +1,28 @@
 <div align="center">
 
+<h3><code>adhi@github ~ $ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg?v=1" width="100%" alt="Animated GitHub contribution heatmap generated from the public contribution calendar"/>
+
+<br><br>
+
+<h3><code>adhi@github ~ $ whoami</code></h3>
+
+<table>
+<tr>
+<td valign="top" width="40%" align="center"><img src="./avi-ascii.svg?v=1" width="100%" alt="Animated monochrome ASCII portrait"/></td>
+<td valign="top" width="60%"><img src="./info-card.svg?v=1" width="100%" alt="Animated neofetch-style developer information card"/></td>
+</tr>
+</table>
+
+<sub>Self-generated SVG art · no external stats service · contribution calendar refreshed daily by GitHub Actions</sub>
+
+</div>
+
+---
+
+<div align="center">
+
 <img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/animated-portfolio-dashboard-v2.svg?v=1" width="100%" alt="Readable animated portfolio dashboard with illustrated profile, bold identity, orbital system map, and four featured projects"/>
 
 **SYSTEMS ENGINEERING · BACKEND PLATFORMS · DEVELOPER TOOLS · OPEN SOURCE**
