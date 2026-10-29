@@ -32,6 +32,9 @@ jobs:
           grep -q '<title>Adi Naik — Software Engineer</title>' site/index.html
           grep -q 'prefers-reduced-motion' site/index.html
           grep -q 'aria-label="Main navigation"' site/index.html
+          grep -q 'data-filter="systems"' site/index.html
+          grep -q 'id="copyEmail"' site/index.html
+          grep -q 'id="projectGrid"' site/index.html
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
