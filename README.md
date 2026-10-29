@@ -49,6 +49,8 @@ A C++20 limit-order-book prototype with price-time priority, full and partial fi
 
 **STACK** &nbsp; `C++20` &nbsp; `CMake` &nbsp; `Testing` &nbsp; `Benchmarking`
 
+**VERIFICATION** &nbsp; Release assertions remain enabled in tests; CI includes AddressSanitizer and UndefinedBehaviorSanitizer. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine/actions)
+
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/low-latency-matching-engine)
 
 ---
@@ -76,6 +78,8 @@ An offline-payment prototype exploring encrypted QR payloads, RSA-PSS signatures
 
 **STACK** &nbsp; `Java 17` &nbsp; `Spring Boot` &nbsp; `AES-GCM` &nbsp; `RSA-PSS`
 
+**VERIFICATION** &nbsp; CI builds/tests the backend and Docker image; production profile now fails closed if Redis idempotency claims are unavailable. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/UPI_Without_Internet/actions)
+
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/UPI_Without_Internet)
 
 ---
@@ -87,6 +91,8 @@ A full-stack event-analytics prototype combining API ingestion and aggregation, 
 
 **STACK** &nbsp; `FastAPI` &nbsp; `SQLAlchemy` &nbsp; `React` &nbsp; `TypeScript`
 
+**VERIFICATION** &nbsp; Backend CI tests event validation and analytics; a database readiness endpoint distinguishes liveness from dependency availability. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics/actions)
+
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/DataPulse-Analytics)
 
 ### 05 — HEALTHSTREAM ETL
@@ -96,6 +102,8 @@ A full-stack event-analytics prototype combining API ingestion and aggregation, 
 A synthetic healthcare-event pipeline focused on data quality: validation, normalization, deduplication, and quality reporting. The illustration describes the workflow; it does not display patient data or live pipeline telemetry.
 
 **FOCUS** &nbsp; `ETL` &nbsp; `Data validation` &nbsp; `Normalization` &nbsp; `Deduplication`
+
+**VERIFICATION** &nbsp; CI runs unit tests and a sample pipeline; tests cover empty inputs, row diagnostics, and Decimal rounding boundaries. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/HealthStream-ETL/actions)
 
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/HealthStream-ETL)
 
@@ -108,6 +116,8 @@ A synthetic healthcare-event pipeline focused on data quality: validation, norma
 An air-quality prediction project exploring time-series evaluation with a chronological persistence baseline and per-station comparisons. The chart is illustrative, not a live air-quality feed.
 
 **FOCUS** &nbsp; `Python` &nbsp; `Time series` &nbsp; `Baseline evaluation` &nbsp; `Air quality`
+
+**VERIFICATION** &nbsp; CI validates notebook/data structure and publishes commit-specific persistence-baseline metrics as an artifact. [Inspect CI runs ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning/actions)
 
 [VIEW SOURCE ↗](https://github.com/vankudothuadhinaik/Predicting-the-AQI-of-Indian-Cities-Using-Machine-Learning)
 
