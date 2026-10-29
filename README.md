@@ -50,6 +50,7 @@
 <p><a href="https://github.com/vankudothuadhinaik/low-latency-matching-engine/actions">CI &amp; benchmark evidence ↗</a></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/vankudothuadhinaik/RepoPilot"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-repopilot.svg" width="100%" alt="RepoPilot dashboard showing repository indexing, code search, source-line evidence, and grounded answers"/></a>
 <h3><a href="https://github.com/vankudothuadhinaik/RepoPilot">RepoPilot</a></h3>
 <p>Local-first repository intelligence: incremental indexing, symbol discovery, FTS search, source-line evidence, multi-repository evaluation, and optional grounded answers.</p>
 <sub>Python · SQLite/FTS5 · FastAPI · MCP · React</sub>
@@ -58,6 +59,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/vankudothuadhinaik/FluxQueue"><img src="https://raw.githubusercontent.com/vankudothuadhinaik/vankudothuadhinaik/main/assets/dashboard-fluxqueue.svg" width="100%" alt="FluxQueue pipeline showing API submission, durable PostgreSQL state, leased workers, retries, and dead-letter outcomes"/></a>
 <h3><a href="https://github.com/vankudothuadhinaik/FluxQueue">FluxQueue</a></h3>
 <p>A durable job-processing platform with tenant-scoped APIs, idempotent submission, PostgreSQL-backed workers, lease fencing, retries, and dead-letter handling.</p>
 <sub>Python · FastAPI · PostgreSQL · Workers · Docker</sub>
