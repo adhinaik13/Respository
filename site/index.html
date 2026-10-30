@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f8f8f5">
-<meta name="color-scheme" content="light">
+<meta name="theme-color" id="themeColorMeta" content="#f4f0e5">
+<meta name="color-scheme" content="light dark">
 <meta name="description" content="Adi Naik — Mathematics and Computing student building reliable backend platforms, systems software, and developer tools.">
 <meta property="og:title" content="Adi Naik — Software Engineer">
 <meta property="og:description" content="Mathematics and Computing student building dependable software systems.">
@@ -282,12 +282,12 @@ body[data-theme="dark"] .cursor-aura{mix-blend-mode:screen;border-color:var(--ac
 <section class="contact" id="contact"><div class="wrap"><div class="eyebrow">05 — Have something interesting?</div><h2 class="contact-title">Let’s build<br><em>something solid.</em></h2><div class="contact-row"><div class="contact-email-group"><a class="email" href="mailto:vankudothuadhinayak@gmail.com">vankudothuadhinayak@gmail.com ↗</a><button class="copy-email" id="copyEmail" type="button" data-email="vankudothuadhinayak@gmail.com">Copy email <span>⧉</span></button><span class="copy-feedback" id="copyFeedback" role="status" aria-live="polite"></span></div><div class="contact-right"><a href="https://github.com/vankudothuadhinaik">GitHub ↗</a><a href="https://www.linkedin.com/in/vankudothuadhinaik/">LinkedIn ↗</a><a href="https://github.com/vankudothuadhinaik?tab=repositories">All projects ↗</a></div></div><footer class="footer"><span>© <span id="year"></span> Adi Naik</span><span>Built to be verified.</span></footer></div></section>
 </main>
 <script>
-const menu=document.getElementById('menuBtn'),nav=document.getElementById('navlinks');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'Close −':'Menu +'});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='Menu +'}));
+const menu=document.getElementById('menuBtn'),nav=document.getElementById('navlinks');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'Close −':'Menu +'});menu.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('open')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='Menu +';menu.focus()}});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='Menu +'}));
 document.getElementById('year').textContent=new Date().getFullYear();
 const themeToggle=document.getElementById('themeToggle');
 const savedTheme=localStorage.getItem('adhi-portfolio-theme');
 if(savedTheme==='dark')document.body.dataset.theme='dark';
-const syncTheme=()=>{const dark=document.body.dataset.theme==='dark';themeToggle.textContent=dark?'☼':'◐';themeToggle.setAttribute('aria-label',dark?'Switch to light theme':'Switch to dark theme')};
+const syncTheme=()=>{const dark=document.body.dataset.theme==='dark';themeToggle.textContent=dark?'☼':'◐';themeToggle.setAttribute('aria-label',dark?'Switch to light theme':'Switch to dark theme');document.getElementById('themeColorMeta').setAttribute('content',dark?'#11111e':'#f4f0e5')};
 syncTheme();themeToggle.addEventListener('click',()=>{const next=document.body.dataset.theme==='dark'?'light':'dark';if(next==='dark')document.body.dataset.theme='dark';else delete document.body.dataset.theme;localStorage.setItem('adhi-portfolio-theme',next);syncTheme()});
 const filterButtons=[...document.querySelectorAll('.filter-chip')];const projectCards=[...document.querySelectorAll('#projectGrid .project')];filterButtons.forEach(btn=>btn.addEventListener('click',()=>{const filter=btn.dataset.filter;filterButtons.forEach(b=>{const active=b===btn;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});projectCards.forEach(card=>card.classList.toggle('is-filtered-out',filter!=='all'&&card.dataset.category!==filter))}));
 const copyEmail=document.getElementById('copyEmail'),copyFeedback=document.getElementById('copyFeedback');copyEmail.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(copyEmail.dataset.email);copyFeedback.textContent='EMAIL COPIED — SEE YOU IN THE INBOX';copyEmail.innerHTML='Copied <span>✓</span>'}catch{copyFeedback.textContent='Copy unavailable — use the email link above.'}});
