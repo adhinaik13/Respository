@@ -34,6 +34,8 @@ jobs:
           grep -q 'aria-label="Main navigation"' site/index.html
           grep -q 'developer-avatar-talking.svg' site/index.html
           test -s site/assets/developer-avatar-talking.svg
+          python3 -c "from pathlib import Path; import re; s=Path('site/index.html').read_text(); m=re.search(r'<script>([\\s\\S]*?)</script>', s); assert m, 'inline script missing'; Path('/tmp/portfolio-inline.js').write_text(m.group(1))"
+          node --check /tmp/portfolio-inline.js
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
