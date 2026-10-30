@@ -32,6 +32,8 @@ jobs:
           grep -q '<title>' site/index.html
           grep -q 'prefers-reduced-motion' site/index.html
           grep -q 'aria-label="Main navigation"' site/index.html
+          grep -q 'id="menuBtn" type="button"' site/index.html
+          grep -q 'style.colorScheme=dark' site/index.html
           grep -q 'developer-avatar-talking.svg' site/index.html
           python3 -c "from pathlib import Path; import json, re; s=Path('site/index.html').read_text(); m=re.search(r'<script type=\"application/ld\\+json\">([\\s\\S]*?)</script>', s); assert m, 'JSON-LD missing'; d=json.loads(m.group(1)); assert d.get('@type') == 'Person' and d.get('name') == 'Adi Naik', 'JSON-LD profile invalid'"
           test -s site/assets/developer-avatar-talking.svg
