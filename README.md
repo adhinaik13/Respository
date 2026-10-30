@@ -230,23 +230,23 @@ Monitoring callback error propagation from `for` loops, with a regression test. 
 **chunklet-py #107 — MERGED**  
 Windows multiprocessing pickling fix and regression tests. · [Review the contribution ↗](https://github.com/speedyk-005/chunklet-py/pull/107)
 
-**jvm-mcp #238 — OPEN**  
-Spring bean discovery failures are reported as errors instead of misleading empty results, with safer diagnostics and regression coverage. · [View pull request ↗](https://github.com/oscarbol09/jvm-mcp/pull/238)
+**jvm-mcp #238 — MERGED**  
+Spring bean discovery failures are reported as errors instead of misleading empty results, with safer diagnostics and regression coverage. · [Review merged contribution ↗](https://github.com/oscarbol09/jvm-mcp/pull/238)
 
-**jvm-mcp #239 — OPEN · DESCRIPTION INCOMPLETE**  
-Detect Java versions from target JVM executable paths. The pull request is open, but its current description still contains template placeholders; treat it as work in progress until the description, checks, and maintainer review are complete. · [View pull request ↗](https://github.com/oscarbol09/jvm-mcp/pull/239)
+**jvm-mcp #239 — MERGED**  
+Detect Java versions from target JVM executable paths, with implementation and regression coverage merged upstream. · [Review merged contribution ↗](https://github.com/oscarbol09/jvm-mcp/pull/239)
 
-**jvm-mcp #240 — OPEN**  
-Preserve original JMX connection failure causes and close partially initialized connectors safely, including cleanup-failure tests. Timeout support remains explicitly out of scope. · [View pull request ↗](https://github.com/oscarbol09/jvm-mcp/pull/240)
+**jvm-mcp #240 — MERGED**  
+Preserve original JMX connection failure causes and close partially initialized connectors safely, including cleanup-failure tests. Timeout support remains explicitly out of scope. · [Review merged contribution ↗](https://github.com/oscarbol09/jvm-mcp/pull/240)
 
-**jvm-mcp #241 — OPEN**  
-Make virtual-thread inspection opt-in, bound temporary thread-dump size, and test cleanup and Java 21 behavior. · [View pull request ↗](https://github.com/oscarbol09/jvm-mcp/pull/241)
+**jvm-mcp #241 — MERGED**  
+Make virtual-thread inspection opt-in, bound temporary thread-dump size, and test cleanup and Java 21 behavior. · [Review merged contribution ↗](https://github.com/oscarbol09/jvm-mcp/pull/241)
 
-**jvm-mcp #242 — OPEN**  
-Reduce false-positive framework detection and resolve relative JAR paths against the target JVM working directory on Linux when available. Windows/macOS resolution remains limited. · [View pull request ↗](https://github.com/oscarbol09/jvm-mcp/pull/242)
+**jvm-mcp #242 — MERGED**  
+Reduce false-positive framework detection and resolve relative JAR paths against the target JVM working directory on Linux when available. Windows/macOS resolution remains limited. · [Review merged contribution ↗](https://github.com/oscarbol09/jvm-mcp/pull/242)
 
 **ATTRIBUTION NOTE**  
-jvm-mcp #230 belongs to another contributor (Chandu0501) and is merged upstream; it is not listed as your contribution. This profile lists your own PRs #238–#242 and distinguishes open proposals from merged work.
+jvm-mcp #230 belongs to another contributor (Chandu0501) and is merged upstream; it is not listed as your contribution. Your own jvm-mcp PRs #238–#242 are merged; CPython #160714 remains your open proposal. The separate #230 PR is not your contribution.
 
 **CPython #160714 — OPEN**  
 `kqueue` interruption-handling proposal and regression test. · [View open proposal ↗](https://github.com/python/cpython/pull/160714)
