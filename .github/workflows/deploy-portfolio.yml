@@ -56,6 +56,36 @@ jobs:
           assert buttons and all(re.search(r"\btype=['\"]button['\"]", button) for button in buttons), "Every button must declare type=button"
           details = re.findall(r"<details\b[^>]*>([\s\S]*?)</details>", html)
           assert len(details) >= 4 and all(re.search(r"<summary\b", item) for item in details), "Project detail disclosures need summaries"
+          from html.parser import HTMLParser
+
+          class Audit(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.ids = []
+                  self.fragments = []
+                  self.aria_refs = []
+                  self.unsafe_external = []
+
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if "id" in attrs:
+                      self.ids.append(attrs["id"])
+                  if tag == "a" and attrs.get("href", "").startswith("#"):
+                      self.fragments.append(attrs["href"][1:])
+                  for key in ("aria-controls", "aria-labelledby", "aria-describedby"):
+                      self.aria_refs.extend(attrs.get(key, "").split())
+                  if tag == "a" and attrs.get("target") == "_blank":
+                      rel = set(attrs.get("rel", "").lower().split())
+                      if not {"noopener", "noreferrer"} & rel:
+                          self.unsafe_external.append(attrs.get("href", "(unknown)"))
+
+          audit = Audit()
+          audit.feed(html)
+          assert len(audit.ids) == len(set(audit.ids)), "Duplicate HTML IDs found"
+          known_ids = set(audit.ids)
+          assert all(ref in known_ids for ref in audit.fragments), "Broken internal fragment link"
+          assert all(ref in known_ids for ref in audit.aria_refs), "Broken ARIA ID reference"
+          assert not audit.unsafe_external, f"Unsafe target=_blank links: {audit.unsafe_external}"
           print(f"Portfolio checks passed: {len(images)} images, {len(buttons)} buttons, {len(details)} disclosures")
           PY
       - name: Configure Pages
